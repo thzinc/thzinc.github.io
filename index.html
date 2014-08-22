@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="jumbotron">
+  <div class="row">
+    <div class="col-md-8">
+      <h1>I am Daniel James</h1>
+      <p>I am a Christian, a husband, a software developer, and a maker.</p>
+      <p>I have a fierce passion for problem solving, especially through software development. I am good at designing and implementing simple and complex software solutions. I have weaknesses and failures too. I co-founded a company in 2004 that had to close its doors in 2009. For me, saying &quot;no&quot; is harder than saying &quot;yes.&quot; But because of going through a startup failure and taking a &quot;fearless inventory&quot; of myself, I am becoming the best me I can be. <a href="/about">Read more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+      <a href="http://thzincaday.thzinc.com/" id="thzincaday">&nbsp;</a>
+    </div>
+  </div>
+  <script type="text/javascript" src="http://thzincaday.thzinc.com/api/read/json?num=1&amp;type=photo"></script>
+  <script type="text/javascript">
+  document.getElementById("thzincaday").style.backgroundImage = 'url("' + tumblr_api_read.posts[0]["photo-url-1280"] + '")';
+  </script>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h1 class="page-heading">Posts</h1>
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          {% if post.blurb %}
+            <p>
+              {{ post.blurb }}
+              <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
+            </p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
