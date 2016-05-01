@@ -1,0 +1,37 @@
+{
+  "name": "thzinc.github.io",
+  "version": "1.0.0",
+  "description": "Personal website of Daniel James (thzinc)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://thzinc@github.com/thzinc/thzinc.github.io.git"
+  },
+  "author": "Daniel James",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thzinc/thzinc.github.io/issues"
+  },
+  "homepage": "https://github.com/thzinc/thzinc.github.io#readme",
+  "devDependencies": {
+    "@kadira/storybook": "^1.19.0",
+    "autoprefixer-loader": "^3.2.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "glob": "^7.0.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "moment": "^2.13.0",
+    "react": "^15.0.2",
+    "react-css-modules": "^3.7.6",
+    "react-dom": "^15.0.2",
+    "react-fa": "^4.0.1"
+  }
+}
