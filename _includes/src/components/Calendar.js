@@ -2,6 +2,9 @@ import React, { Component, PropTypes } from 'react'
 import CSSModules from 'react-css-modules'
 import styles from './Calendar.css'
 import moment from 'moment'
+import Color from 'color'
+
+const ISO8601 = "YYYY-MM-DD";
 
 class Calendar extends Component {
 	constructor(props) {
@@ -11,21 +14,66 @@ class Calendar extends Component {
 		};
 	}
 
-	buildCalendar(date, scale, padding, events, onDayClick) {
-		const iso8601 = "YYYY-MM-DD";
-		var currDate = moment(date).subtract(12, 'months');
+	getActivityColorsByEvent(activityColors, events, eventSelector, keySelector) {
+		let countsByKey = Object.keys(events)
+			.reduce((o, k) => {
+				o[keySelector(moment(k))] = eventSelector(events[k]);
+				return o;
+			}, {});
+
+		let maxCount = Object.values(countsByKey)
+			.reduce((m, c) => Math.max(m, c), 0);
+
+		let maxIndex = activityColors.length - 1;
+
+		return Object.keys(countsByKey)
+			.reduce((o, k) => {
+				let scale = countsByKey[k] / maxCount * maxIndex;
+				let index = Math.floor(scale);
+				let opacity = scale - index;
+				let firstColor = Color(activityColors[index]);
+				let secondColor = Color(activityColors[Math.min(index + 1, maxIndex)]);
+
+				o[k] = firstColor.mix(secondColor, opacity).rgbString();
+
+				return o;
+			}, {});
+	}
+
+	buildCalendar(date, value, unit, scale, padding, activityColors, events, onDayClick) {
+		var currDate = moment(date).subtract(value, unit);
 		const side = (1 + padding * 2) * scale;
 		const sidePadding = padding * scale;
 		const sideInner = 1 * scale;
+		const labelPadding = 1.5 * scale;
 
 		let days = [];
-		let maxEventsPerDay = Object.keys(events)
-			.map(k => events[k])
-			.reduce((max, e) => Math.max(max, e.length), 0);
+		let labels = [
+			<text
+				key="m"
+				styleName="dayOfWeek"
+				x={sidePadding}
+				y={labelPadding - (0.4 * scale) + (side * 2)}>M</text>,
+			<text
+				key="w"
+				styleName="dayOfWeek"
+				x={sidePadding}
+				y={labelPadding - (0.4 * scale) + (side * 4)}>W</text>,
+			<text
+				key="f"
+				styleName="dayOfWeek"
+				x={sidePadding}
+				y={labelPadding - (0.4 * scale) + (side * 6)}>F</text>
+		];
 
+		let keySelector = d => d.format(ISO8601);
+
+		let activityColorsByKey = this.getActivityColorsByEvent(activityColors, events, e => e.length, keySelector);
+
+		var lastMonthLabel;
 		var week = 0;
 		while (currDate < date) {
-			let key = currDate.format(iso8601);
+			let key = keySelector(currDate);
 			let dayOfWeek = currDate.day();
 			if (dayOfWeek === 0) {
 				week++;
@@ -33,24 +81,46 @@ class Calendar extends Component {
 
 			var data = {
 				events: events[key] || [],
-				date: moment(key, iso8601)
+				date: moment(key, ISO8601)
 			};
 
-			let opacity = maxEventsPerDay > 0 ? data.events.length / maxEventsPerDay : 0;
+			let activityColor = activityColorsByKey[key] || activityColors[0];
 
 			days.push(
-				<g key={key} transform={`translate(${side * week}, ${side * dayOfWeek})`}>
-					<rect styleName="day" x={sidePadding} y={sidePadding} width={sideInner} height={sideInner} onClick={onDayClick.bind(null, data)}/>
-					<rect styleName="day-activity" opacity={opacity} x={sidePadding} y={sidePadding} width={sideInner} height={sideInner} onClick={onDayClick.bind(null, data)}/>
-				</g>
+				<rect
+					key={key}
+					styleName="day"
+					fill={activityColor}
+					x={side * week}
+					y={side * dayOfWeek}
+					width={sideInner}
+					height={sideInner}
+					onClick={onDayClick.bind(null, data)} />
 			);
+
+			var monthLabel = currDate.format("MMM");
+			if (monthLabel !== lastMonthLabel) {
+				labels.push(
+					<text styleName="month" x={labelPadding + (side * week)} y={sideInner}>
+						{monthLabel}
+					</text>
+				);
+
+				lastMonthLabel = monthLabel;
+			}
+
 			
 			currDate.add(1, 'days');
 		}
 
 		return (
-			<svg styleName="calendar" viewBox={`0 0 ${53 * side} ${7 * side}`} width="100%">
-				{days}
+			<svg styleName="calendar" viewBox={`0 0 ${((week + 1) * side) + labelPadding + side} ${(7 * side) + labelPadding}`} width="100%">
+				<g styleName="labels">
+					{labels}
+				</g>
+				<g styleName="days" transform={`translate(${labelPadding}, ${labelPadding})`}>
+					{days}
+				</g>
 			</svg>
 		);
 	}
@@ -58,15 +128,32 @@ class Calendar extends Component {
 	render() {
 		return (
 			<div styleName="container">
-				{this.buildCalendar(this.state.today, this.props.scale, this.props.padding, this.props.events, this.props.onDayClick)}
+				{this.buildCalendar(this.state.today, this.props.period.value, this.props.period.unit, this.props.scale, this.props.padding, this.props.activityColors, this.props.events, this.props.onDayClick)}
 			</div>
 		);
 	}
 }
 
+Calendar.PeriodUnits = Object.freeze({
+	years: "years",
+	quarters: "quarters",
+	months: "months",
+	weeks: "weeks",
+	days: "days"
+});
+
 Calendar.defaultProps = {
 	scale: 10,
-	padding: 0.05
+	padding: 0.05,
+	period: {
+		unit: Calendar.PeriodUnits.months,
+		value: 12
+	},
+	activityColors: [
+		"#dddddd",
+		"#005500",
+		"#00CC00"
+	]
 }
 
 export default CSSModules(Calendar, styles);

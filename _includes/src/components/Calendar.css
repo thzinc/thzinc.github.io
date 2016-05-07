@@ -2,19 +2,29 @@
 	border: solid 1px black;
 }
 
-.day {
-	fill: #CCC;
-}
-
 .day:hover {
 	fill: red;
 }
 
-.day-activity {
-	fill: green;
-	z-index: 999;
-}
-
 .calendar {
 	width: 100%;
+}
+
+.days {
+
+}
+
+.labels {
+	font-family: sans-serif;
+	font-size: 50%;
+	text-transform: uppercase;
+	fill: #CCC;
+}
+
+.month {
+
+}
+
+.dayOfWeek {
+	text-align: center;
 }
