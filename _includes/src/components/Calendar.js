@@ -4,13 +4,14 @@ import styles from './Calendar.css'
 import moment from 'moment'
 import Color from 'color'
 
-const ISO8601 = "YYYY-MM-DD";
+let keySelector = d => d.format(Calendar.ISO8601);
+
 
 class Calendar extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			today: moment().startOf('day')
+			today: moment().startOf('day').add(1, 'days')
 		};
 	}
 
@@ -40,8 +41,10 @@ class Calendar extends Component {
 			}, {});
 	}
 
-	buildCalendar(date, value, unit, scale, padding, activityColors, events, onDayClick) {
+	buildCalendar(latestDate, value, unit, scale, padding, activityColors, hoverOutlineColor, events, eventSelector, onDayClick) {
+		var date = moment(latestDate);
 		var currDate = moment(date).subtract(value, unit);
+		
 		const side = (1 + padding * 2) * scale;
 		const sidePadding = padding * scale;
 		const sideInner = 1 * scale;
@@ -66,9 +69,7 @@ class Calendar extends Component {
 				y={labelPadding - (0.4 * scale) + (side * 6)}>F</text>
 		];
 
-		let keySelector = d => d.format(ISO8601);
-
-		let activityColorsByKey = this.getActivityColorsByEvent(activityColors, events, e => e.length, keySelector);
+		let activityColorsByKey = this.getActivityColorsByEvent(activityColors, events, eventSelector, keySelector);
 
 		var lastMonthLabel;
 		var week = 0;
@@ -81,7 +82,7 @@ class Calendar extends Component {
 
 			var data = {
 				events: events[key] || [],
-				date: moment(key, ISO8601)
+				date: moment(key, Calendar.ISO8601)
 			};
 
 			let activityColor = activityColorsByKey[key] || activityColors[0];
@@ -95,6 +96,7 @@ class Calendar extends Component {
 					y={side * dayOfWeek}
 					width={sideInner}
 					height={sideInner}
+					style={{ "stroke": hoverOutlineColor }}
 					onClick={onDayClick.bind(null, data)} />
 			);
 
@@ -109,12 +111,15 @@ class Calendar extends Component {
 				lastMonthLabel = monthLabel;
 			}
 
-			
+			// Increment while loop
 			currDate.add(1, 'days');
 		}
 
+		let calendarWidth = ((week + 1) * side) + labelPadding + side;
+		let calendarHeight = (7 * side) + labelPadding;
+
 		return (
-			<svg styleName="calendar" viewBox={`0 0 ${((week + 1) * side) + labelPadding + side} ${(7 * side) + labelPadding}`} width="100%">
+			<svg styleName="calendar" viewBox={`0 0 ${calendarWidth} ${calendarHeight}`} width="100%">
 				<g styleName="labels">
 					{labels}
 				</g>
@@ -128,11 +133,23 @@ class Calendar extends Component {
 	render() {
 		return (
 			<div styleName="container">
-				{this.buildCalendar(this.state.today, this.props.period.value, this.props.period.unit, this.props.scale, this.props.padding, this.props.activityColors, this.props.events, this.props.onDayClick)}
+				{this.buildCalendar(
+					this.state.today,
+					this.props.period.value,
+					this.props.period.unit,
+					this.props.scale,
+					this.props.padding,
+					this.props.activityColors,
+					this.props.hoverOutlineColor,
+					this.props.events,
+					this.props.eventSelector,
+					this.props.onDayClick)}
 			</div>
 		);
 	}
 }
+
+Calendar.ISO8601 = Object.freeze("YYYY-MM-DD");
 
 Calendar.PeriodUnits = Object.freeze({
 	years: "years",
@@ -153,7 +170,8 @@ Calendar.defaultProps = {
 		"#dddddd",
 		"#005500",
 		"#00CC00"
-	]
+	],
+	hoverOutlineColor: "#999999"
 }
 
 export default CSSModules(Calendar, styles);
