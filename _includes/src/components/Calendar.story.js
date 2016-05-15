@@ -12,7 +12,7 @@ storiesOf('Calendar', module)
 		<Calendar onDayClick={onDayClick} events={randomEvents} eventSelector={randomEventSelector}/>
 	))
 	.add('With random events, 3-month calendar', () => (
-		<Calendar onDayClick={onDayClick} events={randomEvents} eventSelector={randomEventSelector} period={{unit: "months", value: 3}} />
+		<Calendar onDayClick={onDayClick} events={randomEvents} eventSelector={randomEventSelector} period={{unit: "months", value: 3}}/>
 	))
 	.add('With sample events, defaults', () => (
 		<Calendar onDayClick={onDayClick} events={sampleEvents} eventSelector={randomEventSelector}/>

@@ -6,7 +6,6 @@ import Color from 'color'
 
 let keySelector = d => d.format(Calendar.ISO8601);
 
-
 class Calendar extends Component {
 	constructor(props) {
 		super(props);

@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Poppins:600);
+
+.container {
+	composes: background-color-primary-0 from "../colors.css";
+
+	position: relative;
+	display: inline-block;
+	margin: 0.5rem;
+	padding-bottom: 1rem;
+	border: solid 1px black;
+	border-radius: 0.5rem;
+	overflow: hidden;
+
+}
+
+.profile {
+	padding: 1rem;
+}
+
+.profileLink {
+	color: #FFF;
+}
+
+.icon {
+	font-size: 1.5rem;
+}
+
+.displayName {
+	padding: 1rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+.tags {
+	composes: color-secondary-1-1 from "../colors.css";
+
+	position: absolute;
+	bottom: 0;
+	height: 1.25rem;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.75rem;
+	overflow: hidden;
+	text-decoration: underline;
+}
+
+.tag {
+	padding: 0 0.2rem;
+}

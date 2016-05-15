@@ -1,5 +1,6 @@
 import moment from 'moment'
 import Calendar from "./components/Calendar"
+import SocialProfile from "./SocialProfile"
 
 export let twitterEvent = {
 	key: moment("Mon, 18 Apr 2016 03:50:45 +0000").format(Calendar.ISO8601),
@@ -22,3 +23,23 @@ export let tumblrEvent = {
 };
 
 export let events = [ twitterEvent, tumblrEvent ];
+
+export let socialProfiles = [
+	new SocialProfile("Twitter", "https://twitter.com/thzinc", "twitter", [ 
+		"microblog",
+		"frequent"
+	]),
+	new SocialProfile("Instagram", "https://instagram.com/thzinc", "instagram", [ 
+		"photos",
+		"frequent"
+	]),
+	new SocialProfile("Tumblr", "http://blog.thzinc.com", "tumblr", [ 
+		"blog"
+	]),
+	new SocialProfile("thzinc-a-day", "https://thzincaday.tumblr.com", "tumblr", [ 
+		"blog",
+		"selfies",
+		"photos",
+		"frequent"
+	]),
+];
