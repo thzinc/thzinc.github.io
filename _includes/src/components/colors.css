@@ -27,3 +27,37 @@
 .color-complement-2 { color: #D4761C }
 .color-complement-3 { color: #914700 }
 .color-complement-4 { color: #6B3400 }
+
+
+.color-violet-1 { color: #61269E; }
+.background-color-violet-1 { background-color: #61269E; }
+
+.color-violet-2 { color: #672591; }
+.background-color-violet-2 { background-color: #672591; }
+
+.color-blue-2 { color: #2A168F; }
+.background-color-blue-2 { background-color: #2A168F; }
+
+.color-blue-1 { color: #3576B0; }
+.background-color-blue-1 { background-color: #3576B0; }
+
+.color-green-2 { color: #49B840; }
+.background-color-green-2 { background-color: #49B840; }
+
+.color-green-1 { color: #72D151; }
+.background-color-green-1 { background-color: #72D151; }
+
+.background-color-green-gradient {
+	background: linear-gradient(to left, #49B840, #72D151);
+}
+
+.color-yellow-2 { color: #D8F251; }
+.background-color-yellow-2 { background-color: #D8F251; }
+
+.color-yellow-1 { color: #E6F26A; }
+.background-color-yellow-1 { background-color: #E6F26A; }
+
+.background-color-yellow-gradient {
+	background: linear-gradient(to left, #D8F251, #E6F26A);
+}
+
