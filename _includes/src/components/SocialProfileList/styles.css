@@ -1,3 +1,11 @@
 .container {
-	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+.socialProfile {
+	flex: 1;
+	padding: 0 1rem;
 }

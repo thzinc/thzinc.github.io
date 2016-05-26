@@ -7,28 +7,19 @@ class SocialProfile extends Component {
 	render() {
 		var socialProfile = this.props.socialProfile;
 		return (
-			<div styleName="container">
-				<div styleName="profile">
-					<a styleName="profileLink" href={socialProfile.link} target="_blank">
-						<i styleName="icon" className={`fa fa-${socialProfile.iconClass}`}/>
-						<span styleName="displayName">{socialProfile.displayName}</span>
-					</a>
-				</div>
-				<div styleName="tags">
-					{socialProfile.tags.map(tag => (
-						<span styleName="tag" onClick={this.props.onTagClick.bind(null, tag)}>
-							{tag}
-						</span>
-					))}
-				</div>
-			</div>
+			<a styleName="profileLink" href={socialProfile.link} target="_blank" title={socialProfile.displayName}>
+				{socialProfile.iconClass ? (
+					<i styleName="icon" className={`fa fa-${socialProfile.iconClass}`}/>
+				) : (
+					<span styleName="displayName">{socialProfile.displayName}</span>
+				)}
+			</a>
 		);
 	}
 }
 
 SocialProfile.propTypes = {
 	socialProfile: PropTypes.object.isRequired,
-	onTagClicked: PropTypes.func.isRequired,
 };
 
 export default CSSModules(SocialProfile, styles);

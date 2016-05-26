@@ -5,17 +5,16 @@ import { socialProfiles } from '../../sampleData'
 
 storiesOf("SocialProfile", module)
 	.add("Sample 1", () => (
-			<SocialProfile socialProfile={socialProfiles[0]} onTagClick={onTagClick} />
+			<SocialProfile socialProfile={socialProfiles[0]} />
 	))
 	.add("Sample 2", () => (
-			<SocialProfile socialProfile={socialProfiles[1]} onTagClick={onTagClick} />
+			<SocialProfile socialProfile={socialProfiles[1]} />
 	))
 	.add("Sample 3", () => (
-			<SocialProfile socialProfile={socialProfiles[2]} onTagClick={onTagClick} />
+			<SocialProfile socialProfile={socialProfiles[2]} />
 	))
 	.add("Sample 4", () => (
-			<SocialProfile socialProfile={socialProfiles[3]} onTagClick={onTagClick} />
+			<SocialProfile socialProfile={socialProfiles[3]} />
 	))
 
 let socialProfile = socialProfiles[0];
-let onTagClick = action('tag clicked');

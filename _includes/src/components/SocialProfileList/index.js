@@ -9,7 +9,9 @@ class SocialProfileList extends Component {
 		return (
 			<div styleName="container">
 				{socialProfiles.map(socialProfile => (
-					<SocialProfile socialProfile={socialProfile} onTagClick={this.props.onTagClick}/>
+					<div styleName="socialProfile">
+						<SocialProfile socialProfile={socialProfile} onTagClick={this.props.onTagClick}/>
+					</div>
 				))}
 			</div>
 		);
@@ -18,7 +20,6 @@ class SocialProfileList extends Component {
 
 SocialProfileList.propTypes = {
 	socialProfiles: PropTypes.array.isRequired,
-	onTagClick: PropTypes.func.isRequired,
 };
 
 export default CSSModules(SocialProfileList, styles);

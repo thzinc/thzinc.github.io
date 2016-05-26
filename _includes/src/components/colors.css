@@ -1,61 +1,36 @@
-.color-primary-0 { color: #095C6C }
-.color-primary-1 { color: #2F7D8C }
-.color-primary-2 { color: #147182 }
-.color-primary-3 { color: #024B59 }
-.color-primary-4 { color: #013842 }
-
-.background-color-primary-0 { background-color: #095C6C }
-.background-color-primary-1 { background-color: #2F7D8C }
-.background-color-primary-2 { background-color: #147182 }
-.background-color-primary-3 { background-color: #024B59 }
-.background-color-primary-4 { background-color: #013842 }
-
-.color-secondary-1-0 { color: #86A80A }
-.color-secondary-1-1 { color: #BAD945 }
-.color-secondary-1-2 { color: #A5CB1B }
-.color-secondary-1-3 { color: #6D8A00 }
-.color-secondary-1-4 { color: #516700 }
-
-.color-secondary-2-0 { color: #411076 }
-.color-secondary-2-1 { color: #673999 }
-.color-secondary-2-2 { color: #541D8F }
-.color-secondary-2-3 { color: #330762 }
-.color-secondary-2-4 { color: #240348 }
-
-.color-complement-0 { color: #AF5B0B }
-.color-complement-1 { color: #E39448 }
-.color-complement-2 { color: #D4761C }
-.color-complement-3 { color: #914700 }
-.color-complement-4 { color: #6B3400 }
-
-
 .color-violet-1 { color: #61269E; }
 .background-color-violet-1 { background-color: #61269E; }
 
 .color-violet-2 { color: #672591; }
 .background-color-violet-2 { background-color: #672591; }
 
-.color-blue-2 { color: #2A168F; }
-.background-color-blue-2 { background-color: #2A168F; }
+.background-color-violet-gradient {
+	background: linear-gradient(to left, #672591, #61269E);
+}
 
 .color-blue-1 { color: #3576B0; }
+.link { color: #3576B0; }
 .background-color-blue-1 { background-color: #3576B0; }
 
-.color-green-2 { color: #49B840; }
-.background-color-green-2 { background-color: #49B840; }
+.color-blue-2 { color: #2A168F; }
+.link:visited { color: #2A168F; }
+.background-color-blue-2 { background-color: #2A168F; }
 
 .color-green-1 { color: #72D151; }
 .background-color-green-1 { background-color: #72D151; }
+
+.color-green-2 { color: #49B840; }
+.background-color-green-2 { background-color: #49B840; }
 
 .background-color-green-gradient {
 	background: linear-gradient(to left, #49B840, #72D151);
 }
 
-.color-yellow-2 { color: #D8F251; }
-.background-color-yellow-2 { background-color: #D8F251; }
-
 .color-yellow-1 { color: #E6F26A; }
 .background-color-yellow-1 { background-color: #E6F26A; }
+
+.color-yellow-2 { color: #D8F251; }
+.background-color-yellow-2 { background-color: #D8F251; }
 
 .background-color-yellow-gradient {
 	background: linear-gradient(to left, #D8F251, #E6F26A);
