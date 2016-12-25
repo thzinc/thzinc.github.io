@@ -21,27 +21,11 @@ layout: default
 </div>
 
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-12">
     {% for profile in site.data.profiles %}
       <a href="{{profile.url}}" class="btn btn-social-icon btn-lg btn-{{profile.type}}">
         <i class="fa fa-{{profile.type}}"></i>
       </a>
-    {% endfor %}
-  </div>
-  <div class="col-sm-6">
-    {% for post in site.posts %}
-      <div class="col-xs-12">
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-        {% if post.blurb %}
-          <p>
-            {{ post.blurb }}
-            <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
-          </p>
-        {% endif %}
-      </div>
     {% endfor %}
   </div>
 </div>
