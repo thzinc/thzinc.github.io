@@ -1,42 +1,5 @@
 [
   {
-    "name": "Projects",
-    "links": [
-      {
-        "name": "Budgetcraft",
-        "url": "http://budgetcraft.net"
-      },
-      {
-        "divider": true
-      },
-      {
-        "name": "GitHub Projects"
-      },
-      {
-        "name": "Intake",
-        "url": "https://github.com/thzinc/Intake.NET"
-      },
-      {
-        "name": "MPRV",
-        "url": "https://github.com/thzinc/MPRV"
-      },
-      {
-        "name": "Financial Worksheets",
-        "url": "https://github.com/thzinc/FinancialWorksheets"
-      },
-      {
-        "divider": true
-      },
-      {
-        "name": "SourceForge Projects"
-      },
-      {
-        "name": "Documentation Reflector",
-        "url": "http://sourceforge.net/projects/docreflector/"
-      }
-    ]
-  },
-  {
     "name": "About",
     "links": [
       {
@@ -73,18 +36,6 @@
       {
         "name": "bit.ly",
         "url": "http://bit.ly/u/thzinc"
-      },
-      {
-        "name": "Caliber.io",
-        "url": "http://caliber.io/profile/daniel-james"
-      },
-      {
-        "name": "Campaign for Liberty",
-        "url": "http://www.campaignforliberty.com/profile.php?member=thzinc"
-      },
-      {
-        "name": "Casting Networks Blog",
-        "url": "http://blog.castingnetworksinc.com/author/djames/"
       },
       {
         "name": "CHEEZburger",
@@ -163,20 +114,8 @@
         "url": "http://runkeeper.com/user/thzinc"
       },
       {
-        "name": "Skip1",
-        "url": "http://www.skip1.org/people/thzinc"
-      },
-      {
         "name": "Slashdot",
         "url": "http://slashdot.org/%7Ethzinc"
-      },
-      {
-        "name": "SmartBear Forums",
-        "url": "http://www.eviware.com/forum/memberlist.php?mode=viewprofile&u=28911"
-      },
-      {
-        "name": "SourceForge",
-        "url": "https://sourceforge.net/users/thzinc"
       },
       {
         "name": "Stack Exchange",
@@ -187,8 +126,8 @@
         "url": "http://stackoverflow.com/users/1653492"
       },
       {
-        "name": "Stack Overflow Careers 2.0",
-        "url": "http://careers.stackoverflow.com/thzinc"
+        "name": "Stack Overflow CV",
+        "url": "https://stackoverflow.com/cv/thzinc"
       },
       {
         "name": "Steam Community",
@@ -201,10 +140,6 @@
       {
         "name": "Twitter",
         "url": "http://twitter.com/thzinc"
-      },
-      {
-        "name": "Userscripts.org",
-        "url": "http://userscripts.org/users/489558"
       },
       {
         "name": "USTREAM",
@@ -231,40 +166,8 @@
         "url": "http://members.woot.com/thzinc"
       },
       {
-        "name": "X.commerce",
-        "url": "https://www.x.com/users/thzinc"
-      },
-      {
-        "name": "yfrog",
-        "url": "http://www.yfrog.com/user/thzinc/profile"
-      },
-      {
         "name": "YouTube",
         "url": "http://www.youtube.com/thzinc"
-      }
-    ]
-  },
-  {
-    "name": "Organizations",
-    "links": [
-      {
-        "name": "These are organizations that I am part of, support, or am a fan of"
-      },
-      {
-        "name": "Children's Hunger Fund",
-        "url": "http://www.chfus.org/"
-      },
-      {
-        "name": "Prism Church",
-        "url": "http://www.prismchurch.com/"
-      },
-      {
-        "name": "San Fernando Valley Rescue Mission",
-        "url": "http://www.sfvrescuemission.org/"
-      },
-      {
-        "name": "WeOurFamily",
-        "url": "http://www.weourfamily.com/"
       }
     ]
   }
