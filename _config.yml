@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Personal site of Daniel James, a Christian, a husband,
   a software developer, and a maker
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://thzinc.com" # the base hostname & protocol for your site
+url: "https://thzinc.com" # the base hostname & protocol for your site
 twitter_username: thzinc
 github_username:  thzinc
 
