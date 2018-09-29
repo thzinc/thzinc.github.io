@@ -1,13 +1,20 @@
-# Site settings
+---
 title: thzinc
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: daniel@thzinc.com
-description: > # this means to ignore newlines until "baseurl:"
-  Personal site of Daniel James, a Christian, a husband,
-  a software developer, and a maker
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://thzinc.com" # the base hostname & protocol for your site
-twitter_username: thzinc
-github_username:  thzinc
+description: 'Personal site of Daniel James, a Christian, a husband, a software developer,
+  and a maker
 
-# Build settings
+'
+baseurl: ''
+url: http://thzinc.com
+twitter_username: thzinc
+github_username: thzinc
 markdown: kramdown

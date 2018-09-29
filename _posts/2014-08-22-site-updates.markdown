@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Site updates!
-date: 2014-08-22
+date: 2014-08-22 00:00:00 Z
+layout: post
 blurb: GitHub Pages and Jekyll are pretty nifty!
 ---
 

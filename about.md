@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
 
 I am Daniel James. I have a fierce passion for problem solving, especially through software development. I am good at designing and implementing simple and complex software solutions. I have weaknesses and failures too. I co-founded a company in 2004 that had to close its doors in 2009. For me, saying "no" is harder than saying "yes." But because of going through a startup failure and taking a "fearless inventory" of myself, I am becoming the best me I can be.

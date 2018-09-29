@@ -1,7 +1,7 @@
 ---
-layout: post
 title: Announcing Budgetcraft!
-date: 2013-08-27
+date: 2013-08-27 00:00:00 Z
+layout: post
 ---
 
 I am working on a new project that I've dubbed [Budgetcraft][bc-site]. While it's not quite ready yet, Budgetcraft will be a budgeting and accounting tool that you will want to use. I'm building a simple but powerful budgeting tool that will help and enourage its users to win at their finances by incorporating elements of gaming into the process.
