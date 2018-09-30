@@ -1,6 +1,7 @@
 ---
 title: About
 permalink: "/about/"
+Test: foobar
 layout: page
 ---
 
