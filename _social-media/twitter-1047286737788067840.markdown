@@ -1,0 +1,11 @@
+---
+title: twitter-1047286737788067840
+social_network: twitter
+signal_boost: 'False'
+timestamp: Wed Oct 03 00:46:30 +0000 2018
+signal_boost_with_comment: 'False'
+id: '1047286737788067840'
+source_url: https://twitter.com/thzinc/status/1047286737788067840
+---
+
+@MyGlendale This tax is bogus, @MyGlendale. I'll be voting no.
