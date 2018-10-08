@@ -1,0 +1,16 @@
+---
+title: twitter-1049110507808903169
+signal_boost: 'True'
+timestamp: Mon Oct 08 01:33:31 +0000 2018
+source_url: https://twitter.com/thzinc/status/1049110507808903169
+social_network: twitter
+text: 'RT @mb: My therapist said Kavanaugh came up in every session she had this week
+  and that people were in tears. '
+mentions: mb
+signal_boost_with_comment: 'False'
+id: '1049110507808903169'
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">RT @mb: My therapist said Kavanaugh came up in every session she had this week and that people were in tears. 
+
+The senators who confirm hi…</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1049110507808903169">Mon Oct 08 01:33:31 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
