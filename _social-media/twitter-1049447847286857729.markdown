@@ -1,0 +1,14 @@
+---
+title: twitter-1049447847286857729
+social_network: twitter
+signal_boost: 'False'
+text: “… going public with the breach would likely trigger "immediate regulatory interest"
+  at a time when Facebook Inc. was coming under fire for not preventing the data firm
+  Cambridge Analytica from accessing troves of user information.” https://t.co/Vj8HSrkhNN
+timestamp: Mon Oct 08 23:53:59 +0000 2018
+signal_boost_with_comment: 'False'
+id: '1049447847286857729'
+source_url: https://twitter.com/thzinc/status/1049447847286857729
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">“… going public with the breach would likely trigger "immediate regulatory interest" at a time when Facebook Inc. was coming under fire for not preventing the data firm Cambridge Analytica from accessing troves of user information.” https://t.co/Vj8HSrkhNN</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1049447847286857729">Mon Oct 08 23:53:59 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
