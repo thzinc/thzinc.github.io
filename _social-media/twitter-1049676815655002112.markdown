@@ -1,0 +1,13 @@
+---
+title: twitter-1049676815655002112
+signal_boost: 'False'
+timestamp: Tue Oct 09 15:03:49 +0000 2018
+source_url: https://twitter.com/thzinc/status/1049676815655002112
+social_network: twitter
+text: Nooooo! I was looking forward to getting the @Sawbones book soon. https://t.co/Ya0uwSs0Wf
+mentions: Sawbones
+signal_boost_with_comment: 'False'
+id: '1049676815655002112'
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nooooo! I was looking forward to getting the @Sawbones book soon. https://t.co/Ya0uwSs0Wf</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1049676815655002112">Tue Oct 09 15:03:49 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
