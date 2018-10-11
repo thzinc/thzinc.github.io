@@ -1,0 +1,12 @@
+---
+title: twitter-1050518550153056256
+social_network: twitter
+signal_boost: 'False'
+text: Truth. https://t.co/7nK3sqp6is
+timestamp: Thu Oct 11 22:48:34 +0000 2018
+signal_boost_with_comment: 'True'
+id: '1050518550153056256'
+source_url: https://twitter.com/thzinc/status/1050518550153056256
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Truth. https://t.co/7nK3sqp6is</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1050518550153056256">Thu Oct 11 22:48:34 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
