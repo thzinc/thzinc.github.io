@@ -1,0 +1,14 @@
+---
+title: twitter-1050521215469666305
+signal_boost: 'False'
+timestamp: Thu Oct 11 22:59:10 +0000 2018
+source_url: https://twitter.com/thzinc/status/1050521215469666305
+social_network: twitter
+text: "@safrazie TIL that the LA Times Editorial Board is separate from the newsroom.
+  https://t.co/sIpdYjkJpF"
+mentions: safrazie
+signal_boost_with_comment: 'False'
+id: '1050521215469666305'
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">@safrazie TIL that the LA Times Editorial Board is separate from the newsroom. https://t.co/sIpdYjkJpF</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1050521215469666305">Thu Oct 11 22:59:10 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
