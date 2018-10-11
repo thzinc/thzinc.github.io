@@ -1,0 +1,14 @@
+---
+title: twitter-1050534005320253441
+social_network: twitter
+signal_boost: 'False'
+text: 'I couldn''t even co-sign on my first car loan at 17, despite having a salaried
+  full-time dev job, because I was a minor and couldn''t enter into a contract legally.
+  #AbolishICE https://t.co/kvrllNMKZZ'
+timestamp: Thu Oct 11 23:49:59 +0000 2018
+signal_boost_with_comment: 'True'
+id: '1050534005320253441'
+source_url: https://twitter.com/thzinc/status/1050534005320253441
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I couldn't even co-sign on my first car loan at 17, despite having a salaried full-time dev job, because I was a minor and couldn't enter into a contract legally. #AbolishICE https://t.co/kvrllNMKZZ</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1050534005320253441">Thu Oct 11 23:49:59 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
