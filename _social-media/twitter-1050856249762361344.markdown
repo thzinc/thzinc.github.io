@@ -1,0 +1,15 @@
+---
+title: twitter-1050856249762361344
+signal_boost: 'False'
+timestamp: Fri Oct 12 21:10:28 +0000 2018
+source_url: https://twitter.com/thzinc/status/1050856249762361344
+social_network: twitter
+text: 'Y''all, I am very excited to encourage the folks at @GMVSYNCROMATICS to participate
+  in #Hacktoberfest this year. Seeing the engineering team  help new/non-coders through
+  their 1st-ever (and some 2nd/3rd) PRs was awesome! https://t.co/x32Eh3Ck8z'
+mentions: GMVSYNCROMATICS
+signal_boost_with_comment: 'False'
+id: '1050856249762361344'
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Y'all, I am very excited to encourage the folks at @GMVSYNCROMATICS to participate in #Hacktoberfest this year. Seeing the engineering team  help new/non-coders through their 1st-ever (and some 2nd/3rd) PRs was awesome! https://t.co/x32Eh3Ck8z</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1050856249762361344">Fri Oct 12 21:10:28 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
