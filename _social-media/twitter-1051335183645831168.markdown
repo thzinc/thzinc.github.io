@@ -1,0 +1,15 @@
+---
+title: twitter-1051335183645831168
+signal_boost: 'False'
+timestamp: Sun Oct 14 04:53:35 +0000 2018
+source_url: https://twitter.com/thzinc/status/1051335183645831168
+social_network: twitter
+text: 'The bot is back and sharing real comments on the @NatlParkService proposed
+  rule change. If you’ve got something to say about it, go let NPS hear it: https://t.co/ZdM2JAHG5m
+  https://t.co/sMtuO8Kxr2'
+mentions: NatlParkService
+signal_boost_with_comment: 'True'
+id: '1051335183645831168'
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The bot is back and sharing real comments on the @NatlParkService proposed rule change. If you’ve got something to say about it, go let NPS hear it: https://t.co/ZdM2JAHG5m https://t.co/sMtuO8Kxr2</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1051335183645831168">Sun Oct 14 04:53:35 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
