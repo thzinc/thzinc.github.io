@@ -1,0 +1,14 @@
+---
+title: twitter-1051325018930536450
+signal_boost: 'True'
+timestamp: Sun Oct 14 04:13:11 +0000 2018
+source_url: https://twitter.com/thzinc/status/1051325018930536450
+social_network: twitter
+text: 'RT @womensmarch: .@NatlParkService admitted outright that the administration’s
+  proposed restrictions on protests outside the @WhiteHouse we…'
+mentions: womensmarch,NatlParkService,WhiteHouse
+signal_boost_with_comment: 'False'
+id: '1051325018930536450'
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">RT @womensmarch: .@NatlParkService admitted outright that the administration’s proposed restrictions on protests outside the @WhiteHouse we…</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1051325018930536450">Sun Oct 14 04:13:11 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
