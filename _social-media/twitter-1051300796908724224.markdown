@@ -1,0 +1,16 @@
+---
+title: twitter-1051300796908724224
+signal_boost: 'True'
+timestamp: Sun Oct 14 02:36:56 +0000 2018
+source_url: https://twitter.com/thzinc/status/1051300796908724224
+social_network: twitter
+text: 'RT @SwiftOnSecurity: Regarding the Supermicro story, I call on Bloomberg to
+  either:'
+mentions: SwiftOnSecurity
+signal_boost_with_comment: 'False'
+id: '1051300796908724224'
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">RT @SwiftOnSecurity: Regarding the Supermicro story, I call on Bloomberg to either:
+a.) Confirm additional reporting is coming
+b.) Announce…</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1051300796908724224">Sun Oct 14 02:36:56 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
