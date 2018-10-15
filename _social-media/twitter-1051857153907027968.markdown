@@ -1,0 +1,16 @@
+---
+title: twitter-1051857153907027968
+signal_boost: 'True'
+timestamp: Mon Oct 15 15:27:42 +0000 2018
+source_url: https://twitter.com/thzinc/status/1051857153907027968
+social_network: twitter
+text: 'RT @safrazie: LA PODCAST'
+mentions: safrazie
+signal_boost_with_comment: 'False'
+id: '1051857153907027968'
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">RT @safrazie: LA PODCAST
+- Introducing our new recurring segment: Beverly Hills 902-oh no
+- Multiple typhus outbreaks in LA
+- Englander ann…</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1051857153907027968">Mon Oct 15 15:27:42 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
