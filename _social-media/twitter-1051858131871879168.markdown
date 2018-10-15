@@ -1,0 +1,13 @@
+---
+title: twitter-1051858131871879168
+signal_boost: 'False'
+timestamp: Mon Oct 15 15:31:35 +0000 2018
+source_url: https://twitter.com/thzinc/status/1051858131871879168
+social_network: twitter
+text: "@ClassicalCat07 did you see this Very Good Thing? https://t.co/g1Hb6LlxN2"
+mentions: ClassicalCat07
+signal_boost_with_comment: 'True'
+id: '1051858131871879168'
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">@ClassicalCat07 did you see this Very Good Thing? https://t.co/g1Hb6LlxN2</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1051858131871879168">Mon Oct 15 15:31:35 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
