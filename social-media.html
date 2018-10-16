@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 {% assign postsByDay = site.social-media
     | where_exp:"post", "post.social_network != 'tumblr'"
     | where_exp:"post", "post.signal_boost != 'True'"
