@@ -1,0 +1,15 @@
+---
+title: twitter-1052010778230841344
+signal_boost: 'False'
+timestamp: Tue Oct 16 01:38:09 +0000 2018
+source_url: https://twitter.com/thzinc/status/1052010778230841344
+social_network: twitter
+text: "@amyhoy @sehurlburt Other symptoms might be less comparable, but significant
+  if tracked as occurrences of the symptom/event on a timeline. Simplified mood tracking,
+  occurrence of joint pain, migraine, etc."
+mentions: amyhoy,sehurlburt
+signal_boost_with_comment: 'False'
+id: '1052010778230841344'
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">@amyhoy @sehurlburt Other symptoms might be less comparable, but significant if tracked as occurrences of the symptom/event on a timeline. Simplified mood tracking, occurrence of joint pain, migraine, etc.</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1052010778230841344">Tue Oct 16 01:38:09 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
