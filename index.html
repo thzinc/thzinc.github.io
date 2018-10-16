@@ -13,25 +13,40 @@ layout: default
     </div>
   </div>
   <div class="col-md-4 col-sm-6">
-    <a href="http://thzincaday.thzinc.com/" id="thzincaday">&nbsp;</a>
+    {% assign thzincaday = site.social-media
+      | where_exp:"post", "post.social_network == 'tumblr'"
+      | sort_by_exp:"post", "post.timestamp | date_to_xmlschema"
+      | last %}
+    <a href="http://thzincaday.thzinc.com/">
+      {{ thzincaday.text }}
+    </a>
   </div>
   <div class="col-md-4 col-sm-6">
-    <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/thzinc" data-widget-id="650789334472245252" data-chrome="noheader nofooter noborders transparent">Tweets by @thzinc</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    {% assign day = site.social-media
+      | where_exp:"post", "post.social_network != 'tumblr'"
+      | where_exp:"post", "post.signal_boost != 'True'"
+      | where_exp:"post", "post.signal_boost_with_comment != 'True'"
+      | group_by_exp:"post", "post.timestamp | date: '%Y-%m-%d'"
+      | sort: "name"
+      | reverse
+      | first
+    %}
+    {% assign posts = day.items | sort_by_exp:"post", "post.timestamp | date_to_xmlschema" %}
+    <article>
+        <h2>
+            <a href="/social-media">
+              Daily Digest
+            </a>
+        </h2>
+        <h3>
+          {{ day.name | date_to_long_string }}
+        </h3>
+        {% for post in posts %}
+            <p>
+                {{ post.content }}
+            </p>
+        {% endfor %}
+    </article>
+    <a href="/social-media">Read more</a>
   </div>
 </div>
-
-<div class="row">
-  <div class="col-sm-12">
-    {% for profile in site.data.profiles %}
-      <a href="{{profile.url}}" class="btn btn-social-icon btn-lg btn-{{profile.type}}">
-        <i class="fa fa-{{profile.type}}"></i>
-      </a>
-    {% endfor %}
-  </div>
-</div>
-
-<script type="text/javascript" src="http://thzincaday.thzinc.com/api/read/json?num=1&amp;type=photo"></script>
-<script type="text/javascript">
-document.getElementById("thzincaday").style.backgroundImage = 'url("' + tumblr_api_read.posts[0]["photo-url-1280"] + '")';
-</script>

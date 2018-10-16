@@ -26,28 +26,15 @@
     "name": "Social Profiles",
     "links": [
       {
-        "name": "Amazon",
-        "url": "http://www.amazon.com/gp/pdp/profile/A6ZHPBH6JI81J?ie=UTF8&ref_=ya_56"
+        "name": "Daily Digest",
+        "url": "/social-media"
+      },
+      {
+        "divider": true
       },
       {
         "name": "Apache Lucene Mailing List",
         "url": "http://lucene.472066.n3.nabble.com/template/NamlServlet.jtp?macro=user_nodes&user=485887"
-      },
-      {
-        "name": "bit.ly",
-        "url": "http://bit.ly/u/thzinc"
-      },
-      {
-        "name": "CHEEZburger",
-        "url": "http://cheezburger.com/pictures-by-thzinc/"
-      },
-      {
-        "name": "CodePlex",
-        "url": "http://www.codeplex.com/site/users/view/thzinc"
-      },
-      {
-        "name": "Coderwall",
-        "url": "http://coderwall.com/thzinc"
       },
       {
         "name": "daPortfolio",
@@ -62,14 +49,6 @@
         "url": "http://thzinc.deviantart.com/"
       },
       {
-        "name": "eBay",
-        "url": "http://shop.ebay.com/daniel_at_thzinc/m.html"
-      },
-      {
-        "name": "Etsy",
-        "url": "http://www.etsy.com/people/thzinc"
-      },
-      {
         "name": "Facebook",
         "url": "http://www.facebook.com/thzinc"
       },
@@ -82,40 +61,8 @@
         "url": "https://github.com/thzinc"
       },
       {
-        "name": "iReport",
-        "url": "http://www.ireport.com/people/thzinc"
-      },
-      {
-        "name": "Khan Academy",
-        "url": "http://www.khanacademy.org/profile/thzinc/"
-      },
-      {
         "name": "LinkedIn",
         "url": "http://www.linkedin.com/in/danielijames"
-      },
-      {
-        "name": "LiveJournal",
-        "url": "http://thzinc.livejournal.com/"
-      },
-      {
-        "name": "MSDN",
-        "url": "http://social.msdn.microsoft.com/profile/thzinc"
-      },
-      {
-        "name": "Pandora",
-        "url": "http://www.pandora.com/people/daniel19309"
-      },
-      {
-        "name": "Photosynth",
-        "url": "http://photosynth.net/userprofilepage.aspx?user=thzinc"
-      },
-      {
-        "name": "RunKeeper",
-        "url": "http://runkeeper.com/user/thzinc"
-      },
-      {
-        "name": "Slashdot",
-        "url": "http://slashdot.org/%7Ethzinc"
       },
       {
         "name": "Stack Exchange",
@@ -126,24 +73,12 @@
         "url": "http://stackoverflow.com/users/1653492"
       },
       {
-        "name": "Stack Overflow CV",
-        "url": "https://stackoverflow.com/cv/thzinc"
-      },
-      {
         "name": "Steam Community",
         "url": "https://steamcommunity.com/id/thzinc"
       },
       {
-        "name": "Techdirt",
-        "url": "http://techdirt.com/profile.php?u=thzinc"
-      },
-      {
         "name": "Twitter",
         "url": "http://twitter.com/thzinc"
-      },
-      {
-        "name": "USTREAM",
-        "url": "http://www.ustream.tv/channel/thzinc"
       },
       {
         "name": "Visual Studio UserVoice",
@@ -154,16 +89,8 @@
         "url": "http://communities.vmware.com/people/thzinc"
       },
       {
-        "name": "VMworld Community",
-        "url": "http://www.vmworld.com/people/daniel.james"
-      },
-      {
         "name": "Wikipedia",
         "url": "http://en.wikipedia.org/wiki/User:Thzinc"
-      },
-      {
-        "name": "Woot!",
-        "url": "http://members.woot.com/thzinc"
       },
       {
         "name": "YouTube",
