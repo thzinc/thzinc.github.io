@@ -1,0 +1,18 @@
+---
+title: twitter-1052014942096740353
+signal_boost: 'False'
+timestamp: Tue Oct 16 01:54:42 +0000 2018
+source_url: https://twitter.com/thzinc/status/1052014942096740353
+social_network: twitter
+text: "@amyhoy That’s an interesting idea. Kind of like the USGS “Did You Feel It?”
+  but for possible food poisoning. https://t.co/niIiywzwEt"
+mentions: amyhoy
+signal_boost_with_comment: 'False'
+id: '1052014942096740353'
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">@amyhoy That’s an interesting idea. Kind of like the USGS “Did You Feel It?” but for possible food poisoning. https://t.co/niIiywzwEt
+
+An app could trigger alerts to probe the user until they indicate the symptoms resolve. 
+
+Data storage and aggregation is difficult, but not impossible.</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1052014942096740353">Tue Oct 16 01:54:42 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
