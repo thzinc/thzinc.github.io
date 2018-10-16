@@ -1,0 +1,16 @@
+---
+title: twitter-1052010336386134016
+signal_boost: 'False'
+timestamp: Tue Oct 16 01:36:24 +0000 2018
+source_url: https://twitter.com/thzinc/status/1052010336386134016
+social_network: twitter
+text: "@amyhoy @sehurlburt Well, I’d probably try understand a few use cases first.
+  Are the symptoms measurable on a regular scale? (I.e. can symptoms from one day
+  be reliably compared to symptoms from another day? Blood pressure, weight, minutes
+  of PT exercise, etc."
+mentions: amyhoy,sehurlburt
+signal_boost_with_comment: 'False'
+id: '1052010336386134016'
+---
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">@amyhoy @sehurlburt Well, I’d probably try understand a few use cases first. Are the symptoms measurable on a regular scale? (I.e. can symptoms from one day be reliably compared to symptoms from another day? Blood pressure, weight, minutes of PT exercise, etc.</p>&mdash; Daniel James (@thzinc) <a href="https://twitter.com/thzinc/status/1052010336386134016">Tue Oct 16 01:36:24 +0000 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
