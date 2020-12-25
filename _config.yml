@@ -1,26 +1,7 @@
 ---
 title: thzinc
 timezone: UTC
-collections:
-  instagram:
-    title: Instagram
-    output: true
-  posts:
-    title: Posts
-    output: true
-  social-media:
-    title: Social Media
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 email: daniel@thzinc.com
-description: 'Personal site of Daniel James, a Christian, a husband, a software developer,
-  and a maker
-
-'
-baseurl: ''
-url: http://thzinc.com
-twitter_username: thzinc
-github_username: thzinc
+baseurl: ""
+url: https://thzinc.com
 markdown: kramdown

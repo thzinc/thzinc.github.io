@@ -2,15 +2,20 @@
 <html>
   {% include head.html %}
   <body>
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="container-fluid">
-        {{ content }}
-      </div>
+    <div
+      style="
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+      "
+    >
+      <div style="margin: auto">{{ content }}</div>
     </div>
 
-    {% include footer.html %}
     {% include scripts.html %}
   </body>
 </html>
