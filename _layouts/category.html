@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <!-- 
+    {% assign category = page.name | split: "." | first %}
+    {% capture title %}{% if page.title %}{{page.title}}{% else %}{{tag | replace: "_", " "}}{% endif %}{% endcapture %}
+    {% assign content_length = content | strip | size %}
+    {% if page.sort == "ascending" %}
+      {% assign posts = site.categories[category] | reverse %}
+    {% else %}
+      {% assign posts = site.categories[category] %}
+    {% endif %}
+  -->
+  {% include head.html %}
+  <body>
+    <header>
+      <a href="/">thzinc</a>
+    </header>
+    <main>
+      <h1>{{title}}</h1>
+      {% if content_length > 0 %}
+      <section>{{content}}</section>
+      {% endif %} {% for post in posts %} {% include post_excerpt.html %} {%
+      endfor %}
+    </main>
+    <footer>
+      <a href="/">Home</a>
+    </footer>
+  </body>
+</html>

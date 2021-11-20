@@ -5,3 +5,14 @@ email: daniel@thzinc.com
 baseurl: ""
 url: https://thzinc.com
 markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "tags"
+      type: "pages"
+    values:
+      layout: "tag"

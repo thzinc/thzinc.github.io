@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <style type="text/css">
+      header {
+        height: 25vh;
+        text-align: center;
+      }
+
+      header img {
+        height: 100%;
+      }
+    </style>
+    <header>
+      <img
+        src="https://secure.gravatar.com/avatar/eaeac922b9f3cc9fd18cb9629b9e79f6?s=512"
+        alt="Avatar of Daniel James a.k.a. thzinc"
+      />
+    </header>
+    <main>
+      {{content}}
+
+      <!--
+      {% assign newest_posts = site.posts | slice: 0, 3 %}
+      {% assign older_posts = site.posts | slice: 3, site.posts.size %}
+      -->
+      <h1>Newest Posts</h1>
+      {% for post in newest_posts %} {% include post_excerpt.html %} {% endfor
+      %}
+
+      <h1>Things I write about</h1>
+      <!--
+      {% assign tags = site.tags | sort %} 
+      -->
+      <ul>
+        {% for tag in tags %}
+        <!--
+          {% assign slug = tag | first %}
+          {% assign label = slug | replace: "_", " " %}
+        -->
+        <li>
+          <a href="/tags/{{slug}}">{{label}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+      <h1>More Posts</h1>
+      {% for post in older_posts %} {% include post_excerpt.html %} {% endfor %}
+    </main>
+  </body>
+</html>

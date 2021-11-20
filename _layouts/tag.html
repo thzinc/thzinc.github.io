@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <!-- 
+    {% assign tag = page.name | split: "." | first %}
+    {% capture title %}{% if page.title %}{{page.title}}{% else %}{{tag | replace: "_", " "}}{% endif %}{% endcapture %}
+    {% assign content_length = content | strip | size %}
+  -->
+  {% include head.html %}
+  <body>
+    <header>
+      <a href="/">thzinc</a>
+    </header>
+    <main>
+      <h1>{{title}}</h1>
+      {% if content_length > 0 %}
+      <section>{{content}}</section>
+      {% endif %} {% for post in site.tags[tag] %} {% include post_excerpt.html
+      %} {% endfor %}
+    </main>
+    <footer>
+      <a href="/">Home</a>
+    </footer>
+  </body>
+</html>
