@@ -2,6 +2,11 @@
 title: How I Built a Twitter Bot Using Auth0 Webtasks and Data.gov
 tags: javascript bots
 published_at: https://auth0.com/blog/how-i-built-a-twitter-bot-using-webtask-and-data-gov/
+see_also:
+  - title: thzinc/eo13792bot on GitHub
+    url: https://github.com/thzinc/eo13792bot
+  - title: "@NPS20180007Bot (formerly @eo13792bot) on Twitter"
+    url: https://twitter.com/NPS20180007Bot
 ---
 
 I wanted to build something small, fun, and socially-engaging. I have been following [Darius Kazemi](http://tinysubversions.com/) ([@TinySubversions](https://twitter.com/tinysubversions)) and the community of bot makers at [Botwiki](https://botwiki.org/) ([@Botwikidotorg](https://twitter.com/botwikidotorg)), and I decided a Twitter bot was the way to go. I have also been following the US Executive Order 13792 pretty closely. The order directs the US Department of Interior to review whether to downsize "certain national monuments" or sell their oil and mineral rights for profit. The Department has an open ["Opportunity for Public Comment."](https://www.regulations.gov/document?D=DOI-2017-0002-0001) I thought this would be a good chance to tinker with lightweight sentiment analysis of the public comments.
