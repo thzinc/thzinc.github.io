@@ -1,6 +1,6 @@
 ---
 title: New housing for RadioShack 22-810 15-Range Digital Multimeter
-tags: 3d_printing
+tags: 3d_printing electronics
 see_also:
   - title: New housing for RadioShack 22-810 15-Range Digital Multimeter on Thingiverse
     url: "https://www.thingiverse.com/thing:4922514"

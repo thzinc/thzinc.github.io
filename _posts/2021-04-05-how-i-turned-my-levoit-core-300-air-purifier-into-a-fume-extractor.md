@@ -1,6 +1,6 @@
 ---
 title: How I turned my Levoit Core 300 air purifier into a fume extractor
-tags: 3d_printing
+tags: 3d_printing electronics
 see_also:
   - title: 2.5 inch hose adapter with curved flange on Thingiverse
     url: "https://www.thingiverse.com/thing:4818768"
