@@ -22,6 +22,10 @@ title: Me, online
   - [Steam](https://steamcommunity.com/id/thzinc)
   - [Bandcamp](https://bandcamp.com/thzinc)
   - [Spotify](https://open.spotify.com/user/thzinc)
+  - [Strava](https://www.strava.com/athletes/44050022)
+  - [tumblr](https://blog.thzinc.com)
+    - [thzinc-a-day](https://thzincaday.thzinc.com/), daily selfie blog 2012-2018
+    - [selfie-stick-a-day](https://selfiestickaday.thzinc.com/), parody selfie blog for my selfie stick
   - [DeviantART](https://www.deviantart.com/thzinc)
     - [danieljames](https://www.deviantart.com/danieljames), alt. account for prints when that was a thing
     - [thzinc-stock](https://www.deviantart.com/thzinc-stock), alt. account with just stock photos
