@@ -19,6 +19,7 @@ title: Me, online
   - [YouTube](https://www.youtube.com/channel/UC54j-qqvntPcLXYSW7Rxcfg)
   - [Twitch](https://www.twitch.tv/thzinc)
   - [Flickr](https://www.flickr.com/people/thzinc/)
+  - [Medium](https://medium.com/@thzinc)
   - [Steam](https://steamcommunity.com/id/thzinc)
   - [Bandcamp](https://bandcamp.com/thzinc)
   - [Spotify](https://open.spotify.com/user/thzinc)
@@ -36,7 +37,9 @@ title: Me, online
   - [Thingiverse](https://www.thingiverse.com/thzinc/designs)
   - [Docker Hub](https://hub.docker.com/u/thzinc)
   - [Codepen](https://codepen.io/thzinc)
+  - [Glitch](https://glitch.com/@thzinc)
   - [nuget](https://www.nuget.org/profiles/thzinc)
+  - [npm](https://www.npmjs.com/~thzinc)
 - Work stuff
   - [LinkedIn](https://www.linkedin.com/in/danielijames/)
   - [Slideshare](https://www.slideshare.net/DanielJames17)
