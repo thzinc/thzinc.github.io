@@ -31,6 +31,7 @@ title: Me, online
     - [danieljames](https://www.deviantart.com/danieljames), alt. account for prints when that was a thing
     - [thzinc-stock](https://www.deviantart.com/thzinc-stock), alt. account with just stock photos
     - [brianryce](https://www.deviantart.com/brianryce), pseudonym for poetry
+  - [Soundcloud](https://soundcloud.com/thzinc)
 - Software development & maker stuff
   - [GitHub](https://github.com/thzinc)
   - [Botwiki](https://botwiki.org/author/thzinc/)
