@@ -21,6 +21,7 @@ title: Me, online
   - [Flickr](https://www.flickr.com/people/thzinc/)
   - [Medium](https://medium.com/@thzinc)
   - [Steam](https://steamcommunity.com/id/thzinc)
+  - [Patreon](https://www.patreon.com/thzinc)
   - [Bandcamp](https://bandcamp.com/thzinc)
   - [Spotify](https://open.spotify.com/user/thzinc)
   - [Strava](https://www.strava.com/athletes/44050022)
