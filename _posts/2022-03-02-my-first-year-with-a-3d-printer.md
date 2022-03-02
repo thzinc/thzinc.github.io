@@ -3,7 +3,7 @@ title: My first year with a 3D printer
 tags: 3d_printing
 ---
 
-It's been a full year since I bought my [Sovol SV02][sovolsv02] printer. I'm sitting at my desk with at least a dozen printed objects around me: fidget toys, small art pieces, organization trays, and [electronics enclosures][multimeter]. The process of learning about modeling, manufacturing, and materials science has been fascinating (and occasionally frustrating).
+It's been a full year since I bought my [Sovol SV02][sovolsv02] printer. I'm sitting at my desk with at least a dozen printed objects around me: fidget toys, [small art pieces][frame], organization trays, and [electronics enclosures][multimeter]. The process of learning about modeling, manufacturing, and materials science has been fascinating (and occasionally frustrating).
 
 Things I've learned:
 
@@ -24,4 +24,5 @@ I'm looking forward to another year of design and manufacture with my 3D printer
 [octobalena]: https://github.com/MatthewCroughan/octobalena
 [heatset]: https://www.adafruit.com/product/4256
 
+[frame]: {% post_url 2021-05-14-mrna-vaccination-record-card-frame %}
 [multimeter]: {% post_url 2021-08-01-new-housing-for-radioshack-22-810-15-range-digital-multimeter %}
