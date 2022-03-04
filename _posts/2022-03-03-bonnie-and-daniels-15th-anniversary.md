@@ -5,6 +5,10 @@ published_at: https://twitter.com/thzinc/status/1499590667340705793
 see_also:
   - title: Bonnie and Daniel's 15th Anniversary on Twitter
     url: https://twitter.com/thzinc/status/1499590667340705793
+  - title: Bonnie and Daniel's 15th Anniversary on Instagram
+    url: https://www.instagram.com/p/CaqwA7QLVF6
+  - title: Bonnie and Daniel's 15th Anniversary on Facebook
+    url: https://www.facebook.com/thzinc/posts/10216884608025941
 ---
 
 Friends, it’s a weird and wild time to be alive. There’s a lot of bad stuff going on, but also some good! The inexorable passage of time has inexorably passed, and with it, Bonnie and I are celebrating 15 years of marriage in 15 days, and we’d like for you to join us!
