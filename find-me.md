@@ -42,6 +42,7 @@ title: Me, online
   - [Glitch](https://glitch.com/@thzinc)
   - [nuget](https://www.nuget.org/profiles/thzinc)
   - [npm](https://www.npmjs.com/~thzinc)
+  - [Adafruit forums](https://forums.adafruit.com/memberlist.php?mode=viewprofile&u=478128) (login required)
 - Work stuff
   - [LinkedIn](https://www.linkedin.com/in/danielijames/)
   - [Slideshare](https://www.slideshare.net/DanielJames17)
