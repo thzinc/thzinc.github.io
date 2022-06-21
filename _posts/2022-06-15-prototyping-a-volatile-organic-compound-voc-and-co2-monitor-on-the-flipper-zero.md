@@ -9,7 +9,7 @@ see_also:
   - title: VOC Monitor on the "Unleashed" firmware
     url: https://github.com/thzinc/flipperzero-firmware/pull/1
   - title: Flipper Zero ProtoBoard case/cover on Thingiverse
-    url: https://www.thingiverse.com/thing:5411771/files
+    url: https://www.thingiverse.com/thing:5411771
 ---
 
 I've been [playing with environment sensors][environment-monitor] for a while to help me understand how factors of air quality correlate to my health. In 2019, I had a particularly bad asthma attack that was exacerbated by wildfires in California. Since then, I've learned a lot about how 2.5 micron particulate matter (a.k.a. PM2.5) in the air affects my asthma. I started correlating PM2.5 concentrations to my breathing and started wearing a respirator on poor air quality days. Then a pandemic of a virus that is primarily transmitted via 2.5 micron water droplets happened. In the time since the start of the pandemic, researchers have correlated good ventilation with reduced exposure to particulate matter that may transmit COVID-19. (Though the [EPA][epa-can-i-measure-carbon-dioxide-co2-indoors-to-get-information-on-ventilation], the [CDC][cdc-ventilation-faqs], and industry group [ASHRAE][ashrae-position-document-on-indoor-carbon-dioxide] warn that it's only one factor in assessing risk of transmission.)
