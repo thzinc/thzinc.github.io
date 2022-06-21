@@ -1,5 +1,5 @@
 ---
-title: Prototyping a real co2 monitor on the Flipper Zero
+title: Prototyping a real CO2 monitor on the Flipper Zero
 tags: electronics 3d_printing
 see_also:
   - title: thzinc/flipperzero-firmware on GitHub
