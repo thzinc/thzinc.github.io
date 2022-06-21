@@ -42,15 +42,15 @@ title: Me, online
   - [Glitch](https://glitch.com/@thzinc)
   - [nuget](https://www.nuget.org/profiles/thzinc)
   - [npm](https://www.npmjs.com/~thzinc)
-  - [Adafruit forums](https://forums.adafruit.com/memberlist.php?mode=viewprofile&u=478128) (login required)
 - Work stuff
   - [LinkedIn](https://www.linkedin.com/in/danielijames/)
   - [Slideshare](https://www.slideshare.net/DanielJames17)
 - Civic stuff
   - [Muckrock](https://www.muckrock.com/accounts/profile/thzinc/)
 - Forums
-  - [Smartbear](https://community.smartbear.com/t5/user/viewprofilepage/user-id/15125)
+  - [Adafruit forums](https://forums.adafruit.com/memberlist.php?mode=viewprofile&u=478128) (login required)
   - [JoCoCruise](https://forums.jococruise.com/u/thzinc/summary)
   - [Sierra Wireless](https://forum.sierrawireless.com/u/thzinc/summary)
+  - [Smartbear](https://community.smartbear.com/t5/user/viewprofilepage/user-id/15125)
   - [Userscripts](https://userscripts-mirror.org/users/489558) (mirror)
   - [Wireless Advisor](https://forums.wirelessadvisor.com/members/thzinc.68886/)
