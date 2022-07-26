@@ -1,6 +1,6 @@
 ---
 title: Think LINQ – .ToDictionary()
-tags: dotnet csharp
+tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/76671895905/think-linq-todictionary
 ---

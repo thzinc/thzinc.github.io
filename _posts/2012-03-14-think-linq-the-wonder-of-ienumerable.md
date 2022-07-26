@@ -1,6 +1,6 @@
 ---
 title: Think LINQ – The Wonder of IEnumerable<>
-tags: dotnet csharp
+tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/76466583186/think-linq-the-wonder-of-ienumerable
 ---

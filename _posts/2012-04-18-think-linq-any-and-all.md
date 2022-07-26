@@ -1,6 +1,6 @@
 ---
 title: Think LINQ – .Any() and .All()
-tags: dotnet csharp
+tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/77003850807/think-linq-any-and-all
 excerpt_separator: <!--more-->

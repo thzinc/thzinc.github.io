@@ -1,6 +1,6 @@
 ---
 title: I tried to make a watering device for my cat
-tags: electronics javascript
+tags: electronics javascript programming
 see_also:
   - title: thzinc/cat-waterer on GitHub
     url: https://github.com/thzinc/cat-waterer

@@ -1,6 +1,6 @@
 ---
 title: Think LINQ – .Cast()
-tags: dotnet csharp
+tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/76570229763/think-linq-cast
 ---

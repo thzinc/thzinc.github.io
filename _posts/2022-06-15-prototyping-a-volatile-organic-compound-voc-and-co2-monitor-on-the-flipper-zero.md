@@ -1,6 +1,6 @@
 ---
 title: Prototyping a volatile organic compound (VOC) and CO2 monitor on the Flipper Zero
-tags: electronics 3d_printing
+tags: electronics 3d_printing programming
 see_also:
   - title: thzinc/flipperzero-firmware on GitHub
     url: https://github.com/thzinc/flipperzero-firmware/

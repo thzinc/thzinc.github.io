@@ -1,6 +1,6 @@
 ---
 title: Think LINQ – .Skip() and .Take()
-tags: dotnet csharp
+tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/77215364739/think-linq-skip-and-take
 ---

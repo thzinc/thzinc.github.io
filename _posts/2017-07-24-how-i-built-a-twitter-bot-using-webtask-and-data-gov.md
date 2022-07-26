@@ -1,6 +1,6 @@
 ---
 title: How I Built a Twitter Bot Using Auth0 Webtasks and Data.gov
-tags: javascript bots
+tags: javascript bots programming
 published_at: https://auth0.com/blog/how-i-built-a-twitter-bot-using-webtask-and-data-gov/
 see_also:
   - title: thzinc/eo13792bot on GitHub

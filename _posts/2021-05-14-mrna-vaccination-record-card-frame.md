@@ -1,6 +1,6 @@
 ---
 title: mRNA Vaccine Visualization (and cute frame for my vaccination record card)
-tags: art 3d_printing javascript
+tags: art 3d_printing javascript programming
 see_also:
   - title: thzinc/vaccination-record-card-frame on GitHub
     url: https://github.com/thzinc/vaccination-record-card-frame

@@ -1,6 +1,6 @@
 ---
 title: Think LINQ – .SequenceEqual()
-tags: dotnet csharp
+tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/77317749419/think-linq-sequenceequal
 ---

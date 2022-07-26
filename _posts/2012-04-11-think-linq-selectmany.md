@@ -1,6 +1,6 @@
 ---
 title: Think LINQ – .SelectMany()
-tags: dotnet csharp
+tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/76891692912/think-linq-selectmany
 ---

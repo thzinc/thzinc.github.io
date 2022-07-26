@@ -1,6 +1,6 @@
 ---
 title: Using Excel to make changes to GTFS feeds
-tags: csharp dotnet
+tags: csharp dotnet programming
 see_also:
   - title: thzinc/gtfs-xlsx on GitHub
     url: https://github.com/thzinc/gtfs-xlsx
