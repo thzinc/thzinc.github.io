@@ -43,6 +43,7 @@ title: Me, online
   - [nuget](https://www.nuget.org/profiles/thzinc)
   - [npm](https://www.npmjs.com/~thzinc)
 - Work stuff
+  - [My resume](/resume)
   - [LinkedIn](https://www.linkedin.com/in/danielijames/)
   - [Slideshare](https://www.slideshare.net/DanielJames17)
 - Civic stuff
