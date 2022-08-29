@@ -42,6 +42,7 @@ title: Me, online
   - [Glitch](https://glitch.com/@thzinc)
   - [nuget](https://www.nuget.org/profiles/thzinc)
   - [npm](https://www.npmjs.com/~thzinc)
+  - [Stack Exchange](https://stackexchange.com/users/1819033/daniel-james)
 - Work stuff
   - [My resume](/resume)
   - [LinkedIn](https://www.linkedin.com/in/danielijames/)
@@ -53,5 +54,6 @@ title: Me, online
   - [JoCoCruise](https://forums.jococruise.com/u/thzinc/summary)
   - [Sierra Wireless](https://forum.sierrawireless.com/u/thzinc/summary)
   - [Smartbear](https://community.smartbear.com/t5/user/viewprofilepage/user-id/15125)
+  - [Techdirt](https://www.techdirt.com/user/thzinc/)
   - [Userscripts](https://userscripts-mirror.org/users/489558) (mirror)
   - [Wireless Advisor](https://forums.wirelessadvisor.com/members/thzinc.68886/)
