@@ -43,6 +43,7 @@ title: Me, online
   - [nuget](https://www.nuget.org/profiles/thzinc)
   - [npm](https://www.npmjs.com/~thzinc)
   - [Stack Exchange](https://stackexchange.com/users/1819033/daniel-james)
+  - [Microsoft Learn](https://learn.microsoft.com/en-us/users/thzinc/)
 - Work stuff
   - [My resume](/resume)
   - [LinkedIn](https://www.linkedin.com/in/danielijames/)
