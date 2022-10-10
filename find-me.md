@@ -26,6 +26,7 @@ title: Me, online
   - [Spotify](https://open.spotify.com/user/thzinc)
   - [Strava](https://www.strava.com/athletes/44050022)
   - [tumblr](https://blog.thzinc.com)
+    - [thzinc-wtf](https://thzinc-wtf.tumblr.com/), non sequiturs
     - [thzinc-a-day](https://thzincaday.thzinc.com/), daily selfie blog 2012-2018
     - [selfie-stick-a-day](https://selfiestickaday.thzinc.com/), parody selfie blog for my selfie stick
   - [DeviantART](https://www.deviantart.com/thzinc)
