@@ -35,6 +35,10 @@ title: Me, online
     - [brianryce](https://www.deviantart.com/brianryce), pseudonym for poetry
   - [Soundcloud](https://soundcloud.com/thzinc)
   - [Tiltify](https://tiltify.com/@thzinc/profile)
+  - The "Fediverse," "Mastodon," or places where ActivityPub is used
+    - [thzinc@onewilshire.la](https://onewilshire.la/@thzinc)
+    - [thzinc@botsin.space](https://botsin.space/@thzinc)
+    - [thzinc@mastodon.social](https://mastodon.social/@thzinc)
 - Software development & maker stuff
   - [GitHub](https://github.com/thzinc)
   - [Botwiki](https://botwiki.org/author/thzinc/)
