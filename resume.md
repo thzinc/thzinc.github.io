@@ -23,7 +23,7 @@ I have been doing full stack development with .NET, Go, and JavaScript most rece
 
 ### Principal Software Engineer at GMV (formerly Syncromatics)
 
-October 2016 to present
+October 2016 to November 2022
 
 I joined Syncromatics as an individual contributor to the company’s software-as-a-service computer-aided dispatch and automated vehicle location (CAD/AVL) system deployed at transit agencies across the United States. I applied my skills in developing human-centered software to developing Syncromatics’ next-generation tool for dispatchers, transit planners, and administrators. I became the technical leader of the Apps Team, tasked with the development of all of the company’s human interfaces across the web, mobile devices, and on transit vehicles.
 
