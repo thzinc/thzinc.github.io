@@ -46,6 +46,12 @@
 
   <link rel="canonical" href="{{ canonical_url }}" />
   <meta name="og:url" content="{{ canonical_url }}" />
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="{{ site.title }}"
+    href="/feed.xml"
+  />
 
   <title>{{head_title | strip | escape }}</title>
   <meta name="og:title" content="{{head_title | strip | escape }}" />

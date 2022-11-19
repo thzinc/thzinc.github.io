@@ -1,5 +1,7 @@
 ---
 title: thzinc
+description: I'm Daniel James. I write things here when I feel like it.
+author: Daniel James
 timezone: UTC
 email: daniel@thzinc.com
 baseurl: ""
@@ -18,3 +20,7 @@ defaults:
       layout: "tag"
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+collections:
+  projects:
+    output: true
