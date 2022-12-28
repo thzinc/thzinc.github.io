@@ -1,6 +1,6 @@
 ---
 title: Writing software that works with hardware
-tags: electronics programming
+tags: electronics programming sdlc
 see_also:
   - title: go-sensors on GitHub
     url: https://github.com/go-sensors

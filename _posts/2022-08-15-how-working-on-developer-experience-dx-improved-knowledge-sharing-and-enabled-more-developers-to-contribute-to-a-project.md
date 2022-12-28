@@ -1,6 +1,6 @@
 ---
 title: How working on Developer Experience (DX) improved knowledge sharing and enabled more developers to contribute to a project
-tags: programming
+tags: programming sdlc
 ---
 
 A four-year old Android app installed on thousands of transit buses needed some serious improvements to usability and reliability. The product team proposed a bold vision for improving the user experience for bus operators, but the development team was mired in a codebase that was hard to understand, difficult to change, and to which few could meaningfully contribute. By focusing on a few key elements of developer experience, we were able to make the code easier to understand and contribute to by every member of the development team. With everyone contributing, we were able to deliver on the vision to improve bus operators' experience with the app.
