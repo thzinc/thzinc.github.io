@@ -53,6 +53,7 @@ title: Me, online
 - Work stuff
   - [My resume](/resume)
   - [LinkedIn](https://www.linkedin.com/in/danielijames/)
+  - [Rocket Crew](https://rocketcrew.space/talents/profile/63bb1e80bf943c08d48cc32b)
   - [Slideshare](https://www.slideshare.net/DanielJames17)
 - Civic stuff
   - [Muckrock](https://www.muckrock.com/accounts/profile/thzinc/)
