@@ -1,6 +1,6 @@
 ---
 title: Manually calibrating the Sensiron SCD30 CO2 gas concentration sensor
-tags: electronics programming
+tags: electronics programming flipper_zero
 see_also:
   - title: go-sensors/rpi-sensironscd30-config on GitHub
     url: https://github.com/go-sensors/rpi-sensironscd30-config
