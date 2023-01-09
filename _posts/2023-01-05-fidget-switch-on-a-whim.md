@@ -1,5 +1,6 @@
 ---
 title: Fidget switch on a whim
+tags: 3d_printing
 see_also:
   - title: Magnetic fidget switch on Thingiverse
     url: https://www.thingiverse.com/thing:5768638
