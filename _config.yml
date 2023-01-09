@@ -21,6 +21,3 @@ defaults:
 plugins:
   - jekyll-sitemap
   - jekyll-feed
-collections:
-  projects:
-    output: true
