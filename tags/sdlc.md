@@ -1,4 +1,4 @@
 ---
-title: Software Development Lifecycle (SDLC)
+title: Software development lifecycle (SDLC)
 permalink: /tags/sdlc
 ---

@@ -2,6 +2,17 @@
 <html>
   {% include head.html %}
   <body class="h-entry">
+    <style type="text/css">
+      footer span a::before {
+        content: "⸱";
+        margin: 0 0.25rem;
+        color: var(--text-main);
+      }
+
+      footer span a:first-child::before {
+        content: "";
+      }
+    </style>
     <header>
       <a href="/" class="p-author">thzinc</a>
     </header>
@@ -41,7 +52,11 @@
         –
         <span>
           {% for tag in tags %}
-          <a href="/tags/{{tag}}">{{tag | replace: "_", " "}}</a>
+          <!--
+            {% assign tag_permalink = tag | prepend: '/tags/' %}
+            {% assign tag_page = site.pages | where: "permalink", tag_permalink | first %}
+          -->
+          <a href="{{tag_page.permalink}}">{{tag_page.title}}</a>
           {% endfor %}
         </span>
       </span>

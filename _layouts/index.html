@@ -52,10 +52,11 @@
         {% for tag in tags %}
         <!--
           {% assign slug = tag | first %}
-          {% assign label = slug | replace: "_", " " %}
+          {% assign tag_permalink = slug | prepend: '/tags/' %}
+          {% assign tag_page = site.pages | where: "permalink", tag_permalink | first %}
         -->
         <li>
-          <a href="/tags/{{slug}}">{{label}}</a>
+          <a href="{{tag_page.permalink}}">{{tag_page.title}}</a>
         </li>
         {% endfor %}
       </ul>

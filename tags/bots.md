@@ -1,4 +1,5 @@
 ---
+title: Bots
 permalink: /tags/bots
 ---
 

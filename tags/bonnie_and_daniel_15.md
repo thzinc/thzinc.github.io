@@ -1,5 +1,5 @@
 ---
-title: Bonnie and Daniel's 15 Anniversary
+title: Bonnie and Daniel's 15th anniversary
 permalink: /tags/bonnie_and_daniel_15
 ---
 
