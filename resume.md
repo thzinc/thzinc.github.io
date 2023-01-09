@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Resume of Daniel James
-redirect_from: "?q=resume"
 ---
 
 <html>
