@@ -8,7 +8,8 @@
       {{site.title}}
     {% endif %}
   {% endcapture %}
-  {% assign canonical_url = page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url %}
+  {% capture permalink %}{% if page.permalink %}{{page.permalink}}{% else %}{{page.url | replace:'index.html',''}}{% endif %}{% endcapture %}
+  {% assign canonical_url = permalink | prepend: site.baseurl | prepend: site.url %}
   {% capture description %}
     {% if page.description %}
       {{ page.description | strip_html }}

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Me, online
+permalink: /find-me
 ---
 
 <style type="text/css">

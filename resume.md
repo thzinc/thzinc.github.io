@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Resume of Daniel James
+permalink: /resume
 ---
 
 <html>
