@@ -77,7 +77,7 @@ With the case around the prototype board, it feels pretty reasonably sturdy and 
 [thzinc-devcontainer]: https://github.com/thzinc/flipperzero-firmware/tree/dev/.devcontainer
 [thzinc-vscode-plugins]: https://github.com/thzinc/flipperzero-firmware/tree/dev/.vscode
 [jolcese-flipperzero-firmware]: https://github.com/jolcese/flipperzero-firmware/tree/spectrum/applications/spectrum_analyzer
-[rougemaster-flipperzero-firmware]: https://github.com/RogueMaster/flipperzero-firmware-wPlugins/blob/unleashed/applications/clock_app/clock_app.c
+[rougemaster-flipperzero-firmware]: https://github.com/thzinc/flipperzero-firmware/blob/dev_unleashed/applications/clock_app/clock_app.c
 [wikipedia-i2c]: https://en.wikipedia.org/wiki/I%C2%B2C
 [ti-understanding-the-i2c-bus]: https://www.ti.com/lit/an/slva704/slva704.pdf
 [protoboards]: https://shop.flipperzero.one/collections/flipper-zero-accessories/products/proto-boards

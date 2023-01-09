@@ -9,7 +9,7 @@ see_also:
     url: https://twitter.com/NPS20180007Bot
 ---
 
-I wanted to build something small, fun, and socially-engaging. I have been following [Darius Kazemi](http://tinysubversions.com/) ([@TinySubversions](https://twitter.com/tinysubversions)) and the community of bot makers at [Botwiki](https://botwiki.org/) ([@Botwikidotorg](https://twitter.com/botwikidotorg)), and I decided a Twitter bot was the way to go. I have also been following the US Executive Order 13792 pretty closely. The order directs the US Department of Interior to review whether to downsize "certain national monuments" or sell their oil and mineral rights for profit. The Department has an open ["Opportunity for Public Comment."](https://www.regulations.gov/document?D=DOI-2017-0002-0001) I thought this would be a good chance to tinker with lightweight sentiment analysis of the public comments.
+I wanted to build something small, fun, and socially-engaging. I have been following [Darius Kazemi](http://tinysubversions.com/) ([@TinySubversions](https://twitter.com/tinysubversions)) and the community of bot makers at [Botwiki](https://botwiki.org/) ([@Botwikidotorg](https://twitter.com/botwikidotorg)), and I decided a Twitter bot was the way to go. I have also been following the US Executive Order 13792 pretty closely. The order directs the US Department of Interior to review whether to downsize "certain national monuments" or sell their oil and mineral rights for profit. The Department has an open ["Opportunity for Public Comment."](https://www.regulations.gov/document/DOI-2017-0002-0001) I thought this would be a good chance to tinker with lightweight sentiment analysis of the public comments.
 
 I needed a good place to host my small project, and Auth0's free [Webtask.io](https://webtask.io/) offering turned out to be a great fit! I didn't want to sacrifice my time on infrastructure and hosting when I wanted to focus on this bot idea. I got to attend Glenn Block's Auth0 Webtasks workshop at .NET Fringe this year, and he fired me up to do this.
 
@@ -48,7 +48,7 @@ There are four distinct parts to this webtask:
 - [Comment selector and formatter](https://github.com/thzinc/eo13792bot/blob/master/quoter/src/tweetUtils.js)
 - [Tweeter](https://github.com/thzinc/eo13792bot/blob/master/quoter/src/index.js)
 
-The Regulations.gov API client exports a function to get the latest comments for a given docket. ([DOI-2017-0002](https://www.regulations.gov/document?D=DOI-2017-0002-0001), in this case.) After testing requests against the API, it was necessary to add a timeout to `fetch`.
+The Regulations.gov API client exports a function to get the latest comments for a given docket. ([DOI-2017-0002](https://www.regulations.gov/document/DOI-2017-0002-0001), in this case.) After testing requests against the API, it was necessary to add a timeout to `fetch`.
 
 Source: [quoter/src/regulations-gov-api.js](https://github.com/thzinc/eo13792bot/blob/master/quoter/src/regulations-gov-api.js)
 

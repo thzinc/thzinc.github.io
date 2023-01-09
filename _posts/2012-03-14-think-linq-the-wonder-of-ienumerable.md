@@ -82,4 +82,4 @@ Look for more [Think LINQ][series] posts coming up!
 
 [docs-ienumerator]: https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerator-1
 [docs-enumerable]: https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable
-[series]: /think%20linq
+[series]: /Think%20LINQ/

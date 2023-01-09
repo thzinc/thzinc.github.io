@@ -24,7 +24,7 @@ I also made a simple frame to hold my CDC "COVID-19 Vaccination Record Card" abo
 
 ![Photo of 3D-printed frame holding a vaccination record card and an mRNA plaque][frame]
 
-[enamel-pin]: https://store.dftba.com/products/pro-vax-enamel-pin
+[enamel-pin]: https://mcelroymerch.com/products/pro-vax-enamel-pin
 [voyager]: https://en.wikipedia.org/wiki/Voyager_Golden_Record
 [temperature-knitting]: https://www.huffpost.com/archive/ca/entry/temperature-knitting-blankets-climate-change_ca_5e450c22c5b671eafe1ee092
 [screenshot]: /assets/mrna-vaccination-record-card-frame-screenshot.png
