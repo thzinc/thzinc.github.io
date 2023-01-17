@@ -12,6 +12,16 @@ see_also:
     url: https://www.thingiverse.com/thing:5415869
 ---
 
+## Updated January, 12, 2023
+
+If you're interested in running this software for your own Sensiron SCD30, I've [updated the application and packaged it as a FAP file][update] for easy installation.
+
+![Screenshot of the applications list with the CO2 Monitor application highlighted](/assets/updated-flipper-zero-co2-monitor-screenshot.png)
+
+## Original post
+
+[update]: {% link _posts/2023-01-12-updated-flipper-zero-co2-monitor.md %}
+
 Previously in [Prototyping a volatile organic compound (VOC) and CO2 monitor on the Flipper Zero][earlier-post]:
 
 > If the idea proved feasible, I’d buy a “proper” CO2 sensor like the [Sensiron SCD-30][adafruit-scd30].
