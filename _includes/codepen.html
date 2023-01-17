@@ -1,14 +1,21 @@
+{% capture prefill %}{% include codepen_prefill_unit_tests.json %}{% endcapture
+%}
 <div
   class="codepen"
   data-height="{{include.height | default: 400}}"
   data-default-tab="{{include.default_tab | default: 'js,result'}}"
   data-editable="true"
   data-user="{{include.user | default: 'thzinc'}}"
-  data-prefill='{"scripts":["https://cdnjs.cloudflare.com/ajax/libs/mocha/3.1.0/mocha.min.js","https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.min.js"],"stylesheets":["https://cdnjs.cloudflare.com/ajax/libs/mocha/3.1.0/mocha.min.css"]}'
+  data-prefill="{{include.prefill | default: prefill | escape }}"
 >
   <pre data-lang="{{include.markup_type | default: 'haml'}}">
-{{include.markup}}</pre
+{{include.markup | escape}}</pre
   >
-  <pre data-lang="{{include.code_type | default: 'js'}}">{{include.code}}</pre>
+  <pre data-lang="{{include.styles_type | default: 'css'}}">
+{{include.styles | escape}}</pre
+  >
+  <pre data-lang="{{include.code_type | default: 'js'}}">
+{{include.code | escape}}</pre
+  >
 </div>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
