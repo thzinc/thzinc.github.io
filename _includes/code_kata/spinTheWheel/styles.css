@@ -1,0 +1,96 @@
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+  font-family: cursive;
+}
+
+input[type="number"] {
+  display: block;
+  font-size: 1.5rem;
+  width: 5rem;
+}
+
+.banker {
+  grid-area: banker;
+}
+
+.balance {
+  grid-area: balance;
+}
+
+.standing {
+  grid-area: standing;
+}
+
+.balance figure,
+.standing figure {
+  font-size: 2.5rem;
+  font-family: monospace;
+}
+
+.bet {
+  grid-area: bet;
+}
+
+.wheel {
+  grid-area: wheel;
+  text-align: center;
+}
+
+.wheel .icon {
+  font-size: 10rem;
+  text-align: center;
+}
+
+.wheel .icon.spinning {
+  animation-name: spin;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.outcome {
+  grid-area: outcome;
+  box-sizing: content-box;
+  border-radius: 5px;
+  padding: 1rem;
+  transition-property: background-color;
+  transition-duration: 500ms;
+  transition-delay: 0;
+}
+
+.outcome.win {
+  background-color: green;
+}
+.outcome.draw {
+  background-color: gray;
+}
+.outcome.lose {
+  background-color: red;
+}
+
+.game {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 30% auto 20% auto 20% auto 30%;
+  grid-template-rows: 5rem auto auto;
+  grid-template-areas:
+    ". . header header header . banker"
+    "bet . wheel wheel wheel . banker"
+    "balance . outcome outcome outcome . standing";
+}
