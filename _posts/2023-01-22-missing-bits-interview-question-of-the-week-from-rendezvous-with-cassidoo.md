@@ -4,8 +4,8 @@ tags: programming code_kata
 see_also:
   - title: "rendezvous with cassidoo #284"
     url: https://buttondown.email/cassidoo/archive/the-best-prophet-of-the-future-is-the-past-lord/
-# - title: Social media post
-#   url: https://onewilshire.la/@thzinc/TBD
+  - title: Social media post
+    url: https://onewilshire.la/@thzinc/109737295624159813
 ---
 
 Nice, bite-sized algorithm question.
