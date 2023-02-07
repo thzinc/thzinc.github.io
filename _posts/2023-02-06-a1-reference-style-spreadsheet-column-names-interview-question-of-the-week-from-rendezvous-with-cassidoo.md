@@ -5,7 +5,7 @@ see_also:
   - title: "rendezvous with cassidoo #286"
     url: https://buttondown.email/cassidoo/archive/talent-without-working-hard-is-nothing-cristiano/
   - title: Social media post
-    url:
+    url: https://onewilshire.la/@thzinc/109822377750062734
 ---
 
 Nice little brain teaser involving number base conversion 😄
