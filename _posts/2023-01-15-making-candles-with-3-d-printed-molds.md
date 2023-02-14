@@ -25,7 +25,7 @@ I needed a few supplies, so I went to my local craft store to see what candle ma
 
 ![Photo of double boiler on stove; the inner pot already has candle wax melting in it](/assets/making-candles-with-3-d-printed-molds-double-boiler.jpg)
 
-I crimped a base on to the end of a length of wick and set it up in the mold. After a few minutes of slowly melting the spent tea lights, I used a pair of tweezers to pluck out the old wicks and bases from the liquid. I ended up using the tweezers to hold the wick over the center of the mold as a poured the wax.
+I crimped a base on to the end of a length of wick and set it up in the mold. After a few minutes of slowly melting the spent tea lights, I used a pair of tweezers to pluck out the old wicks and bases from the liquid. I ended up using the tweezers to hold the wick over the center of the mold as I poured the wax.
 
 ![Photo of mold containing translucent wax; a pair of tweezers suspends a wick and metal base in the middle of the molten wax](/assets/making-candles-with-3-d-printed-molds-wax-poured.jpg)
 
