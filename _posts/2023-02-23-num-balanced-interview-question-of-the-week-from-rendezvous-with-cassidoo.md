@@ -5,7 +5,7 @@ see_also:
   - title: "rendezvous with cassidoo #288"
     url: https://buttondown.email/cassidoo/archive/to-think-that-everybodys-like-you-is-silly/
   - title: Social media post
-    url:
+    url: https://onewilshire.la/@thzinc/109917828081622659
 ---
 
 This one was fun to think about the minimal amount of processing needed to produce the result. In this case, the question is carefully worded to allow naive processing that's really fast.
