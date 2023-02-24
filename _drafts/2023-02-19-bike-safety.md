@@ -1,0 +1,32 @@
+---
+title: Bike safety - TBD
+tags:
+---
+
+- why?
+  - I love biking
+  - But infrastructure is not great
+  - Riding on the road can be fraught, but I've managed to ride safely with a combo of gear and behavior
+- Gear
+  - Bike
+    - Front-facing light
+    - Rear blinker
+    - Frame light
+  - Helmet
+    - Wear a helmet
+      - Protects you mostly from your own mistakes
+      - Better than nothing in other situations
+    - Helmet light
+  - High-viz shirt – Orange or yellow
+- Behavior
+  - Take the lane
+    - Ride center-of-lane
+    - Ride in such an obvious place that a driver cannot plausibly say they didn't see you
+    - Ride in such a way that you will cause substantial damage to a driver who hits you
+  - Be annoying; take up space
+  - Hand signals
+  - Solidarity with pedestrians
+    - You're a quick dismount away from being a pedestrian yourself
+    - Bikers and pedestrians are usually at a disadvantage to drivers
+    - If you're at a crossing/intersection, use your position in the road to increase pedestrians' visibility to drivers
+      - e.g., at left turns when a ped is crossing, wait in the intersection until the ped is out of the crosswalk
