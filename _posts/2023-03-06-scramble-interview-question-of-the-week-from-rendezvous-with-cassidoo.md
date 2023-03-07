@@ -5,7 +5,7 @@ see_also:
   - title: "rendezvous with cassidoo #290"
     url: https://buttondown.email/cassidoo/archive/you-should-celebrate-who-you-are-eva-mendes/
   - title: Social media post
-    url:
+    url: https://onewilshire.la/@thzinc/109980712185344430
 ---
 
 The tests were harder than the implementation 🥴
