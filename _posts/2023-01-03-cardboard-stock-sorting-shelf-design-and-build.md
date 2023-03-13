@@ -1,5 +1,6 @@
 ---
 title: Cardboard stock sorting shelf – design and build
+tags: woodworking
 ---
 
 I was in the mood to build something with my hands, and I have been working on getting my garage organized into a functional space to do all sorts of maker-y things. I have a strong tendency to "collect" various materials that I think will be useful eventually. In order to keep my hoarder tendencies in check, I work very hard to cull my collections and make sure the material I keep is in usable condition and easy to grab and use.
