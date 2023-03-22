@@ -1,4 +1,16 @@
+{%- assign categories = post.categories | sort -%}
 <article>
-  <h2><a href="{{ post.url }}">{{ post.title | escape_once }}</a></h2>
+  {%- for category in categories -%}
+    <span class="category">
+      <a href="/{{category}}/">{{ category }}</a>
+      {%- if post.tags contains 'project_update' -%}
+        &nbsp;
+        <span class="project_update" title="Project Update">🗒️</span>
+      {%- endif -%}
+    </span>
+  {%- endfor -%}
+  <h2>
+    <a href="{{ post.url }}">{{ post.title | escape_once }}</a>
+  </h2>
   <p>{{ post.excerpt | markdownify | strip_html | truncatewords: 50 }}</p>
 </article>

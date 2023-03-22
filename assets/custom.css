@@ -1,0 +1,11 @@
+.category {
+  float: right;
+  background-color: var(--background-alt);
+  padding: 0.25rem;
+  margin: 0 1rem;
+  font-size: 0.8rem;
+}
+
+.category a {
+  color: var(--text-muted);
+}
