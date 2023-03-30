@@ -5,7 +5,7 @@ see_also:
   - title: "rendezvous with cassidoo #293"
     url: https://buttondown.email/cassidoo/archive/3709/
   - title: Social media post
-    url:
+    url: https://botsin.space/@thzinc/110110144506259430
 ---
 
 I decided to tinker with ChatGPT while working on an answer to this week's question. While each implementation was passable and useful as a starting point, it became almost immediately clear that ChatGPT's contextual understanding of its own output is fairly limited. Iterating with ChatGPT on its own technical output is not terribly reliable. After ten attempts at implementing iterating on `rollDice`, I decided to take a break and share the results here.
