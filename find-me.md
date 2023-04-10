@@ -61,6 +61,7 @@ permalink: /find-me
 - Forums
   - [Adafruit forums](https://forums.adafruit.com/memberlist.php?mode=viewprofile&u=478128) (login required)
   - [JoCoCruise](https://forums.jococruise.com/u/thzinc/summary)
+  - [Reddit](https://www.reddit.com/user/realthzinc) (Note, I'm `u/realthzinc`, not whomever `u/thzinc` is 😐)
   - [Sierra Wireless](https://forum.sierrawireless.com/u/thzinc/summary)
   - [Smartbear](https://community.smartbear.com/t5/user/viewprofilepage/user-id/15125)
   - [Techdirt](https://www.techdirt.com/user/thzinc/)
