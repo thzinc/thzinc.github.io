@@ -10,7 +10,7 @@ see_also:
 
 The simple case wasn't hard, but the low-memory iterator pattern was a fun, self-imposed challenge.
 
-> ## Interview question of the week
+> ## [Interview question of the week](https://buttondown.email/cassidoo/archive/5528/)
 >
 > This week’s question:
 > **Given a non-empty array containing only non-negative integers, return the list with trailing and leading zeroes removed.**
