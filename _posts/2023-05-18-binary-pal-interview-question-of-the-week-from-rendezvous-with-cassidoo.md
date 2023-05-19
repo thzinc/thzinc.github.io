@@ -82,3 +82,28 @@ Seems like bit shifting is faster by 7-8 times running in a browser on my comput
 > - bit shift-based implementation: 109 ms over 1000000 invocations
 
 My bit shifting implementation is definitely not as readable or as easy to translate back to the original prompt, but that's usually the tradeoff when optimizing code.
+
+### Update
+
+A [colleague of mine][bondor] pointed out that the JavaScript engine's just-in-time compilation cache may be artificially inflating the execution time of the first test. To keep things simple, when I repeat the test four times, I get slightly improved results on the string-based implementation, so now it's only about 6 times slower than bit shifting instead of 7-8 times slower.
+
+Thanks [Bondor]!
+
+{% capture performanceWithJitCacheWarming %}
+{% include /code_kata/binaryPal/performance-with-jit-cache-warming.js %}
+
+// Glue...
+function getStringImpl(){
+{% include /code_kata/binaryPal/stringSolution.js %}
+return binaryPal;}
+function getBitShiftImpl(){
+{% include /code_kata/binaryPal/bitShiftSolution.js %}
+return binaryPal;}
+{% endcapture %}
+{% capture markup%}
+#mocha
+#results
+{% endcapture %}
+{%- include codepen.html height=800 markup_type="haml" markup=markup code_type="js" code=performanceWithJitCacheWarming -%}
+
+[bondor]: https://www.linkedin.com/in/stephenbondor/
