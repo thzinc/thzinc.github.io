@@ -5,7 +5,7 @@ see_also:
   - title: "rendezvous with cassidoo #300"
     url: https://buttondown.email/cassidoo/archive/1545/
   - title: Social media post
-    url:
+    url: https://onewilshire.la/@thzinc/110393342081189088
 ---
 
 What's faster: a typical JavaScript implementation of `.toString()` and some basic string manipulation or clever bit shifting? (TL;DR: It's bit shifting, but it's uglier code.)
