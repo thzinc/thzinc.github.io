@@ -5,7 +5,7 @@ see_also:
   - title: "rendezvous with cassidoo #303"
     url: https://buttondown.email/cassidoo/archive/8309/
   - title: Social media post
-    url:
+    url: https://botsin.space/@thzinc/110490151742748470
 ---
 
 How can I write a piece of code that can be written quickly and trivially understood? I think it's mostly good variable names in this case. (And I handle infinite pie!)
