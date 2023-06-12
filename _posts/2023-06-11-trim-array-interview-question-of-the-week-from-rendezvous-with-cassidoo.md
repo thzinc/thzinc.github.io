@@ -43,7 +43,7 @@ mocha.run();
 {% endcapture %}
 {%- include codepen.html markup_type="haml" markup="#mocha" code_type="js" code=solution -%}
 
-Now, let's deal with a generator. To deal with the `start` argument, we'll iterate that many times over the generator. Then to deal with the `end` argument, we'll need to keep a queue of items that is `end`-sized and only `yield` results that exceed the size of the queue. I'm pretty sure I can use [`Array#splice()`][mdn-splice] to do this one one nice function call.
+Now, let's deal with a generator. To deal with the `start` argument, we'll iterate that many times over the generator. Then to deal with the `end` argument, we'll need to keep a queue of items that is `end`-sized and only `yield` results that exceed the size of the queue. I'm pretty sure I can use [`Array#splice()`][mdn-splice] to do this with one nice function call.
 
 [mdn-splice]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 
