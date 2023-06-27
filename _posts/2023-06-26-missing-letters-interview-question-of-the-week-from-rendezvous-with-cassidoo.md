@@ -5,7 +5,7 @@ see_also:
   - title: "rendezvous with cassidoo #306"
     url: https://buttondown.email/cassidoo/archive/change-is-a-stranger-you-have-yet-to-know-george/
   - title: Social media post
-    url:
+    url: https://botsin.space/@thzinc/110613760570820705
 ---
 
 Simple, no-frills solution to this week's question.
