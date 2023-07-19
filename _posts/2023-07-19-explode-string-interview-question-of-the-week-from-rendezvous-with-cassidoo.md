@@ -15,14 +15,14 @@ I'm doing some work in Elixir now, so I figure I'd take a shot at this week's qu
 > ## [Interview question of the week](https://buttondown.email/cassidoo/archive/forgiveness-is-giving-up-the-hope-that-the-past/)
 >
 > This week's question:
->  **Given a string, separate it into groups of non-space equal characters, sorted.** 
+> **Given a string, separate it into groups of non-space equal characters, sorted.**
 >
-> Example: 
+> Example:
 >
 > ```
 > > explodeString('Ahh, abracadabra!')
 > > ['!',',','A','aaaaa','bb','c','d','hh','rr']
-> 
+>
 > > explodeString('\o/\o/')
 > > ['//','\\','oo']
 > ```
@@ -42,7 +42,8 @@ defmodule Example do
                 [c | a]
             end)
         end)
+        |> Map.values()
+        |> Enum.sort()
     end
 end
 ```
-
