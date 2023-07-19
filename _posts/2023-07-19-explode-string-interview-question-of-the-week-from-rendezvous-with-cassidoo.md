@@ -5,7 +5,7 @@ see_also:
   - title: "rendezvous with cassidoo #309"
     url: https://buttondown.email/cassidoo/archive/forgiveness-is-giving-up-the-hope-that-the-past/
   - title: Social media post
-    url:
+    url: https://botsin.space/@thzinc/110742408259448419
 ---
 
 I'm doing some work in Elixir now, so I figure I'd take a shot at this week's question with Elixir.
