@@ -5,7 +5,7 @@ see_also:
   - title: "rendezvous with cassidoo #310"
     url: https://buttondown.email/cassidoo/archive/the-thermometer-of-success-is-merely-the-jealousy/
   - title: Social media post
-    url:
+    url: https://botsin.space/@thzinc/110767701234608776
 ---
 
 If I'm going to use Elixir, I might as well make use of its pattern matching!
