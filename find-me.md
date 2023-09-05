@@ -14,7 +14,7 @@ permalink: /find-me
 <img src="/assets/banner.png" alt="Diagram of daniel@thzinc.com" class="invertable">
 
 - Social media
-  - [Twitter](https://twitter.com/thzinc)
+  - Formerly @thzinc on Twitter
   - [Instagram](https://www.instagram.com/thzinc/)
   - [Facebook](https://www.facebook.com/thzinc)
   - [YouTube](https://www.youtube.com/channel/UC54j-qqvntPcLXYSW7Rxcfg)
