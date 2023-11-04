@@ -34,7 +34,7 @@ From there, I made [a slightly cleaner copy][fork] of the "planets" demo, gave i
 
 ![Selfie of me holding my badge showing my customized avatar](/assets/supercon2023/selfie_with_badge.jpg)
 
-[fork]: https://github.com/thzinc/Vectorscope
+[fork]: https://github.com/thzinc/Vectorscope/tree/personalization
 [gc9a01_mpy-howto]: https://github.com/russhughes/gc9a01_mpy/blob/23084516b0a66d4970088527d914ded673d6e383/utils/howto-convert-to-jpg#L11-L12
 [gc9a01_mpy]: https://github.com/russhughes/gc9a01_mpy
 [supercon2023]: https://hackaday.io/superconference/
