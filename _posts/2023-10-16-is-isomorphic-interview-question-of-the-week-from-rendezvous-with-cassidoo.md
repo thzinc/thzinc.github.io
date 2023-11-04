@@ -5,7 +5,7 @@ see_also:
   - title: "rendezvous with cassidoo #322"
     url: https://buttondown.email/cassidoo/archive/no-matter-what-people-tell-you-words-and-ideas/
   - title: Social media post
-    url:
+    url: https://botsin.space/@thzinc/111245413237163791
 ---
 
 Wow, I haven't done one of these for a few months. Let's see how this goes!
