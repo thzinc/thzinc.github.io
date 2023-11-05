@@ -1,9 +1,11 @@
 ---
 title: Hackaday Superconference 2023 – Day 1 – How do I JPEG?
-tags:
+tags: programming electronics
 see_also:
   - title: "thzinc/Vectorscope – My fork of the badge's code"
     url: https://github.com/thzinc/Vectorscope
+redirect_from:
+  - 2023/11/03/hackaday_superconference_2023_day_1_how_do_i_jpeg.html
 ---
 
 First day of [Hackaday Superconference 2023][supercon2023] down and I've had some time at home to tinker with the code on this year's badge. The badge itself has some nifty analog-ish oscilloscope-like features that I'm sure I'd understand and enjoy more if I knew more about electrical engineering. However, I do know plenty to futz around with the cool round TFT display and buttons!
