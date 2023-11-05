@@ -10,7 +10,7 @@ Second day of [Hackaday Superconference 2023][supercon2023] was a bunch of fun. 
 
 Today's goal was to get [Leekspin] on my badge. At first, I tried to use the [gc9a01_mpy] `bitmap` feature to run a series of sprites, but making it full-frame just requires too much memory. In the end, I resorted to showing a series of JPEGs as fast as can be rendered, which is Good Enough™.
 
-<video alt="Video the badge showing a choppy animation of the 'Leekspin' meme: an anime girl twirling a leek while smiling" controls>
+<video alt="Video of the badge showing a choppy animation of the 'Leekspin' meme: an anime girl twirling a leek while smiling" controls>
   <source src="/assets/supercon2023/leekspin-on-badge.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
