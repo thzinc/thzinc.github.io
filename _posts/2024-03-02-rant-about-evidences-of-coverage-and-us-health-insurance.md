@@ -22,6 +22,10 @@ According to the information I've received about why I still do not have EOCs av
 
 I know I'm in the minority in asking for EOCs during open enrollment. Every HR team I've interacted with for the last 20 years has questioned my request for these documents. Most employees making health insurance decisions don't know these documents exist or why they're important to know about. I'm so frustrated with health care in this country. It's so bad, it's so expensive, and it enriches a small few at the direct detriment of millions of people. 🤬
 
+## Update as of March 4, 2024
+
+My over-the-weekend request finally resulted in the delivery of Evidences of Coverage. Now to review four ~120 page insurance documents...
+
 [eoc]: https://www.insurance.ca.gov/01-consumers/110-health/30-have/understand-policy.cfm
 [sbc]: https://www.insurance.ca.gov/0250-insurers/0300-insurers/0100-applications/hpab/SBC-Translated-Templates.cfm
 [hsc1363]: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=1363.
