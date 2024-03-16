@@ -1,6 +1,6 @@
 ---
 title: I tried to make a watering device for my cat
-tags: electronics javascript programming
+tags: electronics javascript programming raspberry_pi
 see_also:
   - title: thzinc/cat-waterer on GitHub
     url: https://github.com/thzinc/cat-waterer

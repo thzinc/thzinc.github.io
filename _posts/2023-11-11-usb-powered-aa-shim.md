@@ -1,6 +1,6 @@
 ---
 title: USB-powered AA shim
-tags: electronics 3d_printing
+tags: electronics 3d_printing microcontrollers
 see_also:
   - title: USB AA battery shim on Thingiverse
     url: https://www.thingiverse.com/thing:6309864

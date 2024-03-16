@@ -1,6 +1,6 @@
 ---
 title: Hackaday Superconference 2023 – Day 1 – How do I JPEG?
-tags: programming electronics
+tags: programming electronics microcontrollers
 see_also:
   - title: "thzinc/Vectorscope – My fork of the badge's code"
     url: https://github.com/thzinc/Vectorscope

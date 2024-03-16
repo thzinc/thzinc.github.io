@@ -1,6 +1,6 @@
 ---
 title: MQTT, Mono, and ARM
-tags: dotnet programming
+tags: dotnet programming raspberry_pi
 see_also:
   - title: thzinc-icebox/mqtt-demo-client on GitHub
     url: https://github.com/thzinc-icebox/mqtt-demo-client

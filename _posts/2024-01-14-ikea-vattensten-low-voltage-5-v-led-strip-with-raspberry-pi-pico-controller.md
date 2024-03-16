@@ -1,9 +1,8 @@
 ---
 title: IKEA VATTENSTEN low voltage 5V LED strip with Raspberry Pi Pico controller
-tags:
-  - electronics
-  - programming
+tags: electronics programming microcontrollers
 ---
+
 I recently picked up a few [VATTENSTEN low voltage 5V LED strips](https://www.ikea.com/us/en/p/vattensten-led-light-strip-multicolor-50530592/) from IKEA because I figured they'd be easier to integrate into a USB-powered Raspberry Pi or Raspberry Pi Pico project. I was right!
 
 ![Photo of lights with assembled Pico carrier board](/assets/carrier-board-for-vattensten-led-strip.jpg)
@@ -38,7 +37,7 @@ while True:
         [0xFFFF, 0xFFFF, 0xFFFF], # White
         [0x1FFF, 0x1FFF, 0x1FFF], # Dim white
     ]
-    
+
     for r, g, b in colors:
         red_led.duty_cycle = r
         blue_led.duty_cycle = g

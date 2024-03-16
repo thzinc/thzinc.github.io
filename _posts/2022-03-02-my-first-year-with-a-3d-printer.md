@@ -1,6 +1,6 @@
 ---
 title: My first year with a 3D printer
-tags: 3d_printing
+tags: 3d_printing raspberry_pi
 ---
 
 It's been a full year since I bought my [Sovol SV02][sovolsv02] printer. I'm sitting at my desk with at least a dozen printed objects around me: fidget toys, [small art pieces][frame], organization trays, and [electronics enclosures][multimeter]. The process of learning about modeling, manufacturing, and materials science has been fascinating (and occasionally frustrating).
