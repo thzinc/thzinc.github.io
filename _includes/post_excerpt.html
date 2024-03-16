@@ -12,5 +12,5 @@
   <h2>
     <a href="{{ post.url }}">{{ post.title | escape_once }}</a>
   </h2>
-  <p>{{ post.excerpt | markdownify | strip_html | truncatewords: 50 }}</p>
+  <p>{{ post.excerpt | markdownify | strip_html | truncatewords: 50, "…" }}</p>
 </article>
