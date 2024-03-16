@@ -1,8 +1,6 @@
 ---
 title: We got our shit together just in time to run out of money
-tags:
-  - sdlc
-  - programming
+tags: sdlc programming
 excerpt: |
   The relationship between the engineering team and the product team had become deeply exclusive and bordered on adversarial. Engineers felt like the product was being developed behind closed doors without regard for feasibility or clearly-communicated timelines, and product managers felt like engineers were sandbagging and resisting change necessary to reach customers.
 ---

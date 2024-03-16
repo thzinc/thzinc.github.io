@@ -1,7 +1,6 @@
 ---
 title: Allen wrench holder
-tags:
-  - 3d_printing
+tags: 3d_printing
 see_also:
   - title: Allen wrench holder on Thingiverse
     url: https://www.thingiverse.com/thing:6534400

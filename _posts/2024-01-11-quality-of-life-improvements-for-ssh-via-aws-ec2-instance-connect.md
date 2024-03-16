@@ -1,7 +1,6 @@
 ---
 title: Quality of life improvements for SSH via AWS EC2 Instance Connect
-tags:
-  - programming
+tags: programming
 ---
 
 While doing some work in AWS with EC2 instances through Systems Manager, I needed to be able to connect via SSH in a reasonable way. The [AWS docs for Session Manager](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-getting-started-enable-ssh-connections.html) show off SSH's `ProxyCommand`, but I also needed to use [EC2 Instance Connect to send my public key](https://docs.aws.amazon.com/cli/latest/reference/ec2-instance-connect/send-ssh-public-key.html) ahead of trying to connect, so I wrote a small script to combine the two operations.

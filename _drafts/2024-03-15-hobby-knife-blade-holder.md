@@ -1,7 +1,6 @@
 ---
 title: Hobby knife blade holder
-tags:
-  - 3d_printing
+tags: 3d_printing
 see_also:
   - title: Hobby knife blade holder on Thingiverse
     url: https://www.thingiverse.com/thing:6534444
