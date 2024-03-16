@@ -1,6 +1,7 @@
 ---
 title: Bonnie and Daniel's 15th anniversary
 permalink: /tags/bonnie_and_daniel_15
+hide_related_tags: true
 ---
 
 We're raising money for [World Central Kitchen][wckitchen] and [Equality Texas][equalitytexas]!
