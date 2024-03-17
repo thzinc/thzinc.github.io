@@ -1,6 +1,7 @@
 ---
 title: Flipper Zero
 permalink: /tags/flipper_zero
+show_images: true
 ---
 
 The [Flipper Zero][flipper-zero] is an awesome electronic multi-tool that is fun to hack on and make things with.
