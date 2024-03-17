@@ -18,7 +18,7 @@
         <section>{{content}}</section>
       {% endif %}
       {% for post in newest_posts %}
-        {% include post_excerpt.html %}
+        {%- include post_excerpt.html show_images=page.show_images -%}
       {% endfor %}
 
       {% unless page.hide_related_tags %}
@@ -46,7 +46,7 @@
       {% endunless %}
 
       {% for post in older_posts %}
-        {% include post_excerpt.html %}
+        {%- include post_excerpt.html show_images=page.show_images -%}
       {% endfor %}
     </main>
     <footer>

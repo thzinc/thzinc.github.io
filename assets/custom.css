@@ -9,3 +9,7 @@
 .category a {
   color: var(--text-muted);
 }
+
+.excerpt img {
+  max-height: 5rem;
+}
