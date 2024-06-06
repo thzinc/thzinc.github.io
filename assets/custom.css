@@ -13,3 +13,9 @@
 .excerpt img {
   max-height: 5rem;
 }
+
+@media (prefers-color-scheme: dark) {
+  .invertable {
+    filter: invert(1);
+  }
+}
