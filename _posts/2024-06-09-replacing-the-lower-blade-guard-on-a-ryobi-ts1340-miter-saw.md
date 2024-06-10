@@ -53,7 +53,7 @@ Once the new pivot was drilled, I took a hacksaw to the excess length to ensure 
 
 ## Summary
 
-The new guard is in place and functions wonderfully. I can't wait to start working on my [Corsi-Rosenthal filter box][] for the workshop!
+The new guard is in place and functions wonderfully. I can't wait to start working on my [Corsi-Rosenthal filter box][cr-box] for the workshop!
 
 <video alt="Video of me demonstrating the movement of the blade guard as a lower the saw into a cutting position" controls>
   <source src="/assets/ryobi-ts1340-blade-guard/blade-guard-demo.mp4" type="video/mp4">
@@ -63,3 +63,5 @@ The new guard is in place and functions wonderfully. I can't wait to start worki
 ![Photo of saw with new blade guard fitted](/assets/ryobi-ts1340-blade-guard/finished-lower-guard-installation.jpg)
 
 [moco27]: https://www.lumberjocks.com/threads/fixing-my-obsolete-ryobi-miter-saw-blade-guard.351437/
+
+[cr-box]: {% post_url 2024-06-05-designing-a-corsi-rosenthal-air-filter-box-for-my-garage-workshop %}
