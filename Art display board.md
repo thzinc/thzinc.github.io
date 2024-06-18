@@ -3,6 +3,7 @@ layout: category
 title: Art display board
 sort: ascending
 permalink: /Art display board/
+show_images: true
 ---
 
 Completed project to design and build a wall hanging to display my collection of art postcards.
