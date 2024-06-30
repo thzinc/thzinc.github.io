@@ -27,17 +27,17 @@ I knew that the fan motor required 24V DC and the QT Py microcontroller needed 5
 
 I connected the motor and the buck converter to a power source, connected the motor's PWM pin to V+ in order to instruct the motor to spin at top speed. Everything was powered and working as expected!
 
-![Block diagram of power source directly connected to both motor and buck converter, emphasizing expected flow of electricity solely from the power source feeding to the motor and buck converter]()
+![Block diagram of power source directly connected to both motor and buck converter, emphasizing expected flow of electricity solely from the power source feeding to the motor and buck converter](/assets/dumbing-down-air-purifier/block-diagram-naive-happy-path.png)
 
 That is until I removed power from the PWM pin.
 
 Since the motor's spindle has inertia, as soon as the motor was no longer consuming electricity to turn the spindle, it acted as a generator feeding electricity into the same circuit. I assume that the motor probably wasn't generating _more_ than 24V of its own, but I did see my voltmeter top out around 32V total. Since the power source was still supplying its own 24V into the circuit, the motor added at least 8V for some fraction of a second. And since the buck converter was only rated for a max of 24V, it popped and released its [magic smoke][magic-smoke].
 
-![Block diagram of motor backfeeding electricity into same circuit, showing the buck converter failing under excess current]()
+![Block diagram of motor backfeeding electricity into same circuit, showing the buck converter failing under excess current](/assets/dumbing-down-air-purifier/block-diagram-backfeeding.png)
 
-At first, I thought this might be [flyback], which is a common electrical problem solved by putting a diode across the inductive load's positive and negative terminals. However, the description didn't quite fit and I actually think this was a case of proper [backfeeding], which is solved by putting a diode between the power source and the inductive load. The other thing I learned is that some diodes are "slow" (act in milliseconds) and some are "fast" (act in nanoseconds). When I reset my circuit and tested with a "slow" 1N4007 diode to prevent backfeeding, I still saw a small, short increase on my voltmeter when the motor was spinning down. A [Schottky diode][schottky] is a "fast" diode that's more typically used for this purpose and is far better at preventing backfeeding. Fortunately, I had exactly one 1N5817 on hand to use and it did exactly what I'd hoped for. I did still keep a 1N4007 flyback diode in place out of superstition.
+At first, I thought this might be [flyback], which is a common electrical problem solved by putting a diode across the inductive load's positive and negative terminals. However, the description didn't quite fit and I actually think this was a case of proper [backfeeding], which is solved by putting a diode between the power source and the inductive load. The other thing I learned is that some diodes are "slow" (act in milliseconds) and some are "fast" (act in nanoseconds). When I reset my circuit and tested with a "slow" 1N4007 diode to prevent backfeeding, I still saw a small, short increase on my voltmeter when the motor was spinning down. A [Schottky diode][schottky] is a "fast" diode that's more typically used for this purpose and is far better at preventing backfeeding. Fortunately, I had exactly one 1N5817 on hand to use and it did exactly what I'd hoped for. (I did still keep a 1N4007 flyback diode in place out of superstition.)
 
-![Block diagram of circuit with Schottky diode between positive power supply and positive motor terminals, and with a flyback diode between positive and negative motor terminals]()
+![Block diagram of circuit with Schottky diode between positive power supply and positive motor terminals](/assets/dumbing-down-air-purifier/block-diagram-happier-path.png)
 
 ## Light CircuitPython development
 
@@ -55,11 +55,13 @@ With a working microcontroller, I was able to hook it up to the air purifier wit
 
 After breadboarding the circuit, I grabbed a [perma-proto] breadboard and spent some time carefully bending solid core wire to route power and signals around the board. In this layout, I tried to keep the motor's power isolated from the "clean" power supply using the Schottky diode. I had some nice screw terminals that I salvaged from defunct relay assemblies to hook up the power supply IN and motor OUT lines, so installing or removing the board from the unit is easy and nondestructive. I also used headers to mount the microcontroller and buck converter to the board for when I eventually salvage them from this application.
 
-![Annotated photo of completed circuit board]()
+![Annotated photo of completed circuit board](/assets/dumbing-down-air-purifier/annotated-circuit-board.jpg)
 
 ## Next steps
 
 I'm waiting on a delivery of a new Mean Well LRS-35-24 AC-to-DC power converter that should comfortably fit inside the unit. There's a switch in the unit that's used to cut power when the filter panel is removed, so I'll ensure that's wired in appropriately, and then I'll route cables around to find a home for the circuit board. I'll pick out a switch from my collection of components and find a clever place to mount it to control the fan speed, and then I should have a much less "smart" but very functional air purifier!
+
+![Manipulated photo of an anthropomorphized air purifier with the 😵‍💫 emoji](/assets/dumbing-down-air-purifier/dumber-air-filter.png)
 
 [levoit]: https://levoit.com/products/lv-pur131s-wifi-air-purifier
 [hepa]: https://en.wikipedia.org/wiki/HEPA
