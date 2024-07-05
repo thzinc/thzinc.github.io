@@ -1,5 +1,6 @@
-{% capture prefill %}{% include codepen_prefill_unit_tests.json %}{% endcapture
-%}
+{%- capture prefill -%}
+  {% include codepen_prefill_unit_tests.json %}
+{%- endcapture -%}
 <div
   class="codepen"
   data-height="{{include.height | default: 400}}"

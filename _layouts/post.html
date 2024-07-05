@@ -11,6 +11,7 @@
 
       footer span a:first-child::before {
         content: "";
+        margin: 0;
       }
     </style>
     <header>
@@ -21,48 +22,48 @@
         <h1 class="p-name">{{page.title}}</h1>
         {{content}}
       </article>
-      {% unless page.see_also == null or page.see_also.size == 0 %}
-      <section>
-        <h1>See also</h1>
-        <ul>
-          {% for other in page.see_also %}
-          <li>
-            <a href="{{other.url}}">{{other.title}}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </section>
-      {% endunless %}
+      {%- unless page.see_also == null or page.see_also.size == 0 -%}
+        <section>
+          <h1>See also</h1>
+          <ul>
+            {%- for other in page.see_also -%}
+              <li>
+                <a href="{{other.url}}">{{other.title}}</a>
+              </li>
+            {%- endfor -%}
+          </ul>
+        </section>
+      {%- endunless -%}
     </main>
     <footer>
       <a href="/">Home</a>
-      {% unless page.categories == null or page.categories.size == 0 %}
-      <span>
-        <!--{% assign categories = page.categories | sort %}-->
-        –
+      {%- unless page.categories == null or page.categories.size == 0 -%}
+        {%- assign categories = page.categories | sort -%}
         <span>
-          {% for category in categories %}
-          <a href="/{{category}}/">{{category}}</a>
-          {% endfor %}
+          –
+          <span>
+            {%- for category in categories -%}
+              <a href="/{{category}}/">{{category}}</a>
+            {%- endfor -%}
+          </span>
         </span>
-      </span>
-      {% endunless %} {% unless page.tags == null or page.tags.size == 0 %}
-      <span>
-        <!--{% assign tags = page.tags | sort %}-->
-        –
+      {%- endunless -%}
+      {%- unless page.tags == null or page.tags.size == 0 -%}
+        {%- assign tags = page.tags | sort -%}
         <span>
-          {% for tag in tags %}
-          <!--
-            {% assign tag_permalink = tag | prepend: '/tags/' %}
-            {% assign tag_page = site.pages | where: "permalink", tag_permalink | first %}
-          -->
-          <a href="{{tag_page.permalink}}">{{tag_page.title}}</a>
-          {% endfor %}
+          –
+          <span>
+            {%- for tag in tags -%}
+              {%- assign tag_permalink = tag | prepend: '/tags/' -%}
+              {%- assign tag_page = site.pages | where: "permalink", tag_permalink | first -%}
+              <a href="{{tag_page.permalink}}">{{tag_page.title}}</a>
+            {%- endfor -%}
+          </span>
         </span>
-      </span>
-      {% endunless %} {% if page.date %} –
+      {%- endunless -%}
+      {%- if page.date -%} –
       <span class="dt-published">{{page.date | date: "%Y-%m-%d"}}</span>
-      {% endif %}
+      {%- endif -%}
     </footer>
   </body>
 </html>

@@ -12,7 +12,7 @@
   <h2>
     <a href="{{ post.url }}">{{ post.title | escape_once }}</a>
   </h2>
-  <blockquote>{{ post.excerpt | markdownify | strip_html | truncatewords: 50, "…" }}</blockquote>
+  <blockquote>{{ post.excerpt | markdownify | strip_html | truncatewords: 50, "…" | strip }}</blockquote>
   {%- if include.show_images -%}
     {%- assign images = post.content | split: "<img" | slice: 1, 4 -%}
     {%- assign has_images = images | size -%}

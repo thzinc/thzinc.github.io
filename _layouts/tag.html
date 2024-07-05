@@ -1,12 +1,16 @@
+{%- assign tag = page.name | split : "." | first -%}
+{%- capture title -%}
+  {%- if page.title -%}
+    {{page.title}}
+  {%- else -%}
+    {{tag | replace: "_", " "}}
+  {%- endif -%}
+{%- endcapture -%}
+{%- assign content_length = content | strip | size -%}
+{%- assign newest_posts = site.tags[tag] | slice : 0, 3 -%}
+{%- assign older_posts = site.tags[tag] | slice : 3, site.tags[tag].size -%}
 <!DOCTYPE html>
 <html>
-  <!-- 
-    {% assign tag = page.name | split: "." | first %}
-    {% capture title %}{% if page.title %}{{page.title}}{% else %}{{tag | replace: "_", " "}}{% endif %}{% endcapture %}
-    {% assign content_length = content | strip | size %}
-    {% assign newest_posts = site.tags[tag] | slice: 0, 3 %}
-    {% assign older_posts = site.tags[tag] | slice: 3, site.tags[tag].size %}
-  -->
   {% include head.html %}
   <body>
     <header>
@@ -14,40 +18,38 @@
     </header>
     <main>
       <h1>{{title}}</h1>
-      {% if content_length > 0 %}
+      {%- if content_length > 0 -%}
         <section>{{content}}</section>
-      {% endif %}
-      {% for post in newest_posts %}
+      {%- endif -%}
+      {%- for post in newest_posts -%}
         {%- include post_excerpt.html show_images=page.show_images -%}
-      {% endfor %}
+      {%- endfor -%}
 
       {% unless page.hide_related_tags %}
+        {% assign all_tags = site.tags | sort %}
         <aside>
           <h1>Related topics</h1>
-          {% assign all_tags = site.tags | sort %}
           <ul>
-            {% for related_tags in all_tags %}
-              {% assign slug = related_tags | first %}
-              {% unless slug == tag %}
-                {% assign related_posts = related_tags | slice : 1 | first | where : "tags",
-                tag | size %}
-                {% if related_posts > 0 %}
-                  {% assign tag_permalink = slug | prepend : '/tags/' %}
-                  {% assign tag_page = site.pages | where : "permalink",
-                  tag_permalink | first %}
+            {%- for related_tags in all_tags -%}
+              {%- assign slug = related_tags | first -%}
+              {%- unless slug == tag -%}
+                {%- assign related_posts = related_tags | slice : 1 | first | where : "tags", tag | size -%}
+                {%- if related_posts > 0 -%}
+                  {%- assign tag_permalink = slug | prepend : '/tags/' -%}
+                  {%- assign tag_page = site.pages | where : "permalink", tag_permalink | first -%}
                   <li>
                     <a href="{{tag_page.permalink}}">{{tag_page.title}}</a>
                   </li>
-                {% endif %}
-              {% endunless %}
-            {% endfor %}
+                {%- endif -%}
+              {%- endunless -%}
+            {%- endfor -%}
           </ul>
         </aside>
-      {% endunless %}
+      {%- endunless -%}
 
-      {% for post in older_posts %}
+      {%- for post in older_posts -%}
         {%- include post_excerpt.html show_images=page.show_images -%}
-      {% endfor %}
+      {%- endfor -%}
     </main>
     <footer>
       <a href="/">Home</a>

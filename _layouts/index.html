@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+{%- assign newest_posts = site.posts | slice: 0, 3 -%}
+{%- assign older_posts = site.posts | slice: 3, site.posts.size -%}
+{%- assign tags = site.tags | sort -%}
 <html>
   {% include head.html %}
   <body>
@@ -23,8 +26,7 @@
     <header>
       <img
         src="https://secure.gravatar.com/avatar/eaeac922b9f3cc9fd18cb9629b9e79f6?s=512"
-        alt="Avatar of Daniel James a.k.a. thzinc"
-      />
+        alt="Avatar of Daniel James a.k.a. thzinc"/>
     </header>
     <details id="oldLink" open>
       <summary>Oops</summary>
@@ -35,42 +37,38 @@
     </details>
     <main>
       {{content}}
-
-      <!--
-      {% assign newest_posts = site.posts | slice: 0, 3 %}
-      {% assign older_posts = site.posts | slice: 3, site.posts.size %}
-      -->
       <h1>Newest Posts</h1>
-      {% for post in newest_posts %} {% include post_excerpt.html %} {% endfor
-      %}
+      {%- for post in newest_posts -%}
+        {%- include post_excerpt.html -%}
+      {%- endfor -%}
 
       <h1>Things I write about</h1>
-      <!--
-      {% assign tags = site.tags | sort %} 
-      -->
       <ul>
-        {% for tag in tags %}
-        <!--
-          {% assign slug = tag | first %}
-          {% assign tag_permalink = slug | prepend: '/tags/' %}
-          {% assign tag_page = site.pages | where: "permalink", tag_permalink | first %}
-        -->
-        <li>
-          <a href="{{tag_page.permalink}}">{{tag_page.title}}</a>
-        </li>
-        {% endfor %}
+        {%- for tag in tags -%}
+          {%- assign slug = tag | first -%}
+          {%- assign tag_permalink = slug | prepend: '/tags/' -%}
+          {%- assign tag_page = site.pages | where: "permalink", tag_permalink | first -%}
+          <li>
+            <a href="{{ tag_page.permalink }}">{{ tag_page.title }}</a>
+          </li>
+        {%- endfor -%}
       </ul>
 
       <h1>More Posts</h1>
-      {% for post in older_posts %} {% include post_excerpt.html %} {% endfor %}
+      {%- for post in older_posts -%}
+        {%- include post_excerpt.html -%}
+      {%- endfor -%}
     </main>
     <script async type="text/javascript">
-      const q = location.search
+      const q = location
+        .search
         .replace(/^\?/, "")
         .split("&")
         .map((pair) => pair.split("="))
         .filter(([key]) => key.toLowerCase() == "q")
-        .flatMap(([_, ...values]) => values)
+        .flatMap(([
+          _, ...values
+        ]) => values)
         .join("=");
 
       if (q !== "") {
