@@ -1,77 +1,64 @@
-<!--
-  {% capture head_title %}
-    {% if title %}
-      {{title}} – {{site.title}}
-    {% elsif page.title %}
-      {{page.title}} – {{site.title}}
-    {% else %}
-      {{site.title}}
-    {% endif %}
-  {% endcapture %}
-  {% capture permalink %}{% if page.permalink %}{{page.permalink}}{% else %}{{page.url | replace:'index.html',''}}{% endif %}{% endcapture %}
-  {% assign canonical_url = permalink | prepend: site.baseurl | prepend: site.url %}
-  {% capture description %}
-    {% if page.description %}
-      {{ page.description | strip_html }}
-    {% elsif page.excerpt %}
-      {{ page.excerpt | markdownify | strip_html | truncatewords: 20 }}
-    {% else %}
-      {{ site.description | strip_html }}
-    {% endif %}
-  {% endcapture %}
-  {% capture keywords %}
-    {% if page.keywords %}
-      {{ page.keywords | strip_html }}
-    {% else %}
-      {{ site.keywords | strip_html }}
-    {% endif %}
-    {{ page.tags | join: " " | strip_html }}
-  {% endcapture %}
--->
+{%- capture head_title -%}
+  {%- if title -%}
+    {{title}} – {{site.title}}
+    {%- elsif page.title -%}
+    {{page.title}} – {{site.title}}
+  {%- else -%}
+    {{site.title}}
+  {%- endif -%}
+{%- endcapture -%}
+{%- capture permalink -%}
+  {%- if page.permalink -%}
+    {{page.permalink}}
+  {%- else -%}
+    {{page.url | replace:'index.html',''}}
+  {%- endif -%}
+{%- endcapture -%}
+{% assign canonical_url = permalink | prepend: site.baseurl | prepend: site.url %}
+{%- capture description -%}
+  {%- if page.description -%}
+    {{ page.description | strip_html }}
+    {%- elsif page.excerpt -%}
+    {{ page.excerpt | markdownify | strip_html | truncatewords: 20 }}
+  {%- else -%}
+    {{ site.description | strip_html }}
+  {%- endif -%}
+{%- endcapture -%}
+{%- capture keywords -%}
+  {%- if page.keywords -%}
+    {{ page.keywords | strip_html }}
+  {%- else -%}
+    {{ site.keywords | strip_html }}
+  {%- endif -%}
+  {{ page.tags | join: " " | strip_html }}
+{%- endcapture -%}
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="language" content="en-US" />
-
-  <meta name="og:type" content="website" />
-  <meta name="twitter:card" content="summary" />
-
-  <meta name="description" content="{{ description | strip | escape }}" />
-  <meta name="og:description" content="{{ description | strip | escape }}" />
-  <meta name="keywords" content="{{ keywords | strip | escape }}" />
-
-  <meta name="twitter:site" content="@thzinc" />
-  <meta name="twitter:creator" content="@thzinc" />
-
-  <link rel="canonical" href="{{ canonical_url }}" />
-  <meta name="og:url" content="{{ canonical_url }}" />
-  <link
-    rel="alternate"
-    type="application/atom+xml"
-    title="{{ site.title }}"
-    href="/feed.xml"
-  />
-
-  <title>{{head_title | strip | escape }}</title>
-  <meta name="og:title" content="{{head_title | strip | escape }}" />
-
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"
-  />
-  <link rel="stylesheet" href="/assets/syntax-highlighting.css" />
-  <link rel="stylesheet" href="/assets/custom.css" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <meta name="msapplication-TileColor" content="#ac295e" />
-  <meta name="theme-color" content="#ffffff" />
-  <script
-    defer
-    data-domain="thzinc.com"
-    src="https://plausible.io/js/script.outbound-links.js"
-  ></script>
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+  <link rel="canonical" href="{{ canonical_url }}"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+  <link rel="manifest" href="/site.webmanifest"/>
+  <link rel="stylesheet" href="/assets/custom.css"/>
+  <link rel="stylesheet" href="/assets/syntax-highlighting.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"/>
+  <meta charset="utf-8"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="description" content="{{ description | strip | escape }}"/>
+  <meta name="fediverse:creator" content="{{ site.activitypub.username | escape }}"/>
+  <meta name="keywords" content="{{ keywords | strip | escape }}"/>
+  <meta name="language" content="en-US"/>
+  <meta name="msapplication-TileColor" content="#ac295e"/>
+  <meta name="og:description" content="{{ description | strip | escape }}"/>
+  <meta name="og:title" content="{{ head_title | strip | escape }}"/>
+  <meta name="og:type" content="website"/>
+  <meta name="og:url" content="{{ canonical_url }}"/>
+  <meta name="theme-color" content="#ffffff"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:creator" content="@thzinc"/>
+  <meta name="twitter:site" content="@thzinc"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script defer data-domain="thzinc.com" src="https://plausible.io/js/script.outbound-links.js"></script>
+  <title>{{ head_title | strip | escape }}</title>
 </head>

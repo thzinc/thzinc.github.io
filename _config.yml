@@ -4,6 +4,9 @@ description: I'm Daniel James. I write things here when I feel like it.
 author: Daniel James
 timezone: America/Los_Angeles
 email: daniel@thzinc.com
+activitypub:
+  username: "@thzinc@botsin.space"
+  url: https://botsin.space/@thzinc
 baseurl: ""
 url: https://thzinc.com
 markdown: kramdown
