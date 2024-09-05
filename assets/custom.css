@@ -30,3 +30,23 @@
   content: "";
   margin: 0;
 }
+
+.annotatedImage figure {
+  width: 100%;
+  height: 75vh;
+  border: solid 1px var(--border);
+  margin: 0;
+}
+
+.annotatedImage figure figcaption {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .annotatedImage .r6o-editor textarea {
+    color: #3f3f3f;
+  }
+}

@@ -1,0 +1,40 @@
+{%- assign image_id = include.tile_sources | slugify -%}
+{%- capture annotations_id -%}
+    {{image_id}}-annotations
+{%- endcapture -%}
+{%- capture annotations_list_id -%}
+    {{image_id}}-annotations-list
+{%- endcapture -%}
+{%- capture output_id -%}
+    {{image_id}}-output
+{%- endcapture -%}
+<section class="annotatedImage">
+    <figure id="{{image_id}}">
+        <figcaption>{{include.alt}}</figcaption>
+    </figure>
+    <ol id="{{annotations_list_id}}">
+        {%- for annotation in include.annotations -%}
+            <li>
+                {%- for item in annotation.body -%}
+                    <p>{{item.value}}</p>
+                {%- endfor -%}
+                <a href="#{{image_id}}" data-annotation-id="{{annotation.id}}">(source)</a>
+            </li>
+        {%- endfor -%}
+    </ol>
+    {%- if site.show_drafts -%}
+        <textarea id="{{output_id}}"></textarea>
+    {%- endif -%}
+    <script id="{{annotations_id}}" type="application/ld+json">
+        {{include.annotations | jsonify}}
+    </script>
+    <script
+    type="text/javascript"
+    data-image-id="{{image_id}}" 
+    data-annotations-id="{{annotations_id}}" 
+    data-annotations-list-id="{{annotations_list_id}}" 
+    data-output-id="{{output_id}}" 
+    data-tile-sources="{{include.tile_sources | escape}}">
+        configureAnnotatedImage(document.currentScript);
+    </script>
+</section>
