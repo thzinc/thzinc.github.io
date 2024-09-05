@@ -19,3 +19,14 @@
     filter: invert(1);
   }
 }
+
+.h-entry footer span a::before {
+  content: "⸱";
+  margin: 0 0.25rem;
+  color: var(--text-main);
+}
+
+.h-entry footer span a:first-child::before {
+  content: "";
+  margin: 0;
+}
