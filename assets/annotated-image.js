@@ -12,10 +12,12 @@ function configureAnnotatedImage(currentScript) {
   const anno = OpenSeadragon.Annotorious(viewer);
 
   const outputElement = document.getElementById(currentScript.dataset.outputId);
-  anno.readOnly = !outputElement;
+  const readOnly = !outputElement;
+  anno.readOnly = readOnly;
 
   function refreshOutput() {
-    if (anno.readOnly) return;
+    if (readOnly) return;
+
     const cleanAnnotations = [];
     const currentPage = new URL(location.href);
     const targetSource = new URL(
