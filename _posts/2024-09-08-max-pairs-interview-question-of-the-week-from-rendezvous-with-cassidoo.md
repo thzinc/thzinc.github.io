@@ -5,7 +5,7 @@ see_also:
   - title: "rendezvous with cassidoo #368"
     url: https://buttondown.com/cassidoo/archive/to-lead-people-walk-behind-them-lao-tzu/
   - title: Social media post
-    url:
+    url: https://botsin.space/@thzinc/113104858393534145
 ---
 
 I needed something to focus on for a bit and I already used up the free puzzles on the NYTimes app.
