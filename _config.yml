@@ -5,8 +5,8 @@ author: Daniel James
 timezone: America/Los_Angeles
 email: daniel@thzinc.com
 activitypub:
-  username: "@thzinc@botsin.space"
-  url: https://botsin.space/@thzinc
+  username: "@thzinc@hachyderm.io"
+  url: https://hachyderm.io/@thzinc
 baseurl: ""
 url: https://thzinc.com
 markdown: kramdown
