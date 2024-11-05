@@ -1,5 +1,6 @@
 ---
 title: Hackaday Superconference 2024 – Day 1 – Hit the ground running
+tags: electronics programming
 see_also:
   - title: IoT Petal Matrix on Github
     url: https://github.com/thzinc/2024-supercon-iot-petal-matrix

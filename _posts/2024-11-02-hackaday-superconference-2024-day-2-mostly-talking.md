@@ -1,5 +1,6 @@
 ---
 title: Hackaday Superconference 2024 – Day 2 - Mostly talking
+tags: electronics
 ---
 
 I wanted to be present and attentive during talks, so I didn't do any programming at the conference today. I did, however, have several conversations with folks and hand out a few more [Petal Matrix diffuser covers][prev-post].
