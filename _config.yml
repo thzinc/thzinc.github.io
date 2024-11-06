@@ -21,7 +21,10 @@ defaults:
       type: "pages"
     values:
       layout: "tag"
+mermaid:
+  src: https://cdn.jsdelivr.net/npm/mermaid@11.4.0/dist/mermaid.min.js
 plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-mermaid
