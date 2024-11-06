@@ -14,7 +14,7 @@ Regardless of methodology, most software development work is the result of break
 - Releasing
 - Done
 
-{% mermaid %}
+```mermaid
 graph LR
 
 Refining --> Scheduling
@@ -22,7 +22,7 @@ Scheduling --> Developing
 Developing --> Testing
 Testing --> Releasing
 Releasing --> Done
-{% endmermaid %}
+```
 
 ## Refining
 
