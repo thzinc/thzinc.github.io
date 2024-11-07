@@ -30,7 +30,7 @@ permalink: /find-me
   - [Soundcloud](https://soundcloud.com/thzinc)
   - [Tiltify](https://tiltify.com/@thzinc/profile)
   - The "Fediverse," "Mastodon," or places where ActivityPub is used
-    - [thzinc@bhachyderm.io](https://bhachyderm.io/@thzinc)
+    - [thzinc@hachyderm.io](https://hachyderm.io/@thzinc)
     - Formerly [thzinc@botsin.space](https://botsin.space/@thzinc)
     - Formerly thzinc@onewilshire.la
     - Inactive; acquired for name-squatting purposes: [thzinc@mastodon.social](https://mastodon.social/@thzinc)
