@@ -1,5 +1,6 @@
 ---
 title: iCalendar link for Hackaday Superconference 2024
+tags: programming
 see_also:
   - title: iCalendar link for Hackaday Superconference 2024
     url: https://superconference.thzinc.dev
