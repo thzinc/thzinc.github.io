@@ -1,6 +1,6 @@
 ---
 title: Hackaday Superconference 2024 – Day 3 - "Internet Fighters," or what I wish I had named "Pew! Pew!"
-tags: electronics microcontrollers programming
+tags: electronics microcontrollers programming speaking
 see_also:
   - title: 2024-supercon-game at Github
     url: https://github.com/thzinc/2024-supercon-game

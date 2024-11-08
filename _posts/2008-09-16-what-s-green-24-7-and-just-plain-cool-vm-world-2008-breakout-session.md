@@ -1,5 +1,6 @@
 ---
 title: What's Green, 24/7, and Just Plain Cool? – VMWorld 2008 breakout session
+tags: speaking
 published_at: http://sessions.vmworld.com/lcms/mL_course/courseware/23351/PO1781.html
 ---
 
