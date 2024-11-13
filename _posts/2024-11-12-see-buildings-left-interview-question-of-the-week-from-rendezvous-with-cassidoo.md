@@ -4,6 +4,8 @@ tags: programming code_kata
 see_also:
   - title: "rendezvous with cassidoo #378"
     url: https://buttondown.com/cassidoo/archive/stand-for-something-or-you-will-fall-for-anything/
+  - title: Social media post
+    url: https://hachyderm.io/@thzinc/113472721202601421
 ---
 
 I love a good use case for a reducer. Also, <abbr title="today I learned">TIL</abbr> that [`reducer` support on JavaScript `Iterator`s is available in the very newest browsers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Iterator/reduce).
