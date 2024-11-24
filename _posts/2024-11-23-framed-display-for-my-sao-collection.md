@@ -595,10 +595,10 @@ wires:
 
 I had a great time at the [Hackaday Superconference][supercon] this year and collected a bunch of ~~Shitty~~Supercon Add-Ons for this year's badge. They were too good to just put in a box and leave unseen, so I pulled an unused frame out of the closet, painted a piece of plywood, and soldered a bunch of SAO connectors to make a powered display frame for my collection.
 
-{% include annotated_image.html tile_sources = "/assets/sao-display/final.dzi" annotations = page.final alt = "Photo of a tool roll laid out"%}
-{% include annotated_image.html tile_sources = "/assets/sao-display/power-supply.dzi" annotations = page.power_supply alt = "Photo of a tool roll laid out"%}
-{% include annotated_image.html tile_sources = "/assets/sao-display/back.dzi" annotations = page.back alt = "Photo of a tool roll laid out"%}
-{% include annotated_image.html tile_sources = "/assets/sao-display/sao-connector.dzi" annotations = page.sao_connector alt = "Photo of a tool roll laid out"%}
-{% include annotated_image.html tile_sources = "/assets/sao-display/wires.dzi" annotations = page.wires alt = "Photo of a tool roll laid out"%}
+{% include annotated_image.html tile_sources = "/assets/sao-display/final.dzi" annotations = page.final alt = "Photo of two frames hanging on a wall next to a window. The upper frame is smaller and black, showing the Supercon badge from 2023. The lower frame is larger and painted blue and green and has eight illuminated SAOs arranged around the Supercon badge from 2024 in the center."%}
+{% include annotated_image.html tile_sources = "/assets/sao-display/power-supply.dzi" annotations = page.power_supply alt = "Photo of assembled power supply"%}
+{% include annotated_image.html tile_sources = "/assets/sao-display/back.dzi" annotations = page.back alt = "Photo of back of frame showing wires and connections"%}
+{% include annotated_image.html tile_sources = "/assets/sao-display/sao-connector.dzi" annotations = page.sao_connector alt = "Photo of a single SAO connector"%}
+{% include annotated_image.html tile_sources = "/assets/sao-display/wires.dzi" annotations = page.wires alt = "Photo of assembled SAO connectors on top of the painted but unfinished frame"%}
 
 [supercon]: https://hackaday.io/superconference/
