@@ -6,6 +6,12 @@ see_also:
     url: https://github.com/thzinc/gtfs-xlsx
 ---
 
+## Updated December 5, 2024
+
+If you're looking for an easy-to-use online converter, I built [converter.trnzt.dev](https://converter.trnzt.dev). It's super easy and runs entirely in the browser!
+
+## Original post
+
 In my work at [GMV][gmv], I've had need to inspect and edit [General Transit Feed Specification (GTFS)][gtfs] feeds on numerous occasions. A GTFS static feed is simply a ZIP file containing several CSV-formatted text files that describe the routes and schedules of a transit agency. Because [GTFS is a specification that is explicitly human-editable][gtfs-principles] with common, non-programmer tools like spreadsheets, it's not uncommon to need to dig into a feed to find and correct clerical errors. However, because it's a ZIP file of text files with file extensions of `.txt`, it's still pretty inconvenient to try to open the files with something like Microsoft Excel.
 
 Fortunately, the simplicity of the specification works in my favor. Conceptually, a GTFS feed can be translated concept-for-concept to an Excel workbook. Each file in the feed can be represented as a spreadsheet tab within the workbook.
