@@ -1,4 +1,4 @@
-{%- assign category = page.name | split : "." | first -%}
+{%- assign category = page.name | split: "." | first -%}
 {%- capture title -%}
   {%- if page.title -%}
     {{page.title}}
@@ -20,9 +20,9 @@
       <a href="/">thzinc</a>
     </header>
     <main>
-      <h1>{{title}}</h1>
+      <h1>{{ title }}</h1>
       {%- if content_length > 0 -%}
-        <section>{{content}}</section>
+        <section>{{ content }}</section>
       {%- endif -%}
       {%- for post in posts -%}
         {% include post_excerpt.html show_images = page.show_images %}

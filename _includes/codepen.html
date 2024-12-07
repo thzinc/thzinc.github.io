@@ -7,9 +7,8 @@
   data-default-tab="{{include.default_tab | default: 'js,result'}}"
   data-editable="true"
   data-user="{{include.user | default: 'thzinc'}}"
-  data-prefill="{{include.prefill | default: prefill | escape }}"
->
-  <pre data-lang="{{include.markup_type | default: 'haml'}}">
+  data-prefill="{{include.prefill | default: prefill | escape }}">
+<pre data-lang="{{include.markup_type | default: 'haml'}}">
 {{include.markup | escape}}</pre
   >
   <pre data-lang="{{include.styles_type | default: 'css'}}">

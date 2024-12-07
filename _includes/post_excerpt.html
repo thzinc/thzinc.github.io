@@ -19,7 +19,7 @@
     {%- if has_images -%}
       {%- for image_start in images -%}
         {%- assign image = image_start | split: ">" | first -%}
-        <a href="{{ post.url }}"><img {{image}}/></a>
+        <a href="{{ post.url }}"><img {{ image }} /></a>
       {%- endfor -%}
     {%- endif -%}
   {%- endif -%}

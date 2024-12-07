@@ -7,8 +7,8 @@
     </header>
     <main>
       <article>
-        <h1 class="p-name">{{page.title}}</h1>
-        {{content}}
+        <h1 class="p-name">{{ page.title }}</h1>
+        {{ content }}
       </article>
       {%- unless page.see_also == null or page.see_also.size == 0 -%}
         <section>
@@ -16,7 +16,7 @@
           <ul>
             {%- for other in page.see_also -%}
               <li>
-                <a href="{{other.url}}">{{other.title}}</a>
+                <a href="{{other.url}}">{{ other.title }}</a>
               </li>
             {%- endfor -%}
           </ul>
@@ -31,7 +31,7 @@
           –
           <span>
             {%- for category in categories -%}
-              <a href="/{{category}}/">{{category}}</a>
+              <a href="/{{category}}/">{{ category }}</a>
             {%- endfor -%}
           </span>
         </span>
@@ -44,13 +44,14 @@
             {%- for tag in tags -%}
               {%- assign tag_permalink = tag | prepend: '/tags/' -%}
               {%- assign tag_page = site.pages | where: "permalink", tag_permalink | first -%}
-              <a href="{{tag_page.permalink}}">{{tag_page.title}}</a>
+              <a href="{{tag_page.permalink}}">{{ tag_page.title }}</a>
             {%- endfor -%}
           </span>
         </span>
       {%- endunless -%}
-      {%- if page.date -%} –
-      <span class="dt-published">{{page.date | date: "%Y-%m-%d"}}</span>
+      {%- if page.date -%}
+        –
+        <span class="dt-published">{{ page.date | date: "%Y-%m-%d" }}</span>
       {%- endif -%}
     </footer>
   </body>
