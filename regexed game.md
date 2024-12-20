@@ -2,7 +2,7 @@
 layout: category
 title: regexed
 sort: ascending
-permalink: /regexed/
+permalink: /regexed game/
 show_images: true
 ---
 

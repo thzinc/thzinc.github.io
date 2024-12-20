@@ -1,6 +1,6 @@
 ---
 title: "Work in progress: regexed: a daily puzzle game"
-category: regexed
+category: regexed game
 tags: programming project_update
 see_also:
   - url: https://regexed.com
