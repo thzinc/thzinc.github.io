@@ -7,6 +7,12 @@ permalink: /find-me
 <img src="/assets/banner.png" alt="Diagram of daniel@thzinc.com" class="invertable">
 
 - Social media
+  - The "Fediverse," "Mastodon," or places where ActivityPub is used
+    - [thzinc@hachyderm.io](https://hachyderm.io/@thzinc)
+    - Formerly [thzinc@botsin.space](https://botsin.space/@thzinc)
+    - Formerly thzinc@onewilshire.la
+    - Inactive; acquired for name-squatting purposes: [thzinc@mastodon.social](https://mastodon.social/@thzinc)
+  - [Bluesky](https://bsky.app/profile/thzinc.com)
   - Formerly @thzinc on Twitter
   - [Instagram](https://www.instagram.com/thzinc/)
   - [Facebook](https://www.facebook.com/thzinc)
@@ -29,11 +35,6 @@ permalink: /find-me
     - [brianryce](https://www.deviantart.com/brianryce), pseudonym for poetry
   - [Soundcloud](https://soundcloud.com/thzinc)
   - [Tiltify](https://tiltify.com/@thzinc/profile)
-  - The "Fediverse," "Mastodon," or places where ActivityPub is used
-    - [thzinc@hachyderm.io](https://hachyderm.io/@thzinc)
-    - Formerly [thzinc@botsin.space](https://botsin.space/@thzinc)
-    - Formerly thzinc@onewilshire.la
-    - Inactive; acquired for name-squatting purposes: [thzinc@mastodon.social](https://mastodon.social/@thzinc)
 - Software development & maker stuff
   - [GitHub](https://github.com/thzinc)
   - [Botwiki](https://botwiki.org/author/thzinc/)
