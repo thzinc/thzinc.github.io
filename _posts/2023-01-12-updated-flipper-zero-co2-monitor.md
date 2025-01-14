@@ -1,6 +1,6 @@
 ---
 title: Updated Flipper Zero CO2 Monitor
-tags: electronics programming flipper_zero
+tags: electronics programming flipper_zero air_quality
 see_also:
   - title: thzinc/flipperzero-firmware on GitHub
     url: https://github.com/thzinc/flipperzero-firmware/

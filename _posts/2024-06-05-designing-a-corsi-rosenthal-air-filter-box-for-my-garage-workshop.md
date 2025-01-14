@@ -1,7 +1,7 @@
 ---
 title: Designing a Corsi-Rosenthal air filter box for my garage workshop
 category: Workshop air filter
-tags: project_update woodworking
+tags: project_update woodworking air_quality
 ---
 
 It's been over a year since I last wrote about [building an air filter for my garage workshop][post], but I'm finally making progress toward designing and building my own [Corsi–Rosenthal Box][crbox]. I recently received a nice miter saw and decided to try my hand design and building with [US dimensional lumber][lumber], since its relatively ubiquitous and comparably cheap.

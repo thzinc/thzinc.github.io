@@ -1,6 +1,6 @@
 ---
 title: Wrapping up my Levoit LV-PUR131S "Dumb" Air Purifier
-tags: electronics
+tags: electronics air_quality
 ---
 
 Following up on my [Dumbing down the Levoit LV-PUR131S Smart Air Purifier][prev-post] work, I received a new Mean Well LRS-35-24 power supply and got to work installing it in the unit. I cut a hole in the side of the box to accommodate a new NEMA C14 socket I had in my stash.

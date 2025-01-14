@@ -1,7 +1,7 @@
 ---
 title: Gaskets, casters, and filters
 category: Workshop air filter
-tags: project_update woodworking
+tags: project_update woodworking air_quality
 ---
 
 The box was so close to being done. Just needed something to keep the filters in place, but also allow them to be easily removed. I decided on using weatherproofing gasket with adhesive backing. Now the filters fit snugly, but are still easy to remove and replace.

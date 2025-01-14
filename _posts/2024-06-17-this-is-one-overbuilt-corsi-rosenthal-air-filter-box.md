@@ -1,7 +1,7 @@
 ---
 title: This is one overbuilt Corsi-Rosenthal air filter box
 category: Workshop air filter
-tags: project_update woodworking
+tags: project_update woodworking air_quality
 ---
 
 After a [bunch of design and planning out the cuts][design-post], I had most of a Sunday to work on cutting lumber and assembling my [Corsi-Rosenthal box][crbox]. I started with the miter saw and the 2x4s since that was the least-familiar material to me. I did a little bit of planning to try to minimize waste on the 8-foot lengths of lumber and feel like I did pretty well. I only had a few 1-2 in blocks and one ~13-inch length left over.

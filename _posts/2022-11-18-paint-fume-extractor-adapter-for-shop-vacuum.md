@@ -1,6 +1,6 @@
 ---
 title: Paint fume extractor adapter for shop vacuum
-tags: 3d_printing
+tags: 3d_printing air_quality
 see_also:
   - title: Paint fume extractor adapter for shop vacuum on Thingiverse
     url: "https://www.thingiverse.com/thing:5640418"

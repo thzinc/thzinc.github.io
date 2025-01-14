@@ -1,6 +1,6 @@
 ---
 title: Apple HomeKit-enabled workshop air quality monitor
-tags: programming electronics javascript raspberry_pi
+tags: programming electronics javascript raspberry_pi air_quality
 see_also:
   - title: thzinc/workshop-air-quality-monitor on GitHub
     url: https://github.com/thzinc/workshop-air-quality-monitor

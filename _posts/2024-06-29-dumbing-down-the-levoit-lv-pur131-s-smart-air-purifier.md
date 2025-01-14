@@ -1,6 +1,6 @@
 ---
 title: Dumbing down the Levoit LV-PUR131S Smart Air Purifier
-tags: programming electronics microcontrollers
+tags: programming electronics microcontrollers air_quality
 ---
 
 The [Levoit LV-PUR131S Smart Air Purifier][levoit] is a [HEPA] filter (plus a carbon filter) with a particulate matter (PM) sensor and proprietary WiFi-based cloud connectivity. It's a pretty reasonable air filter I use for my living room to help manage the indoor air quality. The replacement filters aren't super expensive and the filter mostly just does its job… Until it doesn't.
