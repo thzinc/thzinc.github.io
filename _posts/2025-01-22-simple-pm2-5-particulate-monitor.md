@@ -1,6 +1,6 @@
 ---
 title: Simple PM2.5 particulate monitor
-tags: air_quality electronics microcontrollers
+tags: 3d_printing air_quality electronics microcontrollers
 see_also:
   - title: thzinc/simple-particulate-monitor on GitHub
     url: https://github.com/thzinc/simple-particulate-monitor
@@ -16,7 +16,7 @@ After a couple of larger Adafruit orders, I also had a couple of [KB2040][kb2040
 
 I looked up the current [AirNow.gov Technical Assistance Document for the Reporting of Daily Air Quality – the Air Quality Index (AQI)][airnow] to refer to its guidelines for rating the levels of 2.5 micron particulate matter, as well as the familiar colors used to communicate air quality. The Neopixel onboard renders the colors quite well and I added a subtle "breathing" effect to alleviate the harshness of an inanimate object.
 
-![Photo of assembled and powered-on device. The translucent cover disperses the light over a larger area.](/assets/simple-particulate-monitor-final.jpg)
+![  ](/assets/simple-particulate-monitor-final.jpg)
 
 Sadly, I had parts to make two of these units, but while desoldering a pin on one of the sensors, I lifted the trace from the PCB and broke it off. Since I'm not yet skilled in repairing traces, I've set the sensor aside in my "salvage" stash for later.
 
