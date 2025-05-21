@@ -16,7 +16,7 @@ final:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-final-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-final-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -39,7 +39,7 @@ final:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-final-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-final-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -62,7 +62,7 @@ final:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-final-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-final-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -85,7 +85,7 @@ final:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-final-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-final-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -108,7 +108,7 @@ final:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-final-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-final-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -131,7 +131,7 @@ final:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-final-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-final-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -154,7 +154,7 @@ final:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-final-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-final-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -177,7 +177,7 @@ final:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-final-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-final-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -200,7 +200,7 @@ final:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-final-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-final-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -223,7 +223,7 @@ final:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-final-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-final-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -246,7 +246,7 @@ final:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-final-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-final-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -269,7 +269,7 @@ final:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-final-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-final-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -295,7 +295,7 @@ power_supply:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-power-supply-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-power-supply-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -318,7 +318,7 @@ power_supply:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-power-supply-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-power-supply-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -341,7 +341,7 @@ power_supply:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-power-supply-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-power-supply-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -364,7 +364,7 @@ power_supply:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-power-supply-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-power-supply-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -387,7 +387,7 @@ power_supply:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-power-supply-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-power-supply-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -413,7 +413,7 @@ back:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-back-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-back-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -436,7 +436,7 @@ back:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-back-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-back-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -459,7 +459,7 @@ back:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-back-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-back-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -482,7 +482,7 @@ back:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-back-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-back-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -505,7 +505,7 @@ back:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-back-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-back-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -531,7 +531,7 @@ sao_connector:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-sao-connector-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-sao-connector-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -554,7 +554,7 @@ sao_connector:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-sao-connector-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-sao-connector-dzi",
           "selector":
             {
               "type": "FragmentSelector",
@@ -580,7 +580,7 @@ wires:
         ],
       "target":
         {
-          "source": "https://thzinc.com/2024/11/23/tbd.html#assets-sao-display-wires-dzi",
+          "source": "https://thzinc.com/2024/11/23/framed-display-for-my-sao-collection.html#assets-sao-display-wires-dzi",
           "selector":
             {
               "type": "FragmentSelector",
