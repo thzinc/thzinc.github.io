@@ -1,0 +1,12 @@
+---
+kind: pipeline
+type: kubernetes
+name: default
+
+steps:
+  - name: Build Site
+    image: ruby:3.1.7
+    commands:
+      - gem install bundler jekyll
+      - bundle install
+      - bundle exec jekyll build
