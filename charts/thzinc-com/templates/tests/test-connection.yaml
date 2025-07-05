@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "thzinc-com.fullname" . }}-test-connection"
+  labels:
+    {{- include "thzinc-com.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "thzinc-com.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
