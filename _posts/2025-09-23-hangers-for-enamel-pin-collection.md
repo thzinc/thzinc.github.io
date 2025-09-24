@@ -18,4 +18,4 @@ I did end up needing to print these with supports for the 45° overhang, but oth
 
 My art board is a little more full now! 😊
 
-![Photo of art board with postcards and several pins](/assets/art-display-board/art-board-with-pins.jpg)
+![Photo of art board with postcards and several pins: four postcards of art deco illustrations of cool women in Oregonian settings, a postcard with the quote "People have the power to redeem the work of fools - Patti Smith", five postcards with reprints of the US National Park Service posters for Yellowstone, Yosemite, Zion, Grand Canyon, and Bryce Canyon, and pins of "Science is Real", JoCoCruises 2019 and 2020, Project for Awesome, The Magic Banana Loca, NASA JPL InSight, a Sawbones "Don't do it", a Peezey's "Kind" pin, and an "Apathy is not an option" pin](/assets/art-display-board/art-board-with-pins.jpg)
