@@ -1,5 +1,6 @@
 ---
 title: A bike tool roll made from a canvas bag
+tags: sewing
 tool-roll-revealed:
   [
     {
