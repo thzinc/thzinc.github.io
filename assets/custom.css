@@ -45,6 +45,10 @@
   opacity: 0;
 }
 
+.annotatedImage li {
+  white-space: break-spaces;
+}
+
 @media (prefers-color-scheme: dark) {
   .annotatedImage .r6o-editor textarea {
     color: #3f3f3f;
