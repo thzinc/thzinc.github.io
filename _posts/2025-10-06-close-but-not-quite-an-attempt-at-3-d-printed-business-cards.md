@@ -1,5 +1,6 @@
 ---
 title: Close, but not quite – an attempt at 3D printed business cards
+tags: 3d_printing
 cards:
   [
     {
