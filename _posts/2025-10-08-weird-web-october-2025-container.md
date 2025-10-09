@@ -4,6 +4,9 @@ tags: programming games
 octothorpes:
   - weirdweboctober
   - Containers
+see_also:
+  - title: Weird Web October
+    url: https://weirdweboctober.website/
 ---
 
 I heard about [Weird Web October](https://weirdweboctober.website/) from [Stephen](https://stefanbohacek.com/) at [Botmakers](https://botmakers.discourse.group/) and decided to give today's challenge, "Container", a try with a little click-and-drag game.
