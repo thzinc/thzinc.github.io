@@ -1,6 +1,6 @@
 ---
 title: Weird Web October 2025 – Container
-tags: programming
+tags: programming games
 octothorpes:
   - weirdweboctober
   - Containers

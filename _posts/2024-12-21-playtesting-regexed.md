@@ -1,7 +1,7 @@
 ---
 title: "Playtesting regexed"
 category: regexed game
-tags: programming project_update
+tags: programming project_update games
 see_also:
   - url: https://regexed.com
     title: "regexed: a daily puzzle game"

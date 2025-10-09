@@ -1,6 +1,6 @@
 ---
 title: Spin the Wheel - Interview question of the week from rendezvous with cassidoo
-tags: programming code_kata
+tags: programming code_kata games
 see_also:
   - title: "rendezvous with cassidoo #283"
     url: https://buttondown.email/cassidoo/archive/the-man-who-moves-a-mountain-begins-by-carrying/

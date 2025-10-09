@@ -8,7 +8,7 @@ title: Liars’ Poker probability analysis using sampling
 platforms:
   - DotNetCore
 published_at: https://gist.github.com/thzinc/b282f8b6f3ea2bbcf023476cc40ba314
-tags: programming csharp dotnet
+tags: programming csharp dotnet games
 excerpt: |
   There’s a game called “Liars’ Poker” that I play frequently with my wife and our gamer friends. It is a bluffing game played with a deck of poker cards and a keen knowledge of standard five-card poker hands. All players in the game start out with two cards in hand. The goal is to call out poker hands that could be made with all cards in play and to avoid getting caught in a bluff.
 ---
