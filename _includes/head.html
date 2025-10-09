@@ -58,6 +58,15 @@
   <link rel="stylesheet" href="/assets/syntax-highlighting.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@2.7.14/dist/annotorious.min.css" />
+  {% if page.octothorpes -%}
+    <link
+      rel="preload"
+      as="fetch"
+      href="https://octothorp.es/?uri={{ canonical_url }}">
+    {%- for octothorpe in page.octothorpes %}
+      <link rel="octo:octothorpes" href="{{octothorpe}}">
+    {%- endfor -%}
+  {%- endif %}
   <meta charset="utf-8" />
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
