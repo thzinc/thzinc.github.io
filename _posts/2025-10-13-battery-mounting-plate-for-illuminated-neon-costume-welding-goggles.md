@@ -1,5 +1,6 @@
 ---
 title: Battery mounting plate for illuminated "neon" costume welding goggles
+tags: 3d_printing
 excerpt: |
   After one very enjoyable maker meetup at Laura Kampf's _Bricks Cafe_, I found my body heat and sweat was enough to cause the tape to fail and dangle the battery around in the eye cup. After a few tricky measurements on the inside of the flared eye cup, I came up with the following mounting plate design to hot glue to the eye cup.
 ---
