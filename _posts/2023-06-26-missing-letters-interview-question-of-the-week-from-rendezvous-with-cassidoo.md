@@ -29,8 +29,8 @@ Simple, no-frills solution to this week's question.
 
 ## My solution
 
-{%- capture solution -%}
+{% capture solution %}
 {% include /code_kata/missingLetters/solution.js %}
 {% include /code_kata/missingLetters/tests.js %}
-{%- endcapture -%}
+{% endcapture %}
 {%- include codepen.html markup_type="haml" markup="#mocha" code_type="js" code=solution -%}
