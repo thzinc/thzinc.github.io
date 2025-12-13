@@ -1,5 +1,6 @@
 ---
 title: Adjusting the Flyht Pro Stage Rack case for use with 10" mini racks
+category: Mini rack
 see_also:
   - title: "geerlingguy/mini-rack #99: Warning about Flyht Pro Stage Rack case and DeskPi Rackmate compatibility."
     url: https://github.com/geerlingguy/mini-rack/issues/99
