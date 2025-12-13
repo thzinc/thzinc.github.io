@@ -1,6 +1,7 @@
 ---
 title: Solving a kernel panic while booting Ubuntu 24.04 LTS from NVMe on a Raspberry Pi 5
 category: Mini rack
+tags: raspberry_pi
 ---
 
 I have been working on building a Raspberry Pi [mini rack][category] that includes a Raspberry Pi 5 with a [Pimoroni NVMe Base Duo][pimoroni] with two 2TB NVMe SSDs. I'm choosing to run Ubuntu 24.04 LTS instead of Raspbian for a handful of reasons, but I ran into a kernel panic after cloning the filesystems to the NVMe device.
