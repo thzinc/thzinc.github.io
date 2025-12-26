@@ -1,6 +1,6 @@
 ---
 title: IKEA SMÅSNÖRE-inspired flexible LED strip lamp
-tags: electronics microcontrollers 3d_printing
+tags: electronics microcontrollers 3d_printing ikea
 see_also:
   - url: https://www.thingiverse.com/thing:7209225
     title: Flexible LED strip lamp on Thingiverse

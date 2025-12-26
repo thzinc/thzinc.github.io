@@ -1,6 +1,6 @@
 ---
 title: Organizer box slides for Kallax shelves
-tags: 3d_printing
+tags: 3d_printing ikea
 see_also:
   - title: Organizer box slides for Kallax shelves on Thingiverse
     url: https://www.thingiverse.com/thing:7250344

@@ -1,6 +1,6 @@
 ---
 title: Bolt covers for IKEA BULLIG box to protect the KALLAX shelf
-tags: 3d_printing
+tags: 3d_printing ikea
 see_also:
   - title: IKEA BULLIG box runner/bumper on Thingiverse
     url: https://www.thingiverse.com/thing:6750127
