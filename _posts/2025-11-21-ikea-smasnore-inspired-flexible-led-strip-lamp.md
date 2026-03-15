@@ -4,6 +4,7 @@ tags: electronics microcontrollers 3d_printing ikea
 see_also:
   - url: https://www.thingiverse.com/thing:7209225
     title: Flexible LED strip lamp on Thingiverse
+section: make
 ---
 
 Whenever I'm at the [largest IKEA in North America][ikea-burbank], I spend the most time wandering through the lighting section. IKEA's LED lighting has been really interesting to see develop over several years and on my most recent visit I saw one of the coolest lights I've seen in a long time: [SMÅSNÖRE][smasnore].
@@ -28,7 +29,7 @@ I laid out a very basic circuit with the following parts:
 - (1) 3-pin [right angle headers](https://www.adafruit.com/product/1540)
 - (1) potentiometer (salvaged; Allen Bradley 19-211473-502)
 
-![Diagram of circuit showing Pico connected to potentiometer, MOSFET, and buck, along with the LED connected to the USB-C supply switched by the MOSFET](/assets/led-strip-lamp/circuit-diagram.png){:.invertable}
+![Diagram of circuit showing Pico connected to potentiometer, MOSFET, and buck, along with the LED connected to the USB-C supply switched by the MOSFET](/assets/led-strip-lamp/circuit-diagram.png){:.invertible}
 
 (I used KiCad for the first time to make this diagram. Hopefully I didn't totally misrepresent this circuit 😅)
 
@@ -73,7 +74,7 @@ With the electronics of the lamp settled, I spent a bunch of time on the design 
 
 I started with designing a solution to provide some additional rigidity to the LED strip while also shading the light from directly shining in my eyes. I took inspiration from bike chain covers and plastic chain wire guides in designing a chain link that to which the LED strip could be zip-tied. The chain link was a symmetrical, easily printable design and I could print as many links as I needed to cover the length of the LED strip.
 
-![A detailed engineering diagram of a single chain link. Each link is 10.5mm tall, 31.5mm long, and 16.8mm wide. The diagram highlights the the chamfered pin and its through hole and through holes for zip ties in the base of link. Another callout indicates the link is constrained to a total of 120° of rotation around its pin. The link is designed to fit the width of a 10mm LED strip.](/assets/led-strip-lamp/schematic-chain-link.png){:.invertable}
+![A detailed engineering diagram of a single chain link. Each link is 10.5mm tall, 31.5mm long, and 16.8mm wide. The diagram highlights the the chamfered pin and its through hole and through holes for zip ties in the base of link. Another callout indicates the link is constrained to a total of 120° of rotation around its pin. The link is designed to fit the width of a 10mm LED strip.](/assets/led-strip-lamp/schematic-chain-link.png){:.invertible}
 
 The chain links assemble really easily and are really satisfying to play with on their own. (I have some extra links that make a great desk toy!) They're designed to take advantage of the fact that the LED strip is already encased in a rectangular silicone rubber case, so zip ties have a lot of high-friction surface to grab. The result of the two is a satisfyingly elastic structure that bends easily, but is able to hold itself upright in an arch. The chain links are even compliant enough to allow some lateral motion without stressing the assembly too much.
 
@@ -85,7 +86,7 @@ With the LED strip assembly settled, I spent a bunch of time in Shapr3D playing 
 
 Since the bases were intended to be heavy enough to anchor the lamp, I figured that the point at which the chain links attach to the base might experience a lot of stress so I designed a separate replaceable mounting adapter to attach the chain links to the base with M3 bolts.
 
-![A detailed engineering diagram of the "peg" and "receiver" adapters made to connect to either end of a chain link respectively. The adapters appear to be half a chain link with a 6mm thick block on the lower half. In that block are 3.2mm through-holes for M3 bolts to attach to the base's shell.](/assets/led-strip-lamp/schematic-chain-link-adapters.png){:.invertable}
+![A detailed engineering diagram of the "peg" and "receiver" adapters made to connect to either end of a chain link respectively. The adapters appear to be half a chain link with a 6mm thick block on the lower half. In that block are 3.2mm through-holes for M3 bolts to attach to the base's shell.](/assets/led-strip-lamp/schematic-chain-link-adapters.png){:.invertible}
 
 One of my favorite "design polish" things to do is handle the shadow line when mating components. (I learned about this via Hackaday's [Enhance Your Enclosures With A Shadow Line][hackaday-blog-post] post.) The base's lid is a pretty simple flat circle, but I raised a 1mm shadow line along the inside to align the lid with the shell and prevent light from leaking out of the base.
 

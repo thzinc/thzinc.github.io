@@ -1,5 +1,5 @@
 ---
-title: "Playtesting regexed"
+title: Playtesting regexed
 category: regexed game
 tags: programming project_update games
 see_also:
@@ -7,6 +7,7 @@ see_also:
     title: "regexed: a daily puzzle game"
   - url: https://github.com/thzinc/regexed
     title: thzinc/regexed on GitHub
+section: write
 ---
 
 Today has been a pleasant bit of flow time. I got the game engine worked out enough to actually make a full game cycle and did some refinement (and winnowing) of the puzzle concepts to get to a point where I feel comfortable enough putting it in others' hands for a test run.

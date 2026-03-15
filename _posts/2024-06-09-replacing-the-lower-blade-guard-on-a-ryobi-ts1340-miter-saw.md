@@ -5,11 +5,12 @@ see_also:
   - title: |
       "Fixing my obsolete ryobi miter saw blade guard" by moco27
     url: https://www.lumberjocks.com/threads/fixing-my-obsolete-ryobi-miter-saw-blade-guard.351437/
+section: make
 ---
 
 I recently received a Ryobi TS1340 miter saw by way of a friend whose family member was needing to relieve themselves of it. The saw itself had been reasonably well cared for over its estimated 15 years, though had lost its lower blade guard. Unfortunately, neither Ryobi nor third-party parts sellers no longer carry the replacement part. Even if the guard were intact, this has easily become the most dangerous tool in my garage. I needed to fit a blade guard before using this for any real work.
 
-![Illustration of Ryobi TS1340 miter saw with annotations indicating the missing lower blade guard](/assets/ryobi-ts1340-blade-guard/user-manual-illustration.png){:.invertable}
+![Illustration of Ryobi TS1340 miter saw with annotations indicating the missing lower blade guard](/assets/ryobi-ts1340-blade-guard/user-manual-illustration.png){:.invertible}
 
 (Illustration from user manual)
 

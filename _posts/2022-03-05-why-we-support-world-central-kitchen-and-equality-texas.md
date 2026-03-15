@@ -9,6 +9,7 @@ see_also:
     url: https://www.instagram.com/p/Cavjk-ApcRa/
   - title: This post on Facebook
     url: https://www.facebook.com/thzinc/posts/10216891044266843
+section: write
 ---
 
 I’m so grateful for friends and family celebrating with Bonnie and me. When Bonnie pitched the idea of fundraising for our 15th anniversary, I was excited. She’s got a keen sense of knowing what good needs to be done and who’s engaged in doing that work.

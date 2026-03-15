@@ -6,6 +6,7 @@ see_also:
     url: https://github.com/geerlingguy/mini-rack/issues/99
 redirect_from:
   - 2025/04/03/adjusting-the-flyht-pro-stage-rack-case-for-use-with-10-mini-racks.html
+section: make
 ---
 
 I've been working on building a Raspberry Pi cluster and decided to jump into the "mini rack" world after seeing the trove of information that [Jeff Geerling][jeff] and his community have assembled at [Project MINI RACK][project-mini-rack]. I saw the [Flyht Pro Stage Rack][thomann] case and found it to be the ideal size for me. (I needed my rack to fit comfortably in an IKEA Kallax shelf.)

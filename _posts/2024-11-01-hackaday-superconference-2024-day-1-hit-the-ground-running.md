@@ -6,6 +6,7 @@ see_also:
     url: https://github.com/thzinc/2024-supercon-iot-petal-matrix
   - title: Animated Petal Matrix on Github
     url: https://github.com/thzinc/2024-supercon-animated-petal-matrix
+section: make
 ---
 
 After a satisfying fit test of [my diffuser cover][prev-post], I got to work testing out the logic to light up the Petal Matrix SAO. My goal was to be able to drag my finger around the schematic image on my phone and cause the petal to light up with a short decay time. (The effect produces trails of light.)

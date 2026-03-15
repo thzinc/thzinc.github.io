@@ -4,6 +4,7 @@ tags: 3d_printing
 see_also:
   - title: Diffuser cover for the Hackaday Superconference 2024 Petal Matrix SAO at Thingiverse
     url: https://www.thingiverse.com/thing:6816878
+section: make
 ---
 
 Ever since the [badge reveal][badge-reveal], I thought the the Petal Matrix SAO looked neat, and I wanted to be able to make something that I might be able to trade with other conference-goers. Since it's a cool illuminated thing, I thought maybe a diffuser cover might look cool!

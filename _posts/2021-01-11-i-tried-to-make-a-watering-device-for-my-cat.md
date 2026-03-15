@@ -4,6 +4,7 @@ tags: electronics javascript programming raspberry_pi
 see_also:
   - title: thzinc/cat-waterer on GitHub
     url: https://github.com/thzinc/cat-waterer
+section: make
 ---
 
 My cat has an addiction to drinking directly from the tub's faucet. We've tried to get him nice water dishes and electric pump water fountains, but he just craves that good, good tub water. (And is extremely vocal about when he wants to drink.)

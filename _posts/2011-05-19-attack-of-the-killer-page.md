@@ -2,6 +2,7 @@
 title: Attack of the killer page
 tags: programming dotnet
 published_at: https://blog.thzinc.com/post/5660988323/attack-of-the-killer-page
+section: code
 ---
 
 I have spent the last few days tackling a truly gnarly mess of ASP.NET code that was brought to my attention because of its poor performance. The page is intended to be a working view of people involved in a project, allowing the user to interact with people in a dozen different ways. The page went through three developers over a couple of years before it got to me, and each of the devs before me had a particular business problem they were trying to solve, as is the case with most business software. However, what probably started as an innocent experimentation with ASP.NET update panels turned into a mess of spaghetti code.

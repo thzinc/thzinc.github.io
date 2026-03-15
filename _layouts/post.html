@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="h-entry">
-    <header>
-      <a href="/" class="p-author">thzinc</a>
-    </header>
+  <body class="h-entry site-section {{page.section}}">
+    {%- include brand_tag.html -%}
     <main>
       <article>
-        <h1 class="p-name">{{ page.title }}</h1>
+        <header>
+          {%- if page.title -%}
+            <h1 class="p-name title">{{ page.title }}</h1>
+          {%- endif -%}
+          {%- unless page.categories == null or page.categories.size == 0 -%}
+            <div>
+              {%- assign categories = page.categories | sort -%}
+              {%- for category in categories -%}
+                <span class="category">
+                  <a href="/{{category}}/">{{ category }}</a>
+                  {%- if page.tags contains 'project_update' -%}
+                    &nbsp;
+                    <span class="project_update" title="Project Update">🗒️</span>
+                  {%- endif -%}
+                </span>
+              {%- endfor -%}
+            </div>
+          {%- endunless -%}
+        </header>
         {{ content }}
       </article>
       {%- unless page.see_also == null or page.see_also.size == 0 -%}
@@ -24,34 +40,40 @@
       {%- endunless -%}
     </main>
     <footer>
-      <a href="/">Home</a>
-      {%- unless page.categories == null or page.categories.size == 0 -%}
-        {%- assign categories = page.categories | sort -%}
-        <span>
-          –
-          <span>
-            {%- for category in categories -%}
-              <a href="/{{category}}/">{{ category }}</a>
-            {%- endfor -%}
-          </span>
-        </span>
-      {%- endunless -%}
-      {%- unless page.tags == null or page.tags.size == 0 -%}
-        {%- assign tags = page.tags | sort -%}
-        <span>
-          –
-          <span>
-            {%- for tag in tags -%}
-              {%- assign tag_permalink = tag | prepend: '/tags/' -%}
-              {%- assign tag_page = site.pages | where: "permalink", tag_permalink | first -%}
-              <a href="{{tag_page.permalink}}">{{ tag_page.title }}</a>
-            {%- endfor -%}
-          </span>
-        </span>
-      {%- endunless -%}
+      <ul>
+        <li>
+          <a href="/">Home</a>
+          {%- if page.section -%}
+            <span>
+              &gt;
+              <a href="/{{page.section | url_escape}}">{{ page.section | capitalize }}</a>
+            </span>
+          {%- endif -%}
+        </li>
+        {%- unless page.tags == null or page.tags.size == 0 -%}
+          {%- assign tags = page.tags | sort -%}
+          <li>
+            <ul class="inline">
+              {%- for tag in tags -%}
+                {%- assign tag_permalink = tag | prepend: '/tags/' -%}
+                {%- assign tag_page = site.pages | where: "permalink", tag_permalink | first -%}
+                <li>
+                  <a href="{{tag_page.permalink}}">{{ tag_page.title }}</a>
+                </li>
+              {%- endfor -%}
+            </ul>
+          </li>
+        {%- endunless -%}
+      </ul>
       {%- if page.date -%}
-        –
-        <span class="dt-published">{{ page.date | date: "%Y-%m-%d" }}</span>
+        <ul>
+          <li>
+            Published
+            <span class="dt-published">{{ page.date | date: "%Y-%m-%d" }}</span>
+            by
+            <a href="/" class="p-name">{{ site.author }}</a>
+          </li>
+        </ul>
       {%- endif -%}
     </footer>
   </body>

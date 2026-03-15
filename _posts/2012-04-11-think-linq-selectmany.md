@@ -3,6 +3,7 @@ title: Think LINQ – .SelectMany()
 tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/76891692912/think-linq-selectmany
+section: code
 ---
 
 I recently came across a [beautiful example of `.SelectMany()`][so-answer] used to find all types that implement a particular interface in all currently loaded assemblies. With minor alterations, here is how I used it:

@@ -2,6 +2,7 @@
 title: Three intermingling thoughts; POSIWID
 excerpt: |
   I have three intermingling background thoughts lately: "The purpose of a system is what it does" (POSIWID), humans seem to have three ways of sensing the world–why?!, and how do I be?
+section: write
 ---
 
 I have three intermingling background thoughts lately:

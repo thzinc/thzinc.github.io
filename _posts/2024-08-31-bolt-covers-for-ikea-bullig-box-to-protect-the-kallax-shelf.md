@@ -6,6 +6,7 @@ see_also:
     url: https://www.thingiverse.com/thing:6750127
   - title: IKEA BULLIG box, bamboo/brown
     url: https://www.ikea.com/us/en/p/bullig-box-bamboo-brown-30474592/
+section: make
 ---
 
 My wife is a talented and prolific knitter with a yarn stash that rivals my own nerdy maker supply. She uses an IKEA KALLAX unit to organize her yarn and really liked the pressed bamboo BULLIG boxes she saw at the store. However, the boxes are designed with smooth-headed bolts with round nuts on the inside of the box. The smooth head of the bolt is important because the box needs to be able to slide in and out of the shelf without catching, but that means the end of the bolt is protruding on the inside of the box.

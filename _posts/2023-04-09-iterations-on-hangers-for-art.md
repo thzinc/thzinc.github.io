@@ -2,6 +2,7 @@
 title: Iterations on hangers for art
 category: Art display board
 tags: project_update 3d_printing art
+section: make
 ---
 
 I've been slowly iterating on designs to hold art on my cool, new display board. I haven't settled on anything yet, but here are several of my attempts so far.

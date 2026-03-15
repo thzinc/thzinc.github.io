@@ -6,6 +6,7 @@ see_also:
     url: https://buttondown.email/cassidoo/archive/you-should-celebrate-who-you-are-eva-mendes/
   - title: Social media post
     url: https://onewilshire.la/@thzinc/109980712185344430
+section: code
 ---
 
 The tests were harder than the implementation 🥴

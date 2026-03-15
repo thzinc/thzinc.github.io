@@ -3,7 +3,6 @@ title: thzinc
 description: I'm Daniel James. I write things here when I feel like it.
 author: Daniel James
 timezone: America/Los_Angeles
-email: daniel@thzinc.com
 activitypub:
   username: "@thzinc@hachyderm.io"
   url: https://hachyderm.io/@thzinc
@@ -27,3 +26,7 @@ plugins:
   - jekyll-redirect-from
 exclude:
   - charts/
+  - nginx.conf
+  - CNAME
+  - Dockerfile
+  - Posts.base

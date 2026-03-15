@@ -6,6 +6,7 @@ see_also:
     url: https://buttondown.email/cassidoo/archive/change-is-a-stranger-you-have-yet-to-know-george/
   - title: Social media post
     url: https://botsin.space/@thzinc/110613760570820705
+section: code
 ---
 
 Simple, no-frills solution to this week's question.

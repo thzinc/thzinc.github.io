@@ -1,5 +1,6 @@
 ---
 title: "@thzinc is no longer on Twitter/X"
+section: write
 ---
 
 A small confirmation for any who might look for me on Twitter/X: I have deleted my account there. I enjoyed many of the interactions with people I had there, but the site has changed beyond recognition and is no longer a place where I want to be.

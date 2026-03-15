@@ -3,6 +3,7 @@ title: Think LINQ – .ToLookup()
 tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/76777278341/think-linq-tolookup
+section: code
 ---
 
 There is an class in the .NET generic collection framework that is often overlooked: `Lookup<>`. In effect, a `Lookup<>` functions like a `Dictionary<>` whose value is an `IEnumerable<>`. Though `Lookup<T,U>` is an implementation of `IEnumerable<IGrouping<T, U>>`, it functions with a similar efficiency to `Dictionary<T,IEnumerable<U>>`. Part of the LINQ extension methods include `.ToLookup()`, which works very similarly to [`.ToDictionary()`][earlier-post].

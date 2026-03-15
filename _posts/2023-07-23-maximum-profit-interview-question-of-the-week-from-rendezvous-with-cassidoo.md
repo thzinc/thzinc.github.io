@@ -6,6 +6,7 @@ see_also:
     url: https://buttondown.email/cassidoo/archive/the-thermometer-of-success-is-merely-the-jealousy/
   - title: Social media post
     url: https://botsin.space/@thzinc/110767701234608776
+section: code
 ---
 
 If I'm going to use Elixir, I might as well make use of its pattern matching!

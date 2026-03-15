@@ -4,6 +4,7 @@ tags: electronics microcontrollers programming speaking games
 see_also:
   - title: 2024-supercon-game at Github
     url: https://github.com/thzinc/2024-supercon-game
+section: speak
 ---
 
 After writing up a [summary of day 2][prev-post], I got the itch to make a game on the badge. I had a few criteria I wanted to satisfy:

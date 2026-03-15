@@ -2,6 +2,7 @@
 title: Big build day!
 category: Art display board
 tags: project_update 3d_printing woodworking art
+section: make
 ---
 
 I have basically been thinking about building the display board all week, but haven't had a chance to until today because of both work and weather. I've found this thinking time useful for planning the cuts and assembly procedure. I read up on some woodworking "best practices" that suggested a scrawl for marking lines, which turned out to pair with a recent tidbit of wisdom that [Laura Kampf][laura-kampf] shared in a recent video about cutting lines in plywood to prevent splintering. And this morning, I wrapped up the technical drawing with the dimensions laid out in inches because I don't have sufficient metric measuring tools.

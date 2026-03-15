@@ -1,6 +1,7 @@
 ---
 title: A story about protocols and documentation
 tags: electronics csharp programming sdlc
+section: code
 ---
 
 In April 2021, I had a problem at work: I didn't understand how our on-vehicle application communicated with the text-to-speech appliance to make [next stop announcements][gmv-next-stop-announcements].

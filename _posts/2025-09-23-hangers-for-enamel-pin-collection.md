@@ -2,6 +2,7 @@
 title: Hangers for enamel pin collection
 category: Art display board
 tags: project_update 3d_printing art
+section: make
 ---
 
 After receiving this year's [Project for Awesome](https://www.projectforawesome.com/) perks, which included a "Magic Banana Loca" enamel pin, I realized I had a handful of other pins I collected over the years. Since I have a nice art display board, I designed some cleated hangers to display my pins.

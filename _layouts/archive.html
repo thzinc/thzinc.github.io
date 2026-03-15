@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="site-section {{page.section}}">
+    {%- include brand_tag.html -%}
+    <main>
+      {%- if page.title -%}
+        <h1 class="p-name title">{{ page.title }}</h1>
+      {%- endif -%}
+      {{ content }}
+      <ul>
+        {%- for post in site.posts -%}
+          <li class="h-entry">
+            <span class="dt-published">{{ post.date | date: "%Y-%m-%d" }}</span>
+            <a href="{{ post.url }}" class="p-url p-name">{{ post.title | escape_once }}</a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </main>
+    <footer>
+      <a href="/">Home</a>
+    </footer>
+  </body>
+</html>

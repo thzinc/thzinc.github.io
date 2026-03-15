@@ -5,6 +5,7 @@ tags: programming project_update games
 see_also:
   - url: https://regexed.com
     title: "regexed: a daily puzzle game"
+section: write
 ---
 
 I love [Regular Expressions][mdn]. This might place me among a small group of people, but I have enjoyed the puzzle of figuring out the arcane incantation to match the text I'm looking for.

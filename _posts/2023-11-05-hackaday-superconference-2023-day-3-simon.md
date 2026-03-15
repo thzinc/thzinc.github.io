@@ -2,8 +2,9 @@
 title: Hackaday Superconference 2023 – Day 3 – Simon!
 tags: programming electronics microcontrollers speaking games
 see_also:
-  - title: "thzinc/Vectorscope – My fork of the badge's code"
+  - title: thzinc/Vectorscope – My fork of the badge's code
     url: https://github.com/thzinc/Vectorscope
+section: speak
 ---
 
 In the final day of [Hackaday Superconference 2023][supercon2023], I feel like I started to get into the groove of the conference. During the afternoon, I found a spot to play around more with my badge while within earshot of a couple of sessions that–frankly–were beyond my level of understanding in electronics. However, spending time with the badge and its hardware made me want to play with it, so I decided to try my hand at making a simple game. I learned how to draw rectangles on the screen and decided to make a [Simon][simon-game] game where the game takes turns with you reciting a series of colors/button presses.

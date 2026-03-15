@@ -2,146 +2,85 @@
 title: Illuminated "neon" costume welding goggles
 tags: electronics 3d_printing sewing
 eye-cup-holes:
-  [
-    {
-      "@context": "http://www.w3.org/ns/anno.jsonld",
-      "type": "Annotation",
-      "body":
-        [
-          {
-            "type": "TextualBody",
-            "value": "Marked indents to prepare for drilling",
-            "purpose": "commenting",
-          },
-        ],
-      "target":
-        {
-          "source": "https://thzinc.com/2025/09/30/tbd.html#assets-led-goggles-eye-cup-holes-dzi",
-          "selector":
-            {
-              "type": "FragmentSelector",
-              "conformsTo": "http://www.w3.org/TR/media-frags/",
-              "value": "xywh=pixel:2287.5498046875,1589.130126953125,559.653564453125,903.005859375",
-            },
-        },
-      "id": "#2541ec05-63cb-41ec-95c0-3f7e009ba964",
-    },
-    {
-      "@context": "http://www.w3.org/ns/anno.jsonld",
-      "type": "Annotation",
-      "body":
-        [
-          {
-            "type": "TextualBody",
-            "value": "Compass with needle points set about 10mm apart",
-            "purpose": "commenting",
-          },
-        ],
-      "target":
-        {
-          "source": "https://thzinc.com/2025/09/30/tbd.html#assets-led-goggles-eye-cup-holes-dzi",
-          "selector":
-            {
-              "type": "FragmentSelector",
-              "conformsTo": "http://www.w3.org/TR/media-frags/",
-              "value": "xywh=pixel:1634.0911865234375,0,1288.6951904296875,2051.194091796875",
-            },
-        },
-      "id": "#25d768e6-5ccb-4b78-83f2-53a8276e7565",
-    },
-    {
-      "@context": "http://www.w3.org/ns/anno.jsonld",
-      "type": "Annotation",
-      "body":
-        [
-          {
-            "type": "TextualBody",
-            "value": "Awl used for widening the markings left by the compass",
-            "purpose": "commenting",
-          },
-        ],
-      "target":
-        {
-          "source": "https://thzinc.com/2025/09/30/tbd.html#assets-led-goggles-eye-cup-holes-dzi",
-          "selector":
-            {
-              "type": "FragmentSelector",
-              "conformsTo": "http://www.w3.org/TR/media-frags/",
-              "value": "xywh=pixel:625.38916015625,0,947.5477294921875,2384.8251953125",
-            },
-        },
-      "id": "#237e6f43-0538-40dd-98f9-32ef726e14fd",
-    },
-    {
-      "@context": "http://www.w3.org/ns/anno.jsonld",
-      "type": "Annotation",
-      "body":
-        [
-          {
-            "type": "TextualBody",
-            "value": '1/16" drill bit deep inside the chuck to minimize the amount of drill bit that would protrude into the eye cup',
-            "purpose": "commenting",
-          },
-        ],
-      "target":
-        {
-          "source": "https://thzinc.com/2025/09/30/tbd.html#assets-led-goggles-eye-cup-holes-dzi",
-          "selector":
-            {
-              "type": "FragmentSelector",
-              "conformsTo": "http://www.w3.org/TR/media-frags/",
-              "value": "xywh=pixel:1615.838134765625,4043.56982421875,546.500732421875,709.7978515625",
-            },
-        },
-      "id": "#97c41ad4-f9a1-4928-99e3-c9eba700f36b",
-    },
-    {
-      "@context": "http://www.w3.org/ns/anno.jsonld",
-      "type": "Annotation",
-      "body":
-        [
-          {
-            "type": "TextualBody",
-            "value": "Larger drill bit used for deburring the drilled holes",
-            "purpose": "commenting",
-          },
-        ],
-      "target":
-        {
-          "source": "https://thzinc.com/2025/09/30/tbd.html#assets-led-goggles-eye-cup-holes-dzi",
-          "selector":
-            {
-              "type": "FragmentSelector",
-              "conformsTo": "http://www.w3.org/TR/media-frags/",
-              "value": "xywh=pixel:1149.897216796875,3028.950927734375,559.564453125,2606.220947265625",
-            },
-        },
-      "id": "#11bd9282-98c9-497e-943a-ffe8b8e0ca5f",
-    },
-    {
-      "@context": "http://www.w3.org/ns/anno.jsonld",
-      "type": "Annotation",
-      "body":
-        [
-          {
-            "type": "TextualBody",
-            "value": "Drilled holes along the rim of the eye cup",
-            "purpose": "commenting",
-          },
-        ],
-      "target":
-        {
-          "source": "https://thzinc.com/2025/09/30/tbd.html#assets-led-goggles-eye-cup-holes-dzi",
-          "selector":
-            {
-              "type": "FragmentSelector",
-              "conformsTo": "http://www.w3.org/TR/media-frags/",
-              "value": "xywh=pixel:1883.645263671875,5160.521484375,452.877197265625,805.59912109375",
-            },
-        },
-      "id": "#01f06537-b75f-45ee-adca-d9983343f2fb",
-    },
-  ]
+  - "@context": http://www.w3.org/ns/anno.jsonld
+    type: Annotation
+    body:
+      - type: TextualBody
+        value: Marked indents to prepare for drilling
+        purpose: commenting
+    target:
+      source: https://thzinc.com/2025/09/30/tbd.html#assets-led-goggles-eye-cup-holes-dzi
+      selector:
+        type: FragmentSelector
+        conformsTo: http://www.w3.org/TR/media-frags/
+        value: xywh=pixel:2287.5498046875,1589.130126953125,559.653564453125,903.005859375
+    id: "#2541ec05-63cb-41ec-95c0-3f7e009ba964"
+  - "@context": http://www.w3.org/ns/anno.jsonld
+    type: Annotation
+    body:
+      - type: TextualBody
+        value: Compass with needle points set about 10mm apart
+        purpose: commenting
+    target:
+      source: https://thzinc.com/2025/09/30/tbd.html#assets-led-goggles-eye-cup-holes-dzi
+      selector:
+        type: FragmentSelector
+        conformsTo: http://www.w3.org/TR/media-frags/
+        value: xywh=pixel:1634.0911865234375,0,1288.6951904296875,2051.194091796875
+    id: "#25d768e6-5ccb-4b78-83f2-53a8276e7565"
+  - "@context": http://www.w3.org/ns/anno.jsonld
+    type: Annotation
+    body:
+      - type: TextualBody
+        value: Awl used for widening the markings left by the compass
+        purpose: commenting
+    target:
+      source: https://thzinc.com/2025/09/30/tbd.html#assets-led-goggles-eye-cup-holes-dzi
+      selector:
+        type: FragmentSelector
+        conformsTo: http://www.w3.org/TR/media-frags/
+        value: xywh=pixel:625.38916015625,0,947.5477294921875,2384.8251953125
+    id: "#237e6f43-0538-40dd-98f9-32ef726e14fd"
+  - "@context": http://www.w3.org/ns/anno.jsonld
+    type: Annotation
+    body:
+      - type: TextualBody
+        value: 1/16" drill bit deep inside the chuck to minimize the amount of drill bit that would protrude into the eye cup
+        purpose: commenting
+    target:
+      source: https://thzinc.com/2025/09/30/tbd.html#assets-led-goggles-eye-cup-holes-dzi
+      selector:
+        type: FragmentSelector
+        conformsTo: http://www.w3.org/TR/media-frags/
+        value: xywh=pixel:1615.838134765625,4043.56982421875,546.500732421875,709.7978515625
+    id: "#97c41ad4-f9a1-4928-99e3-c9eba700f36b"
+  - "@context": http://www.w3.org/ns/anno.jsonld
+    type: Annotation
+    body:
+      - type: TextualBody
+        value: Larger drill bit used for deburring the drilled holes
+        purpose: commenting
+    target:
+      source: https://thzinc.com/2025/09/30/tbd.html#assets-led-goggles-eye-cup-holes-dzi
+      selector:
+        type: FragmentSelector
+        conformsTo: http://www.w3.org/TR/media-frags/
+        value: xywh=pixel:1149.897216796875,3028.950927734375,559.564453125,2606.220947265625
+    id: "#11bd9282-98c9-497e-943a-ffe8b8e0ca5f"
+  - "@context": http://www.w3.org/ns/anno.jsonld
+    type: Annotation
+    body:
+      - type: TextualBody
+        value: Drilled holes along the rim of the eye cup
+        purpose: commenting
+    target:
+      source: https://thzinc.com/2025/09/30/tbd.html#assets-led-goggles-eye-cup-holes-dzi
+      selector:
+        type: FragmentSelector
+        conformsTo: http://www.w3.org/TR/media-frags/
+        value: xywh=pixel:1883.645263671875,5160.521484375,452.877197265625,805.59912109375
+    id: "#01f06537-b75f-45ee-adca-d9983343f2fb"
+section: make
 ---
 
 Many years ago, I bought a two-pack of costume welding goggles for a steampunk-adjacent cosplay on a [JoCoCruise]. The goggles are fun, but weren't made for wearing for any real length of time because the nose rest was the same rigid plastic as the rest of the eye cups. As I was making plans for this year's [Supercon], I wanted to revisit the goggles with some electronics.
@@ -172,7 +111,7 @@ The padding around the eye cups made a huge impact on comfort, so I got to desig
 
 The prototype was useful to help me realize I needed make the outer ring LED strip smaller to be visible through the retaining ring. Also, I placed the throughhole in the thin edge of the design, which didn't make use of the room behind the "top eyelid" of the design. I made some adjustments to the design, and then designed a cup to contain the ends of the strand and a resistor, and a bottom alignment block to allow the piece to sit centered in the cylinder of the eye cup.
 
-![Diagram of three-piece assembly. The 50mm ring has shallow holes that accept pegs from the other two pieces for alignment and strength.](/assets/led-goggles/assembly-diagram.png){:.invertable}
+![Diagram of three-piece assembly. The 50mm ring has shallow holes that accept pegs from the other two pieces for alignment and strength.](/assets/led-goggles/assembly-diagram.png){:.invertible}
 
 After some light soldering to attach the LED strand to a 22 Ohm resistor and a length of flexible wire, I fed the wire through a hole in the cup, stuffed the LED strand and resistor inside the cup, and plastic welded the cup to the ring. (I welded the the bottom alignment block as well.)
 

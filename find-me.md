@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Me, online
 permalink: /find-me
 ---
 
-<img src="/assets/banner.png" alt="Diagram of daniel@thzinc.com" class="invertable">
+<img src="/assets/banner.png" alt="Diagram of &quot;daniel@thzinc.com&quot; with annotations: me: daniel; me, online: @thzinc; website: thzinc.com; email: daniel@thzinc.com " class="invertible">
 
 - Social media
   - The "Fediverse," "Mastodon," or places where ActivityPub is used

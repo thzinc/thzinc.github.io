@@ -4,6 +4,7 @@ tags: 3d_printing
 see_also:
   - title: Allen wrench holder on Thingiverse
     url: https://www.thingiverse.com/thing:6534400
+section: make
 ---
 
 I needed a holder to keep my esoteric set of metric Allen wrenches together. (I also made a [Gridfinity] module to hold this with my pocket knife.) I made it to hold 2mm, 2.5mm, 3mm, 4mm, 5mm, and 6mm wrenches.

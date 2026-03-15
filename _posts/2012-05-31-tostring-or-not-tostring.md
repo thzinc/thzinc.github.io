@@ -4,6 +4,7 @@ tags: programming csharp dotnet
 published_at: https://blog.thzinc.com/post/77638531616/tostring-or-not-tostring
 excerpt: |
   Every object in C# has it: `.ToString()`. That supposedly handy little method that “converts” the object into some string representation of the object. Sometimes it does just what you want, but sometimes it causes developers to go mad.
+section: code
 ---
 
 Are you kidding me?

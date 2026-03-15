@@ -7,6 +7,7 @@ see_also:
     url: https://consumercomplaints.fcc.gov/hc/en-us/articles/360001201223-Phone-Form-Descriptions-of-Complaint-Issues
   - title: CarrierLookup.com
     url: https://www.carrierlookup.com/
+section: write
 ---
 
 It's only a few weeks away from elections in the United States and–like most folks here–I am deluged in spam texts every day. Most of them are annoying, but easy enough to ignore. The obvious "USPS customs" scams are easy to spot and block as junk. But occasionally I'll get a text from someone who spent their marketing budget to share an especially noxious message with me.

@@ -4,6 +4,7 @@ tags: electronics 3d_printing microcontrollers
 see_also:
   - title: USB AA battery shim on Thingiverse
     url: https://www.thingiverse.com/thing:6309864
+section: make
 ---
 
 I wanted to display my [Hackaday Superconference badge][badge-post] without continually burning through disposable batteries, or having to cycle through rechargeables every other day. A fellow conference-goer shared [this LiPo holder design][lipo-holder] which just fits into the badge's AA receptacles and provides a sturdy plane to which to strap a bigger battery. I liked the fact that this didn't further modify the badge and everything remained usable, but it was a little bulkier than I needed for a display piece.

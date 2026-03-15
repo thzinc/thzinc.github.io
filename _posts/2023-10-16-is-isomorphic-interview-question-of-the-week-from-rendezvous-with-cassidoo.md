@@ -6,6 +6,7 @@ see_also:
     url: https://buttondown.email/cassidoo/archive/no-matter-what-people-tell-you-words-and-ideas/
   - title: Social media post
     url: https://botsin.space/@thzinc/111245413237163791
+section: code
 ---
 
 Wow, I haven't done one of these for a few months. Let's see how this goes!

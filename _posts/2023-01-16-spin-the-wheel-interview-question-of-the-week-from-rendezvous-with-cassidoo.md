@@ -6,6 +6,7 @@ see_also:
     url: https://buttondown.email/cassidoo/archive/the-man-who-moves-a-mountain-begins-by-carrying/
   - title: Social media post
     url: https://onewilshire.la/@thzinc/109703329217382401
+section: code
 ---
 
 Well, I spent quite a bit more time on this tonight than I'd originally anticipated. It's not _pretty_, but it does work and has a little bit of viable game theory.

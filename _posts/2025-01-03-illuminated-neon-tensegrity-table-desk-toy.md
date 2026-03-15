@@ -3,6 +3,7 @@ title: Illuminated "neon" tensegrity table desk toy
 tags: 3d_printing art electronics
 excerpt: |
   Last month, I added some of the 300mm NOODS LED strands to my Adafruit order because they were on sale and looked like they'd be fun to make something with. I was enamored with how flexible and bright and noodly they are and really wanted to make something that highlighted these properties.
+section: make
 ---
 
 ![Collage showing a very crude drawing of a three-spoked tensegrity stand and a photo of the final assembled piece](/assets/tensegrity-table/header.jpg)
@@ -29,7 +30,7 @@ I laid out the geometry for the design, measured the anticipated lengths of NOOD
 
 The first design was helpful to work out the plan for how to think about routing the strands through the piece. With that in mind–along with a good knowledge of my printer's fit tolerances–I took to redesigning each piece of the tensegrity design prioritizing printability. This is most noticeable in the different channels used for the strands on the hanger arm versus the tension arms.
 
-![Cross section of the hanger arm showing a V-shaped channel compared to the tension arm's square U shaped channel](/assets/tensegrity-table/arm-cross-sections.png){:.invertable}
+![Cross section of the hanger arm showing a V-shaped channel compared to the tension arm's square U shaped channel](/assets/tensegrity-table/arm-cross-sections.png){:.invertible}
 
 The hanger arm is designed to be printed "laying down," so it uses a V-shaped channel that can be printed layer by layer without supports. The tension arm is designed instead to be printed "top down" so that the square U-shaped channel is formed facing up.
 

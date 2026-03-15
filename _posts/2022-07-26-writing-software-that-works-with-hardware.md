@@ -4,6 +4,7 @@ tags: electronics programming sdlc
 see_also:
   - title: go-sensors on GitHub
     url: https://github.com/go-sensors
+section: write
 ---
 
 I've been working on a lot of hardware projects lately: [making text-to-speech appliances work on transit vehicles][post-textpseak], [making software for internet-connected signs][post-mqtt-mono-and-arm], [prototyping tools to help me make good health decisions][post-co2-monitor], and building out my [go-sensors][go-sensors] libraries to support physical environment sensors. I've spent a lot of my time as a programmer working solely in software, but I've been increasingly enjoying working in that semisolid place between hardware and software.

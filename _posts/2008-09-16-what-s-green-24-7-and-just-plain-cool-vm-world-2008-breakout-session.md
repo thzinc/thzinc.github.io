@@ -2,6 +2,7 @@
 title: What's Green, 24/7, and Just Plain Cool? – VMWorld 2008 breakout session
 tags: speaking
 published_at: http://sessions.vmworld.com/lcms/mL_course/courseware/23351/PO1781.html
+section: speak
 ---
 
 Breakout session at VMworld 2008 in Las Vegas, NV about VMware Server and its role in Raideil's fully virtualized infrastructure. I presented this session with my two partners, [Kraig van der Klomp][kvdk] and [Yves Accad][ya]. This was my first speaking engagement and it was a thrill to deliver this talk with my good friends to about 60 people.

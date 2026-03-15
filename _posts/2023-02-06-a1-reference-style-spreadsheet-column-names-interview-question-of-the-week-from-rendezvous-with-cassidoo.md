@@ -6,6 +6,7 @@ see_also:
     url: https://buttondown.email/cassidoo/archive/talent-without-working-hard-is-nothing-cristiano/
   - title: Social media post
     url: https://onewilshire.la/@thzinc/109822377750062734
+section: code
 ---
 
 Nice little brain teaser involving number base conversion 😄

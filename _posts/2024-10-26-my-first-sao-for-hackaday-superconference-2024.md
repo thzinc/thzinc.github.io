@@ -1,6 +1,7 @@
 ---
 title: My first SAO for Hackaday Superconference 2024
 tags: 3d_printing electronics
+section: make
 ---
 
 Since this year's [Hackaday Superconference][supercon] is all about ~~Shitty~~Supercon Add-Ons, I really wanted to make one for my badge. I was inspired by [John][grajohnt]'s really slick cursive script name tag, but I am far less acquainted with the tools and techniques he used in his add-on.
@@ -13,7 +14,7 @@ Using the 2x8 cm measurements of the [gumstick][gumstick] board, I modelled a si
 
 ![Rendering of modelled cover showing "thiznc" on a 2x8 cm rectangular box](/assets/name-tag-rendering.png)
 
-![Diagram of model showing a cross-section of the box with annotations indicating each of the layers' thicknesses](/assets/name-tag-diagram.png){:.invertable}
+![Diagram of model showing a cross-section of the box with annotations indicating each of the layers' thicknesses](/assets/name-tag-diagram.png){:.invertible}
 
 With modelling done, I got to soldering a row of LEDs on to the gumstick:
 

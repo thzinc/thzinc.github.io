@@ -6,6 +6,7 @@ see_also:
     url: https://buttondown.email/cassidoo/archive/the-best-prophet-of-the-future-is-the-past-lord/
   - title: Social media post
     url: https://onewilshire.la/@thzinc/109737295624159813
+section: code
 ---
 
 Nice, bite-sized algorithm question.

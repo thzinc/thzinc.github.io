@@ -2,6 +2,7 @@
 title: “But, IIS, I want to return useful content for my errors!”
 tags: programming
 published_at: https://blog.thzinc.com/post/77845841945/but-iis-i-want-to-return-useful-content-for-my
+section: code
 ---
 
 Sometimes I think of IIS as a big, dopey guy with a mostly-likable personality. He really wants to help with anything and everything, but he’s not very good at any of it.

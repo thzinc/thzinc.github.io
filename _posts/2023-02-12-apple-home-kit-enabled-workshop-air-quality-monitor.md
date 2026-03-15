@@ -4,6 +4,7 @@ tags: programming electronics javascript raspberry_pi air_quality
 see_also:
   - title: thzinc/workshop-air-quality-monitor on GitHub
     url: https://github.com/thzinc/workshop-air-quality-monitor
+section: make
 ---
 
 After I built the [cardboard stock sorting shelf][shelf-post], I had about a week of breathing issues as a result of poor ventilation from the sawdust and particulate in the air in my garage. Resolved to avoid another week of feeling crummy, I bought a beefy fan and have eventual plans to build a CR box based on [The 3D Handyman's very well-researched plans][3dhandyman].

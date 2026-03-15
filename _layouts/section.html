@@ -1,0 +1,34 @@
+{%- assign tag = page.name | split: "." | first -%}
+{%- capture title -%}
+  {%- if page.title -%}
+    {{page.title}}
+  {%- else -%}
+    {{tag | replace: "_", " "}}
+  {%- endif -%}
+{%- endcapture -%}
+{%- assign content_length = content | strip | size -%}
+{%- assign section_posts = site.posts | where: "section", page.section -%}
+{%- assign newest_posts = section_posts | slice: 0, 5 -%}
+{%- assign older_posts = section_posts | slice: 5, section_posts.size -%}
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="site-section {{page.section}}">
+    {%- include brand_tag.html -%}
+    <main>
+      <h1 class="title">{{ title }}</h1>
+      {%- if content_length > 0 -%}
+        <section>{{ content }}</section>
+      {%- endif -%}
+      {%- for post in newest_posts -%}
+        {%- include post_excerpt.html post=post show_images=page.show_images -%}
+      {%- endfor -%}
+      {%- for post in older_posts -%}
+        {%- include post_excerpt.html post=post show_images=false -%}
+      {%- endfor -%}
+    </main>
+    <footer>
+      <a href="/">Home</a>
+    </footer>
+  </body>
+</html>

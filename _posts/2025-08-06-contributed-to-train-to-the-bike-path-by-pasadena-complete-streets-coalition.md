@@ -1,12 +1,12 @@
 ---
 title: Contributed to "Train to the Bike Path" by Pasadena Complete Streets Coalition
-# tags: bikes
 see_also:
   - title: |
       "Train to the Bike Path" by Pasadena Complete Streets Coalition
     url: https://www.pasadenacsc.org/blog/train-to-bike
   - title: Social media post
     url: https://hachyderm.io/@thzinc/114983632226359855
+section: write
 ---
 
 I love bikes _and_ trains, and so do a bunch of my friends at [Pasadena Complete Streets Coalition](https://www.pasadenacsc.org). There was a call for contributions on this post, and I got to share a blurb about a ride I did with a couple friends a few years ago.

@@ -3,7 +3,8 @@ title: New housing for RadioShack 22-810 15-Range Digital Multimeter
 tags: 3d_printing electronics
 see_also:
   - title: New housing for RadioShack 22-810 15-Range Digital Multimeter on Thingiverse
-    url: "https://www.thingiverse.com/thing:4922514"
+    url: https://www.thingiverse.com/thing:4922514
+section: make
 ---
 
 I was tired of fiddling with the fold-up case that my [RadioShack 22-810 multimeter][flickr] (photo not mine) came in. The probes were a pain to fit into the case  properly and I also wanted to have the option to use wires with Dupont connectors to play nicely with my breadboard. So I scanned the original case to get the profile of the meter and designed a new housing with a replaceable "connection block" to attach different probes or wires to.

@@ -3,6 +3,7 @@ title: Flat rule with Celtic-style knots
 tags: 3d_printing art
 excerpt: |
   My wife is getting into weaving and asked for a flat rule to help her track progress through her patterns. I decided to add the knots to make it pretty.
+section: make
 ---
 
 ![Technical drawing of interwoven knots overlaid a photo of the printed rule next to a a measurement ruler for scale](/assets/celtic-rule-diptych.jpg)

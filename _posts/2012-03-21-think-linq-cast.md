@@ -3,6 +3,7 @@ title: Think LINQ – .Cast()
 tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/76570229763/think-linq-cast
+section: code
 ---
 
 Personally, I find that `.Cast()` is an often overlooked part of LINQ. Of course, `.Cast()` is handy when casting each element of an `IEnumerable<>` from one type to another. However, one detail in its method signature brings to light a much more interesting use: `.Cast()` extends `IEnumerable`, the non-generic interface, but returns `IEnumerable<>`. This is significant because it becomes a gateway for non-generic collections to take advantage of the whole LINQ library. Collections that may have been developed for .NET 2.0 get `.Where()`, `.Select()`, etc.

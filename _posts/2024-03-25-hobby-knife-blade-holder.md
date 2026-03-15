@@ -4,6 +4,7 @@ tags: 3d_printing
 see_also:
   - title: Hobby knife blade holder on Thingiverse
     url: https://www.thingiverse.com/thing:6534444
+section: make
 ---
 
 I love a good "cutty tool," and there's nothing quite like using the right X-ACTO knife for the job at hand. However, I didn't like the storage option provided by the [X-ACTO Basic Knife Set][basic-knife-set]. Getting the blades in and out of the plastic shell was a bit fraught and I often had to use a pin to assist with prying the blade out.

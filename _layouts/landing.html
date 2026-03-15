@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+{%- assign latest_post = site.posts | first -%}
+{%- assign other_posts = site.posts | slice: 1, 10000 -%}
+{%- assign make_posts = other_posts | where: "section", "make" | slice: 0, 3 -%}
+{%- assign code_posts = other_posts | where: "section", "code" | slice: 0, 3 -%}
+{%- assign write_posts = other_posts | where: "section", "write" | slice: 0, 3 -%}
+{%- assign speak_posts = other_posts | where: "section", "speak" | slice: 0, 3 -%}
+<html>
+  {% include head.html stylesheet="/assets/2026-design/index.css" %}
+  <body>
+    <header>
+      <div class="banner">
+        <img src="https://secure.gravatar.com/avatar/eaeac922b9f3cc9fd18cb9629b9e79f6?s=512" alt="Avatar of Daniel James a.k.a. thzinc" />
+        <div>thzinc</div>
+      </div>
+    </header>
+    <main>
+      {{ content }}
+
+      <section class="latest-post h-entry">
+        <h1>
+          Newest post
+        </h1>
+        {% include post_excerpt.html post=latest_post show_images = page.show_images %}
+      {% comment %} <blockquote>
+                  <div class="heading">
+                    <h2 class="p-name">
+                      <a href="{{ latest_post.url }}">{{ latest_post.title | escape_once }}</a>
+                    </h2>
+                  </div>
+                  <p>
+                    {{ latest_post.excerpt | markdownify | strip_html | truncatewords: 50, "…" | strip }}
+                  </p>
+              </blockquote> {% endcomment %}
+      </section>
+      <section class="make left">
+        <h1>
+          <a href="/make">Make</a>
+        </h1>
+        <ul>
+          {%- for post in make_posts -%}
+            <li>
+              <a href="{{ post.url }}">{{ post.title | escape_once }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </section>
+      <section class="code right">
+        <h1>
+          <a href="/code">Code</a>
+        </h1>
+        <ul>
+          {%- for post in code_posts -%}
+            <li>
+              <a href="{{ post.url }}">{{ post.title | escape_once }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </section>
+      <section class="write left">
+        <h1>
+          <a href="/write">Write</a>
+        </h1>
+        <ul>
+          {%- for post in write_posts -%}
+            <li>
+              <a href="{{ post.url }}">{{ post.title | escape_once }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </section>
+      <section class="speak right">
+        <h1>
+          <a href="/speak">Speak</a>
+        </h1>
+        <ul>
+          {%- for post in speak_posts -%}
+            <li>
+              <a href="{{ post.url }}">{{ post.title | escape_once }}</a>
+            </li>
+          {%- endfor -%}
+        </ul>
+      </section>
+      <footer>
+        <ul>
+          <li>
+            <a href="/archive">Archive</a>
+            <div>
+              ({{ site.posts | size | minus: 13 }} older posts)
+            </div>
+          </li>
+          <li>
+            <a href="/resume">Resume</a>
+          </li>
+          <li>
+            <a href="/find-me">Contact</a>
+          </li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>

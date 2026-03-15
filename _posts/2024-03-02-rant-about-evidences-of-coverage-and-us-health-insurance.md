@@ -1,5 +1,6 @@
 ---
 title: Rant about Evidences of Coverage and US health insurance
+section: write
 ---
 
 So frustrated with US health insurance right now. Thanks to my mom's passion for medicine, 30+ year career as a Registered Nurse, and general wonkery for navigating health insurance, I have made sure to request and review [Evidences of Coverage][eoc] (EOC) for each medical plan I've been able to choose from. The EOC is the reference document for exactly what is covered by the insurance and goes into excruciating detail over which procedures and medications are covered and when and at what rate.

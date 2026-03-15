@@ -4,6 +4,7 @@ tags: dotnet programming raspberry_pi
 see_also:
   - title: thzinc-icebox/mqtt-demo-client on GitHub
     url: https://github.com/thzinc-icebox/mqtt-demo-client
+section: code
 ---
 
 I wrote a .NET program to test building and cross-compiling an application to run on a [Sierra Wireless AirLink RV50][airlink] gateway.

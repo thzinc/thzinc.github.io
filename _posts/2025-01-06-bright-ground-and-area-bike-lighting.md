@@ -1,6 +1,7 @@
 ---
 title: Bright ground and area bike lighting
 tags: 3d_printing electronics
+section: make
 ---
 
 A couple years ago, I added a very bright [12VDC LED strip][adafruit] to my bike along the down tube and around the head tube. This increases my visibility at dusk and at night significantly, and illuminates the road really well as I'm riding.

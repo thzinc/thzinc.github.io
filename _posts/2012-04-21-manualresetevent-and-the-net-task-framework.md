@@ -2,6 +2,7 @@
 title: ManualResetEvent and the .NET Task framework
 tags: programming csharp dotnet
 published_at: https://blog.thzinc.com/post/77110790089/manualresetevent-and-the-net-task-framework
+section: code
 ---
 
 I’ve recently dived in to the .NET 4 Task framework, and was trying to deal with the issue of having a thread sleep for a specified period of time–unless a cancellation has been requested. This led me to discover `ManualResetEvent`, which is awesome for what I needed. Without further ado, here’s some code!

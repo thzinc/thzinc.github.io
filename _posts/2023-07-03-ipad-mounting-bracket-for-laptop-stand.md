@@ -6,6 +6,7 @@ see_also:
     url: https://www.amazon.com/gp/product/B086W3L2XB
   - title: iPad mounting bracket on Thingiverse
     url: https://www.thingiverse.com/thing:6107404
+section: make
 ---
 
 A few years ago, I bought a ridiculous-yet-useful octopus-like "Viozon Selfie Desktop Live Stand Set" to organize my desk and improve my work-from-home set up.

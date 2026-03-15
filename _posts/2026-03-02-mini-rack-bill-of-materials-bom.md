@@ -1,6 +1,7 @@
 ---
 title: Mini rack bill of materials (BOM)
 category: Mini rack
+section: make
 tags: electronics raspberry_pi
 ---
 

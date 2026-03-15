@@ -6,6 +6,7 @@ see_also:
     url: https://buttondown.email/cassidoo/archive/8309/
   - title: Social media post
     url: https://botsin.space/@thzinc/110490151742748470
+section: code
 ---
 
 How can I write a piece of code that can be written quickly and trivially understood? I think it's mostly good variable names in this case. (And I handle infinite pie!)

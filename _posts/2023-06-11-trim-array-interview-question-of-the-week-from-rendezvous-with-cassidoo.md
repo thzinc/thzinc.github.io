@@ -6,6 +6,7 @@ see_also:
     url: https://buttondown.email/cassidoo/archive/5922/
   - title: Social media post
     url: https://botsin.space/@thzinc/110529722446966363
+section: code
 ---
 
 There's a really simple one-liner for arrays, but what about using this with generators? (i.e., the [iterator] pattern where a length is not known until reaching the end of the iteration)

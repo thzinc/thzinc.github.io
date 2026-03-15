@@ -2,6 +2,7 @@
 title: Figure out what columns in a table are required upon insert
 tags: programming sql
 published_at: https://blog.thzinc.com/post/78370732749/figure-out-what-columns-in-a-table-are-required
+section: code
 ---
 
 Quick query to determine which columns of a table must be assigned values on `INSERT`:

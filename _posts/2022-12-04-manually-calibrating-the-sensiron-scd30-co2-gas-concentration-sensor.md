@@ -4,6 +4,7 @@ tags: electronics programming flipper_zero air_quality
 see_also:
   - title: go-sensors/rpi-sensironscd30-config on GitHub
     url: https://github.com/go-sensors/rpi-sensironscd30-config
+section: make
 ---
 
 I picked up an [Aranet4 Home][aranet4-home] CO2 sensor on a Black Friday sale and have finally had the chance to run a commercially-calibrated CO2 sensor against my [DIY CO2 monitor on the Flipper Zero][co2-monitor-on-flipper-zero] and found that my sensor needed some calibration.

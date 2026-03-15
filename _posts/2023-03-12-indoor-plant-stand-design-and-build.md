@@ -1,6 +1,7 @@
 ---
 title: Indoor plant stand – design and build
 tags: woodworking
+section: make
 ---
 
 A couple of friends gifted a [Monstera plant][monstera] to Bonnie and me. We're trying to get the hang of caring for plants, so we decided to give it a name and make it a nice stand to perch upon.

@@ -1,5 +1,6 @@
 ---
 title: Using Beyond Compare to make sense of 120+ page Evidences of Coverage
+section: write
 ---
 
 With my [Evidences of Coverage][eoc-rant] in hand, I now have the daunting task of comparing four 120+ page documents full of dense insurance language. Fortunately, my favorite diff tool, [Beyond Compare][bc], can handle text extraction from PDFs. Since these Evidences of Coverage are all very similar except for a series of different percentages and dollar amounts, the diff is extremely helpful for pointing out where the plans differ!

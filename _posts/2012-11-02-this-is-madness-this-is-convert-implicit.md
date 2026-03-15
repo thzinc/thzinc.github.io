@@ -2,6 +2,7 @@
 title: This is madness! This is CONVERT_IMPLICIT!
 tags: programming sql
 published_at: https://blog.thzinc.com/post/77947342749/this-is-madness-this-is-convertimplicit
+section: code
 ---
 
 I, like a few others I know around here, enjoy getting the semantics of things right. Even if two things are functionally equivalent, correctly identifying each of the things makes me feel warm and fuzzy. Take for example, SQL Server User Defined Types. No, not the SQL Server 2005 CLR-based User Defined Types. Just the plain ol’ SQL Server 2000-style User-Defined Types. The ones that are just a friendly alias over a system type. Here’s an example of what I’m talking about:

@@ -6,6 +6,7 @@ see_also:
     url: https://buttondown.email/cassidoo/archive/6053/
   - title: Social media post
     url: https://onewilshire.la/@thzinc/110337255588877966
+section: code
 ---
 
 In this case, writing tests to prove the solution was far more interesting than the solution itself.

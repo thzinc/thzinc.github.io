@@ -1,6 +1,7 @@
 ---
 title: Let's learn something about signaling (in telecom parlance)
 tags: programming sdlc
+section: write
 ---
 
 In 2019, I was wrestling with needing to build robust, real-time data processing systems in my role at GMV, so I turned to the industry of telephony for inspiration. I picked up a used copy of the out-of-print book [Signaling System No. 7 (SS7/C7): Protocol, Architecture, and Services][ss7-book] and started reading and posting to Instagram with the bits I enjoyed.

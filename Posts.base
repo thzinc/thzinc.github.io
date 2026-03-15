@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.inFolder("_posts")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - tags
+      - section
+    columnSize:
+      file.name: 424

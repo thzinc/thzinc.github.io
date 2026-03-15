@@ -8,6 +8,7 @@ see_also:
     url: https://glitch.com/~hackaday-supercon-2024-ical
   - title: Hackaday Superconference 2024
     url: https://hackaday.io/superconference/
+section: code
 ---
 
 The [Hackaday Superconference 2024][supercon] schedule was released today and I've been very excited to see who all is speaking and what fun stuff I'll plan to attend. However, the schedule on the site was pretty hard to conceptualize and there wasn't a machine-readable format for calendar apps.

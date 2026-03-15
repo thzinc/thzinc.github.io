@@ -1,6 +1,7 @@
 ---
 title: Software Development Lifecycle (SDLC)
 tags: sdlc
+section: write
 ---
 
 There are a lot of ways to organize humans in the activity of developing software. The popular methodologies like Agile and Kanban are decent for prioritizing the speed of delivering a piece of software while working with a competent and highly autonomous group of workers. Other methodologies like those commonly derided as "waterfall" place emphasis on rigid process to help inform and communicate the progress of delivering software while using process to control for quality.

@@ -5,6 +5,7 @@ permalink: /resume
 ---
 
 <html>
+<p>
 <a href="/assets/resume-2023.pdf">
 {%- include pages.svg %}
 One-page optimized resume in PDF format
@@ -14,6 +15,7 @@ One-page optimized resume in PDF format
 {%- include pages.svg %}
 This resume in PDF format
 </a>
+</p>
 </html>
 
 I am a highly-skilled software developer and technical leader. I have spent the last several years deeply enjoying sharing my skills and experience with my teammates and coworkers.

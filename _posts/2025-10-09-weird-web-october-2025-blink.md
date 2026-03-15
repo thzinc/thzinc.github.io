@@ -7,6 +7,7 @@ octothorpes:
 see_also:
   - title: Weird Web October
     url: https://weirdweboctober.website/
+section: code
 ---
 
 For today's [Weird Web October](https://weirdweboctober.website/) prompt, "Blink," I present this [Observation Duty][observation-duty]-inspired game.

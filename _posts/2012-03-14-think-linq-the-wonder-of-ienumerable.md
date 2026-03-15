@@ -3,6 +3,7 @@ title: Think LINQ – The Wonder of IEnumerable<>
 tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/76466583186/think-linq-the-wonder-of-ienumerable
+section: code
 ---
 
 Language INtegrated Query, or LINQ, is a .NET feature that makes possible a powerful and extensible query on objects and collections thereof. LINQ is really a combination of a few key components: extension methods and generic collections. Understanding these two key components makes it much easier to “Think LINQ” when solving problems.

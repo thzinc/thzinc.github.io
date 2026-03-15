@@ -2,6 +2,7 @@
 title: "HttpResponse.Filter: Mucking about with the response since .NET 1.1™"
 tags: programming csharp dotnet
 published_at: https://blog.thzinc.com/post/77743473662/httpresponsefilter-mucking-about-with-the
+section: code
 ---
 
 Davis and I set about a journey together into the nether regions of the ASP.NET request lifecycle to solve an issue: Insert a script into the header of an ASP.NET page, whether that page has a `<head runat=”server”/>` element or not. After trying several different approaches, we dug a little deeper and found [`HttpResponse.Filter`][httpresponse-filter].

@@ -8,6 +8,7 @@ see_also:
     url: https://codepen.io/thzinc/pen/ZERNRXV?editors=0012
   - title: Social media post
     url: https://onewilshire.la/@thzinc/109505132671041800
+section: code
 ---
 
 This one was tricky to stay mindful of the number of iterations.

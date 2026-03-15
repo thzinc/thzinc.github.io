@@ -4,6 +4,7 @@ tags: programming
 see_also:
   - title: '"How to plan smarter for event-driven architecture design" by Bob Reselman on RedHat.com'
     url: https://www.redhat.com/architect/defining-events-EDA
+section: write
 ---
 
 I was interviewed by my friend and author, [Bob Reselman][reselbob] on the topic of designing systems with event-driven architecture (EDA). His article–which includes a great primer on how to think in terms of events–is published at [RedHat's Enable Architect][article].

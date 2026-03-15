@@ -2,6 +2,7 @@
 title: Straight-up JavaScript – Array.prototype.some() and Array.prototype.every()
 tags: programming javascript
 published_at: https://blog.thzinc.com/post/78255510674/straight-up-javascript-arrayprototypesome
+section: code
 ---
 
 “I just want to know if there’s anything in this array.”

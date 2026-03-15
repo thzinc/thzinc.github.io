@@ -3,7 +3,8 @@ title: Paint fume extractor adapter for shop vacuum
 tags: 3d_printing air_quality
 see_also:
   - title: Paint fume extractor adapter for shop vacuum on Thingiverse
-    url: "https://www.thingiverse.com/thing:5640418"
+    url: https://www.thingiverse.com/thing:5640418
+section: make
 ---
 
 Recently, I designed and printed a battery box to power some new lights on my bike. The box is pretty great and feels reasonably study, but I wanted to give it a bit more of a protective coating to avoid friction from pulling the printed layers apart. I decided to make a cardboard spray paint booth and use my Shop Vac to pull fumes and particulate away from me. I don't expect to paint much, so I wanted to avoid buying anything to make this booth. Fortunately, I keep a nicely-curated collection of cardboard for my machinations and I have a 3D printer and plenty of filament on hand!

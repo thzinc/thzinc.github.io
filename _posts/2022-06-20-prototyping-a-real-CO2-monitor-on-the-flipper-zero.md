@@ -10,6 +10,7 @@ see_also:
     url: https://github.com/thzinc/flipperzero-firmware/pull/4
   - title: Flipper Zero ProtoBoard case 2 on Thingiverse
     url: https://www.thingiverse.com/thing:5415869
+section: make
 ---
 
 ## Updated January, 12, 2023

@@ -1,0 +1,109 @@
+.site-section {
+  background-repeat: no-repeat;
+  background-position: center 0;
+  max-width: 50rem;
+  padding-top: 2rem;
+}
+
+.site-section.make {
+  max-width: 50rem;
+  background-image: url("/assets/2026-design/make-background.png");
+  background-size: 90rem;
+  padding-top: 8.5rem;
+}
+
+.site-section.write {
+  max-width: 38rem;
+  background-image: url("/assets/2026-design/write-background.png");
+  background-size: 90rem;
+  padding-top: 8rem;
+}
+
+.site-section.archive {
+  max-width: 60rem;
+}
+
+.site-section.code h1,
+.site-section.code h2,
+.site-section.code h3,
+.site-section.code h4,
+.site-section.code h5,
+.site-section.code h6 {
+  font-family: hyperlegible-mono, monospace;
+}
+
+.site-section.code h1::before {
+  content: "# ";
+}
+
+.site-section.code h2::before {
+  content: "## ";
+}
+
+.site-section.code h3::before {
+  content: "### ";
+}
+
+.site-section.code h4::before {
+  content: "#### ";
+}
+
+.site-section.code h5::before {
+  content: "##### ";
+}
+
+.site-section.code h6::before {
+  content: "###### ";
+}
+
+.site-section::after {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 20rem;
+  background-position: 0 calc(max(100vh - 20rem, 8.5rem));
+  margin-left: -20rem;
+  padding-left: 20rem;
+  margin-bottom: -20rem;
+  position: absolute;
+  top: 0;
+  display: block;
+  bottom: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.site-section.make::after {
+  background-image: url("/assets/2026-design/make.png");
+}
+
+.site-section.code::after {
+  background-image: url("/assets/2026-design/code.png");
+}
+
+.site-section.write::after {
+  background-image: url("/assets/2026-design/write.png");
+}
+
+.site-section.speak::after {
+  background-image: url("/assets/2026-design/speak.png");
+}
+
+.site-section .title {
+  display: inline-block;
+  background-color: color-mix(in srgb, var(--background-body), transparent 50%);
+  text-wrap: balance;
+}
+
+.site-section.archive ul {
+  padding: 0;
+  margin: 0;
+}
+
+.site-section.archive ul li {
+  list-style: none;
+}
+
+.site-section.archive li .dt-published {
+  display: inline-block;
+  min-width: 6rem;
+}

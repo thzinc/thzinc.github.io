@@ -3,7 +3,8 @@ title: How I turned my Levoit Core 300 air purifier into a fume extractor
 tags: 3d_printing electronics air_quality
 see_also:
   - title: 2.5 inch hose adapter with curved flange on Thingiverse
-    url: "https://www.thingiverse.com/thing:4818768"
+    url: https://www.thingiverse.com/thing:4818768
+section: make
 ---
 
 For multiple reasons–my asthma, air quality, and COVID-19–I run several air purifiers throughout my home. I run a whole [Levoit Core 300 air purifier][levoit] on top of my desk, which typically is useful for collecting my cat's dander in addition to putting clean air out close to my face. However, I needed the ability to direct airflow from my soldering work into my air filter.

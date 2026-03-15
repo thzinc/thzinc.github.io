@@ -6,6 +6,7 @@ see_also:
     url: https://github.com/thzinc/flipperzero-firmware/
   - title: Prebuilt CO2 Monitor FAP (Flipper Application Pacakge)
     url: https://github.com/thzinc/flipperzero-firmware/releases/tag/0.0.1%2Bupstream-0.75.0
+section: code
 ---
 
 Well, I finally got around to updating my [CO2 Monitor][co2-monitor-post] to take advantage of the latest APIs in the Flipper Zero firmware. (It wasn't quite as bad as I thought it would be 😅) Now it even has its own application icon!

@@ -3,6 +3,7 @@ title: Think LINQ – .Skip() and .Take()
 tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/77215364739/think-linq-skip-and-take
+section: code
 ---
 
 Needing to page through a collection is nothing new, and LINQ handles this nicely with two different methods: `.Skip()` and [`.Take()`][docs-take]. The `.Skip()` method will skip over a specified number of items in an `IEnumerable<>`. The `.Take()` method will iterate over a specified number of items of an `IEnumerable<>` and then stop.

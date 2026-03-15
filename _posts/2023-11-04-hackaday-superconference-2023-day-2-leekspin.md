@@ -2,8 +2,9 @@
 title: Hackaday Superconference 2023 – Day 2 – Leekspin
 tags: programming electronics microcontrollers
 see_also:
-  - title: "thzinc/Vectorscope – My fork of the badge's code"
+  - title: thzinc/Vectorscope – My fork of the badge's code
     url: https://github.com/thzinc/Vectorscope
+section: code
 ---
 
 Second day of [Hackaday Superconference 2023][supercon2023] was a bunch of fun. I had the delightful surprise of unknowingly chatting with Benedetta Lia Mandelli and Emilio Sordi the day before only to see them on stage presenting the [Soft Actuator Orthosis][soft-actuator-orthosis] talk. They seem like neat humans working on ways to help folks with spinal cord injuries.

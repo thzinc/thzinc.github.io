@@ -1,6 +1,7 @@
 ---
 title: Making candles with 3D-printed molds
 tags: 3d_printing art
+section: make
 ---
 
 My wife has been enjoying making anise, cinnamon, and citrus water centerpieces with floating tea lights. They look pretty on the table and they smell nice without setting off my scent allergies. But after a few weeks, we started accumulating spent candles. I started to wonder if I could melt the leftovers down and make viable replacements... with my 3D printer.

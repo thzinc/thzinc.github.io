@@ -4,6 +4,7 @@ tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/77003850807/think-linq-any-and-all
 excerpt_separator: <!--more-->
+section: code
 ---
 
 “I just want to know if there’s anything in this `List`.”

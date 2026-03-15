@@ -5,6 +5,7 @@ tags: programming project_update games
 see_also:
   - url: https://regexed.com
     title: "regexed: a daily puzzle game"
+section: write
 ---
 
 As I'm working through the initial tranche of puzzles for [regexed 🗯️][regexed], I'm finding myself diving specs in order to validate my own work. It's a trove of "Today I Learned" content.

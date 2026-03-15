@@ -8,6 +8,7 @@ see_also:
     url: https://codepen.io/thzinc/pen/BaPZvMw?editors=0012
   - title: Social media post
     url: https://onewilshire.la/@thzinc/109686539545245440
+section: code
 ---
 
 This was a fun, light interview question this week.

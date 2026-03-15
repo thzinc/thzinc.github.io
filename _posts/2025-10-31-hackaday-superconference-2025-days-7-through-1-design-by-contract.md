@@ -1,6 +1,7 @@
 ---
 title: Hackaday Superconference 2025 – Days -7 through 1 - Design by contract
 tags: electronics microcontrollers 3d_printing
+section: make
 ---
 
 Since this year's [Supercon][supercon] badge was announced along with its [mechanical designs][mechanical], I decided to make a custom case with LED nOOds in order to have it for the opening badge hacking day.

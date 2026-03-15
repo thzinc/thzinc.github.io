@@ -6,6 +6,7 @@ see_also:
     url: https://www.thingiverse.com/thing:7039093
   - title: Rayhunter - An IMSI Catcher Catcher
     urL: https://efforg.github.io/rayhunter/introduction.html
+section: make
 ---
 
 The Orbic RC400L is a pretty cheap mobile hotspot that happens to run a version of the Android OS. It's handy to have a small device that slips into my pocket or my backpack, but the power button is very easy to press unintentionally. So I designed a case to protect the buttons from accidental presses:

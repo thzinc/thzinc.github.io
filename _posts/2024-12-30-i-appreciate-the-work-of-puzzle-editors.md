@@ -7,6 +7,7 @@ see_also:
     title: "regexed: a daily puzzle game"
   - url: https://github.com/thzinc/regexed
     title: thzinc/regexed on GitHub
+section: write
 ---
 
 I've managed to write 10 puzzles so far. The challenge for me right now is developing the habit of making time to write a puzzle. Once I'm in "puzzle editor" mode, the actual thing comes pretty easily and I enjoy the process of writing while playtesting my own attempts at the puzzle.

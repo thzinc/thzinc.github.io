@@ -3,6 +3,7 @@ title: Think LINQ – .SequenceEqual()
 tags: dotnet csharp programming
 category: Think LINQ
 published_at: https://blog.thzinc.com/post/77317749419/think-linq-sequenceequal
+section: code
 ---
 
 Up until March 26, I had come up with a number of crazy concoctions to test whether one `IEnumerable<>` was equal to another. Some of them chained together [`.Intersect()`][docs-intersect] with `.Count()`, comparing the count of the elements in the intersected set with the count of the elements in each of the two sets. (If the count of A∩B is equal to the count of A and the count of B, then A and B are equal.)

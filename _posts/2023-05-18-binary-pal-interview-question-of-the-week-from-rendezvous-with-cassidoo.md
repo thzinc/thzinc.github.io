@@ -6,6 +6,7 @@ see_also:
     url: https://buttondown.email/cassidoo/archive/1545/
   - title: Social media post
     url: https://onewilshire.la/@thzinc/110393342081189088
+section: code
 ---
 
 What's faster: a typical JavaScript implementation of `.toString()` and some basic string manipulation or clever bit shifting? (TL;DR: It's bit shifting, but it's uglier code.)

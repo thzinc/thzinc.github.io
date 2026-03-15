@@ -4,6 +4,7 @@ tags: 3d_printing
 see_also:
   - title: Magnetic fidget switch on Thingiverse
     url: https://www.thingiverse.com/thing:5768638
+section: make
 ---
 
 On a whim, after someone on a Discord server shared a video of a fidget switch they printed, I decided to try a quick interpretation of the design with the materials I had on hand.

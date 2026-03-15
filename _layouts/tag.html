@@ -11,22 +11,19 @@
 {%- assign older_posts = site.tags[tag] | slice: 3, site.tags[tag].size -%}
 <!DOCTYPE html>
 <html>
-  {% include head.html %}
-  <body>
-    <header>
-      <a href="/">thzinc</a>
-    </header>
+  {%- include head.html -%}
+  <body class="site-section {{page.section}}">
+    {%- include brand_tag.html -%}
     <main>
       <h1>{{ title }}</h1>
       {%- if content_length > 0 -%}
         <section>{{ content }}</section>
       {%- endif -%}
       {%- for post in newest_posts -%}
-        {%- include post_excerpt.html show_images=page.show_images -%}
+        {%- include post_excerpt.html post=post show_images=page.show_images -%}
       {%- endfor -%}
-
-      {% unless page.hide_related_tags %}
-        {% assign all_tags = site.tags | sort %}
+      {%- unless page.hide_related_tags -%}
+        {%- assign all_tags = site.tags | sort -%}
         <aside>
           <h1>Related topics</h1>
           <ul>
@@ -46,9 +43,8 @@
           </ul>
         </aside>
       {%- endunless -%}
-
       {%- for post in older_posts -%}
-        {%- include post_excerpt.html show_images=page.show_images -%}
+        {%- include post_excerpt.html post=post show_images=page.show_images -%}
       {%- endfor -%}
     </main>
     <footer>

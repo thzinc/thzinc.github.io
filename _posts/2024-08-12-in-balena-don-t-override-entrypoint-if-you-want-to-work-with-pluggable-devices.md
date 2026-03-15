@@ -4,6 +4,7 @@ tags: programming
 see_also:
   - title: thzinc/smart-home-sensors
     url: https://github.com/thzinc/smart-home-sensors
+section: code
 ---
 
 I've been working on a [Balena]-managed deployment of [Kerberos Agents][kerberos-agent] running on Raspberry Pi 4 with the new Camera Module 3, but was having a huge issue trying to get `libcamera` to work inside a container. The documentation has been kind of frustrating, but I finally worked out my issues.

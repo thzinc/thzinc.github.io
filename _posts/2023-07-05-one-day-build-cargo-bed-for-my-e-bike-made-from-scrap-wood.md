@@ -1,6 +1,7 @@
 ---
 title: One-day build – Cargo bed for my e-bike made from scrap wood
 tags: woodworking
+section: make
 ---
 
 I bought a [cargo e-bike][yuba] this weekend and am elated about it. It's so much fun to ride and it's so easy to move such a big bike. Everything about it makes me think of it as a station wagon.

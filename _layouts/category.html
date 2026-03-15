@@ -15,17 +15,15 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body>
-    <header>
-      <a href="/">thzinc</a>
-    </header>
+  <body class="site-section {{page.section}}">
+    {%- include brand_tag.html -%}
     <main>
       <h1>{{ title }}</h1>
       {%- if content_length > 0 -%}
         <section>{{ content }}</section>
       {%- endif -%}
       {%- for post in posts -%}
-        {% include post_excerpt.html show_images = page.show_images %}
+        {% include post_excerpt.html post=post show_images = page.show_images %}
       {%- endfor -%}
     </main>
     <footer>

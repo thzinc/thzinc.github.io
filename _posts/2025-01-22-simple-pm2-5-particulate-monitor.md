@@ -6,6 +6,7 @@ see_also:
     url: https://github.com/thzinc/simple-particulate-monitor
   - title: go-sensors/cubicpm1003 on GitHub
     url: https://github.com/go-sensors/cubicpm1003
+section: make
 ---
 
 As a part of my [prior experience dissembling "smart" air purifiers][prev-post], I have had a couple of [Cubic PM1003 indoor particulate sensor][cubicpm1003] modules sitting in my electronics stash. Since I had already tracked down the datasheet with the UART protocol and familiarized myself with it, I knew I could use something simple like an RP2040 to communicate with the sensor and blink some lights.

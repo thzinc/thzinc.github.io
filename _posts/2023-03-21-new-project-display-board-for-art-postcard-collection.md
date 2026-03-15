@@ -2,6 +2,7 @@
 title: New project – Display board for art postcard collection
 category: Art display board
 tags: project_update 3d_printing woodworking art
+section: make
 ---
 
 I'm starting a new woodworking–plus–3D printing project add some more art to my home office: a display board for my art postcard collection! For this project, I'm trying out a new way of writing about my progress through the project. I'll write smaller updates as I iterate on the designs and work through building the display board.

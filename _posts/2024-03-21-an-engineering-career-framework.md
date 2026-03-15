@@ -1,6 +1,7 @@
 ---
 title: An engineering career framework
 tags: sdlc
+section: write
 ---
 
 Between the end of 2018 and early 2019, I worked with the CTO at [Syncromatics] (now GMV) to develop a framework for developing an engineering career within the organization. I had the joy and pleasure of speaking with [Katie Wilde][katie] at Buffer about the groundbreaking work she did and shared publicly. We followed her example and also made our career framework available for public use and review.

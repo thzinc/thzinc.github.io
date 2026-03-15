@@ -1,10 +1,11 @@
 ---
-title: "Introducing regexed 🗯️"
+title: Introducing regexed 🗯️
 category: regexed game
 tags: programming project_update games
 see_also:
   - url: https://regexed.com
     title: "regexed: a puzzle game"
+section: write
 ---
 
 After a very busy (and pretty traumatic) several months, I've decided to drop the "daily" from [regexed]'s tagline and start publishing the puzzles I have in the queue. For now, I've decided to publish weekly Saturdays. (Midnight UTC)

@@ -4,6 +4,7 @@ tags: 3d_printing ikea
 see_also:
   - title: Organizer box slides for Kallax shelves on Thingiverse
     url: https://www.thingiverse.com/thing:7250344
+section: make
 ---
 
 I love a [Kallax][kallax] shelf: cubbies for everything and easy indexing and retrieval. In 2022, I designed and printed a set of slides to fit a stack of [tray organizers][organizers] that I use for screws and electronic components.

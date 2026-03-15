@@ -2,6 +2,7 @@
 title: Table-Valued Parameters
 tags: programming csharp dotnet sql
 published_at: https://blog.thzinc.com/post/76263243734/table-valued-parameters
+section: code
 ---
 
 Have you ever found yourself working in T-SQL and thought, “Query parameters are great for individual values, but what I really want is a way to pass an array–or even a table–into my query.” I have, and I was pleased to discover that starting in SQL Server 2008, a feature called [Table-Valued Parameters][tvp-docs] (TVP) exists.

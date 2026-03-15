@@ -1,6 +1,7 @@
 ---
 title: Replacing the battery in a 7 year old UE ROLL 2 Bluetooth speaker
 tags: electronics
+section: make
 ---
 
 The UE ROLL 2 wasn't made to be serviceable, but that didn't stop me.

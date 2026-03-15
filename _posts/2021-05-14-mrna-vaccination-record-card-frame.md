@@ -5,7 +5,8 @@ see_also:
   - title: thzinc/vaccination-record-card-frame on GitHub
     url: https://github.com/thzinc/vaccination-record-card-frame
   - title: COVID-19 Vaccination Record Card Frame on Thingiverse
-    url: "https://www.thingiverse.com/thing:4858980"
+    url: https://www.thingiverse.com/thing:4858980
+section: make
 ---
 
 I grew up with my mom telling me stories about chicken pox, and then a few of my friends caught it. I avoided catching the pox and I was able to be vaccinated against it. Now I'm an adult with a significant protection against shingles! I think vaccines are fantastic and things of marvel and wonder. (Which is also why I love my [Sawbones "Pro-Vax" pin][enamel-pin].) Not long after the mRNA COVID-19 vaccines became available, a team of people sequenced the mRNA from both the Moderna and Pfizer vaccines and published the data. Looking at the sequenced data is fascinating: it's the code that instructs a molecular machine to make a protein.

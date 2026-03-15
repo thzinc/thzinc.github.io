@@ -6,6 +6,7 @@ see_also:
     url: https://corsirosenthalfoundation.org/instructions/
   - title: CleanAirCrew - DIY box fan filters – Corsi-Rosenthal box
     url: https://cleanaircrew.org/box-fan-filters/
+section: make
 ---
 
 [Multiple fires in Los Angeles][lafires] have put smoke and ash into the air–and it's worse than with many other wildfires because it's not just burned wood and brush. Keeping the air in your home as clean as you can make it is important to prevent getting sick with breathing problems.

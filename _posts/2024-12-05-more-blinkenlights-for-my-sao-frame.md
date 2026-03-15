@@ -4,6 +4,7 @@ tags: art electronics microcontrollers programming
 see_also:
   - title: Animated Petal Matrix on Github
     url: https://github.com/thzinc/2024-supercon-animated-petal-matrix
+section: code
 ---
 
 After building the [framed display for my SAO collection][prev-post], I realized the last demo on the badge was running [Pew! Pew!][pew-pew], which isn't very interesting to look at if you're not actively playing the game. So I made a neat little "firework" animation with shifting colors in center!

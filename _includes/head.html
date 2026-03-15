@@ -54,10 +54,12 @@
     sizes="32x32"
     href="/favicon-32x32.png" />
   <link rel="manifest" href="/site.webmanifest" />
-  <link rel="stylesheet" href="/assets/custom.css" />
-  <link rel="stylesheet" href="/assets/syntax-highlighting.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@recogito/annotorious-openseadragon@2.7.14/dist/annotorious.min.css" />
+  <link rel="stylesheet" href="/assets/2026-design/site.css" />
+  {%- if include.stylesheet -%}
+    <link rel="stylesheet" href="{{include.stylesheet}}" />
+  {%- endif -%}
   {% if page.octothorpes -%}
     <link
       rel="preload"
@@ -74,15 +76,19 @@
   <meta name="fediverse:creator" content="{{ site.activitypub.username | escape }}" />
   <meta name="keywords" content="{{ keywords | strip | escape }}" />
   <meta name="language" content="en-US" />
-  <meta name="msapplication-TileColor" content="#ac295e" />
+  <meta name="msapplication-TileColor" content="#131311" />
   <meta name="og:description" content="{{ description | strip | escape }}" />
   <meta name="og:title" content="{{ head_title | strip | escape }}" />
   <meta name="og:type" content="website" />
   <meta name="og:url" content="{{ canonical_url }}" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:creator" content="@thzinc" />
-  <meta name="twitter:site" content="@thzinc" />
+  <meta
+    name="theme-color"
+    content="#ffffff"
+    media="(prefers-color-scheme: light)" />
+  <meta
+    name="theme-color"
+    content="#131311"
+    media="(prefers-color-scheme: dark)" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="openseadragon:images-url" content="https://cdn.jsdelivr.net/npm/openseadragon@5.0/build/openseadragon/images/" />
   <script src="https://cdn.jsdelivr.net/npm/openseadragon@5.0/build/openseadragon/openseadragon.min.js"></script>

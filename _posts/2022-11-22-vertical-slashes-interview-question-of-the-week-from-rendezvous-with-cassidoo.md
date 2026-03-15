@@ -8,6 +8,7 @@ see_also:
     url: https://codepen.io/thzinc/pen/poKpxMN?editors=0012
   - title: Social media post
     url: https://onewilshire.la/@thzinc/109380565674919705
+section: code
 ---
 
 I do enjoy getting Cassidy's newsletter late Sunday/early Monday and trying my hand at the "interview \[questions] of the week."

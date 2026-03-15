@@ -2,6 +2,7 @@
 title: Follow-up to Interesting ASP.NET bug…
 tags: programming dotnet csharp
 published_at: https://blog.thzinc.com/post/6569813977/follow-up-to-interesting-aspnet-bug
+section: code
 ---
 
 Previous post: [Interesting ASP.NET bug…][prev-post]

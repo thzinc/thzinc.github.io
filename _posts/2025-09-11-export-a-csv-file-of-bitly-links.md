@@ -1,5 +1,6 @@
 ---
 title: Export a CSV file of Bitly links
+section: code
 ---
 
 I've been working on some chores related to my domains and wanted to archive my Bitly-powered short links at `l.thzinc.com`. Bitly's bulk CSV export tools aren't available on free accounts, so I wrote a quick script with `curl` and `jq` to download a CSV of my short links.

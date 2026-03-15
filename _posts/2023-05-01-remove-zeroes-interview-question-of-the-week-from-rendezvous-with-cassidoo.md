@@ -6,6 +6,7 @@ see_also:
     url: https://buttondown.email/cassidoo/archive/5528/
   - title: Social media post
     url: https://onewilshire.la/@thzinc/110296329640075443
+section: code
 ---
 
 The simple case wasn't hard, but the low-memory iterator pattern was a fun, self-imposed challenge.

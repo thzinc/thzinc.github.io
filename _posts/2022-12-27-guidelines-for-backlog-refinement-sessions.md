@@ -3,6 +3,7 @@ title: Guidelines for backlog refinement sessions
 tags: programming sdlc
 excerpt: |
   Formerly referred to as "backlog grooming," backlog refinement is the process of defining pieces of work and estimating the amount of effort required to complete them. Backlog refinement requires buy-in from developers, testers, and stakeholders (product managers, business folks, etc.). Doing this refinement work results in a clearer understanding of the work to be done.
+section: code
 ---
 
 ## What is "backlog refinement?"
